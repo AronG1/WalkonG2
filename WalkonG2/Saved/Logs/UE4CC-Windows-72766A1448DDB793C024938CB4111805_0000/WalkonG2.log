@@ -246,10 +246,3 @@ LogInit: Object subsystem initialized
 [2017.12.10-13.18.21:885][409]LogOutputDevice:Error: ntdll.dll!0x00000000DD75EF91
 [2017.12.10-13.18.21:885][409]LogOutputDevice:Error: 
 [2017.12.10-13.18.21:888][409]LogStats:                SubmitErrorReport -  0.000 s
-[2017.12.10-13.18.28:327][409]LogStats:                    SendNewReport -  6.438 s
-[2017.12.10-13.18.28:327][409]LogStats:             FDebug::EnsureFailed -  7.941 s
-[2017.12.10-13.18.58:228][409]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.12.10-13.18.58:563][409]SourceControl: Info [master 4e5ef8b] SourceControl try
-[2017.12.10-13.18.58:563][409]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.12.10-13.18.58:563][409]SourceControl: Info  create mode 100644 WalkonG2/Content/Assets/SecondMat.uasset
-[2017.12.10-13.18.58:570][409]SourceControl: Info Commited [master 4e5ef8b] SourceControl try.
