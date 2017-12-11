@@ -1,0 +1,996 @@
+﻿Log file open, 12/09/17 12:16:03
+LogInit:Display: Running engine for game: Multiplayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1494695193) SRandInit(1494695193).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088852
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.32
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.09-11.16.05:713][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-11.16.05:713][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.09-11.16.05:731][  0]LogInit: Computer: DESKTOP-BGBE0CL
+[2017.12.09-11.16.05:731][  0]LogInit: User: LaptopDEV
+[2017.12.09-11.16.05:731][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.12.09-11.16.05:731][  0]LogInit: High frequency timer resolution =2.208393 MHz
+[2017.12.09-11.16.05:731][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2017.12.09-11.16.05:732][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.09-11.16.05:732][  0]LogMemory: Process Physical Memory: 266.54 MB used, 266.54 MB peak
+[2017.12.09-11.16.05:732][  0]LogMemory: Process Virtual Memory: 262.18 MB used, 262.18 MB peak
+[2017.12.09-11.16.05:732][  0]LogMemory: Physical Memory: 1126.92 MB used,  2831.85 MB free, 3958.77 MB total
+[2017.12.09-11.16.05:732][  0]LogMemory: Virtual Memory: 680.03 MB used,  2831.85 MB free, 134217728.00 MB total
+[2017.12.09-11.16.05:904][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
+[2017.12.09-11.16.07:373][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.09-11.16.07:395][  0]LogD3D11RHI:    0. 'AMD Mobility Radeon HD 5000 Series' (Feature Level 11_0)
+[2017.12.09-11.16.07:395][  0]LogD3D11RHI:       502/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.12.09-11.16.07:400][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.09-11.16.07:400][  0]LogD3D11RHI:       0/0/1979 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.09-11.16.07:400][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.09-11.16.07:406][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.09-11.16.07:406][  0]LogD3D11RHI:     GPU DeviceId: 0x68e0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.09-11.16.07:406][  0]LogWindows: EnumDisplayDevices:
+[2017.12.09-11.16.07:406][  0]LogWindows:    0. 'AMD Mobility Radeon HD 5000 Series' (P:1 D:1)
+[2017.12.09-11.16.07:407][  0]LogWindows:    1. 'AMD Mobility Radeon HD 5000 Series' (P:0 D:0)
+[2017.12.09-11.16.07:407][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.09-11.16.07:407][  0]LogD3D11RHI:     Adapter Name: AMD Mobility Radeon HD 5000 Series
+[2017.12.09-11.16.07:407][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.09-11.16.07:407][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.09-11.16.07:407][  0]LogRHI: Texture pool is 351 MB (70% of 502 MB)
+[2017.12.09-11.16.07:429][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2017.12.09-11.16.07:441][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.09-11.16.07:464][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 2)
+[2017.12.09-11.16.07:464][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Intermediate/Shaders/WorkingDirectory/5728/).
+[2017.12.09-11.16.07:465][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Laptop-DEV/AppData/Local/Temp/UnrealShaderWorkingDir/EDDC77124A36A29C620E75A0F1EB2DEE/'.
+[2017.12.09-11.16.07:465][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.09-11.16.09:521][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.09-11.16.09:642][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.09-11.16.09:762][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.09-11.16.09:883][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.09-11.16.10:057][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.09-11.16.10:183][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.09-11.16.10:307][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.09-11.16.10:429][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.09-11.16.10:532][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.09-11.16.10:713][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.09-11.16.10:839][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.09-11.16.10:957][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.09-11.16.11:075][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.09-11.16.11:195][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.09-11.16.11:314][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.09-11.16.11:552][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.09-11.16.11:552][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.09-11.16.11:641][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.09-11.16.11:901][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.09-11.16.11:988][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.09-11.16.12:107][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.09-11.16.12:227][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.09-11.16.12:345][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.09-11.16.12:483][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.09-11.16.12:483][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.09-11.16.13:443][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache: Loaded boot cache 0.09s 50MB C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.09-11.16.13:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.09-11.16.13:562][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.09-11.16.13:577][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.09-11.16.13:594][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.09-11.16.13:595][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-11.16.13:595][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.09-11.16.14:204][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.09-11.16.14:210][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.09-11.16.14:633][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.09-11.16.14:732][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.09-11.16.14:836][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.09-11.16.14:836][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.09-11.16.14:836][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.09-11.16.15:954][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: multiplayer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 32584562
+[2017.12.09-11.16.16:027][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2017.12.09-11.16.16:141][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.042324 seconds
+[2017.12.09-11.16.16:154][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2017.12.09-11.16.16:154][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
+[2017.12.09-11.16.16:154][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.09-11.16.26:127][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.09-11.16.26:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.09-11.16.27:363][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.09-11.16.28:283][  0]SourceControl: Info Source control is disabled
+[2017.12.09-11.16.28:284][  0]SourceControl: Info Source control is disabled
+[2017.12.09-11.16.28:392][  0]SourceControl: Info Source control is disabled
+[2017.12.09-11.16.28:495][  0]SourceControl: Info Source control is disabled
+[2017.12.09-11.16.31:838][  0]LogEngine: Initializing Engine...
+[2017.12.09-11.16.31:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.09-11.16.32:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.09-11.16.32:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.09-11.16.32:318][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.09-11.16.32:329][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.09-11.16.32:362][  0]LogInit: FAudioDevice initialized.
+[2017.12.09-11.16.32:411][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.12.09-11.16.32:423][  0]LogInit: Texture streaming: Enabled
+[2017.12.09-11.16.32:630][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.09-11.16.32:729][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={4C0776F6-4F19-3974-8CC8-2DB009650F1F}
+[2017.12.09-11.16.32:954][  0]LogInit: Transaction tracking system initialized
+[2017.12.09-11.16.33:770][  0]BlueprintLog: New page: Editor Load
+[2017.12.09-11.16.35:785][  0]LocalizationService: Info Localization service is disabled
+[2017.12.09-11.16.37:480][  0]LogConsoleResponse:Display: 
+[2017.12.09-11.16.37:734][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.09-11.16.37:734][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.09-11.16.38:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/' took 0.03s
+[2017.12.09-11.16.40:301][  0]SourceControl: Info Source control is disabled
+[2017.12.09-11.16.40:301][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.09-11.16.40:302][  0]LightingResults: New page: Lighting Build
+[2017.12.09-11.16.40:396][  0]MapCheck: New page: Map Check
+[2017.12.09-11.16.40:396][  0]LightingResults: New page: Lighting Build
+[2017.12.09-11.16.40:572][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:572][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:685][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:685][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.40:685][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.40:687][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:687][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.40:687][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.40:687][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:687][  0]LoadErrors: Info Failed to load /Game/StarterContent/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by Default__ProfileMenu_C
+[2017.12.09-11.16.40:687][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.40:687][  0]LoadErrors: Info Failed to load /Game/StarterContent/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by Default__ProfileMenu_C
+[2017.12.09-11.16.40:687][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.40:693][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.40:693][  0]LoadErrors: Info Failed to load /Game/StarterContent/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by K2Node_SetFieldsInStruct_0
+[2017.12.09-11.16.40:693][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.40:693][  0]LoadErrors: Info Failed to load /Game/StarterContent/UE4_LOGO_CARD.UE4_LOGO_CARD Referenced by K2Node_SetFieldsInStruct_0
+[2017.12.09-11.16.40:693][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.41:071][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.41:072][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.41:072][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.41:072][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.16.41:072][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset.
+[2017.12.09-11.16.41:072][  0]LoadErrors:Error: Error /Game/UI/MainMenu/ProfileMenu : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.16.41:395][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.12.09-11.16.41:428][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.09-11.16.41:428][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.09-11.16.41:516][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.717ms to complete.
+[2017.12.09-11.16.41:516][  0]LogFileHelpers: Loading map 'MainMenu' took 1.215
+[2017.12.09-11.16.41:604][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.09-11.16.41:833][  0]LogCollectionManager: Loaded 0 collections in 0.002556 seconds
+[2017.12.09-11.16.41:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/Collections/' took 0.01s
+[2017.12.09-11.16.41:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Developers/LaptopDEV/Collections/' took 0.01s
+[2017.12.09-11.16.41:974][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Collections/' took 0.01s
+[2017.12.09-11.16.41:974][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.12.09-11.16.41:993][  0]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2262 classes and 468 folders.
+[2017.12.09-11.16.42:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.12.09-11.16.42:213][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2017.12.09-11.16.42:308][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.12.09-11.16.42:404][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.09-11.16.42:414][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.09-11.16.42:542][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.12.09-11.16.42:543][  0]LogLoad: (Engine Initialization) Total time: 40.93 seconds
+[2017.12.09-11.16.42:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.49 seconds
+[2017.12.09-11.16.42:543][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.09-11.16.42:553][  0]LogOcInput: OculusInput pre-init called
+[2017.12.09-11.16.42:554][  0]LoadErrors:Error: Error /Game/Blueprints/AllLevels/GameInfoInstance : Failed import for ByteProperty /Game/UI/MainMenu/ProfileMenu.ProfileMenu_C:WelcomeMessageVis
+[2017.12.09-11.16.42:576][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.09-11.16.42:598][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-11.16.42:604][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.09-11.16.42:614][  0]LogSlate: Took 0.000432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.09-11.16.42:801][  0]LogSlate: Took 0.000432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-11.16.42:900][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:2).
+[2017.12.09-11.16.43:497][  4]LogAssetRegistry: Asset discovery search completed in 27.4934 seconds
+[2017.12.09-11.16.43:497][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.12.09-11.16.43:497][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2017.12.09-11.17.28:135][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:135][691]LoadErrors: Info Failed to load /Game/Characters/Erika/Equipment/ArrowProjectile.ArrowProjectile_C Referenced by WidgetTree
+[2017.12.09-11.17.28:135][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/StaticArrow.uasset.
+[2017.12.09-11.17.28:135][691]LoadErrors:Error: Error /Game/Characters/Erika/Equipment/StaticArrow : Can't find file for asset. /Game/StarterContent/Particles/P_Fire
+[2017.12.09-11.17.28:136][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:136][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/StaticArrow.uasset.
+[2017.12.09-11.17.28:137][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:137][691]LoadErrors: Info Failed to load /Game/StarterContent/Particles/P_Fire Referenced by WidgetTree
+[2017.12.09-11.17.28:137][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/ArrowProjectile.uasset.
+[2017.12.09-11.17.28:137][691]LoadErrors:Error: Error /Game/Characters/Erika/Equipment/ArrowProjectile : Can't find file for asset. /Game/StarterContent/Particles/P_Fire
+[2017.12.09-11.17.28:137][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:137][691]LoadErrors: Info Failed to load /Game/StarterContent/Particles/P_Fire.P_Fire Referenced by WidgetTree
+[2017.12.09-11.17.28:138][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/ArrowProjectile.uasset.
+[2017.12.09-11.17.28:140][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:140][691]LoadErrors: Info Failed to load /Game/StarterContent/Particles/P_Fire.P_Fire Referenced by Fire_GEN_VARIABLE
+[2017.12.09-11.17.28:140][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/ArrowProjectile.uasset.
+[2017.12.09-11.17.28:156][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:156][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/ArrowProjectile.uasset.
+[2017.12.09-11.17.28:157][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:157][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Equipment/ArrowProjectile.uasset.
+[2017.12.09-11.17.28:175][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:175][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Erika_AnimBP.uasset.
+[2017.12.09-11.17.28:176][691]LoadErrors:Error: Error /Game/Characters/Erika/Erika_AnimBP : Can't find file for asset. /Game/StarterContent/Particles/P_Fire
+[2017.12.09-11.17.28:176][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:176][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Erika_AnimBP.uasset.
+[2017.12.09-11.17.28:192][691]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Fire'
+[2017.12.09-11.17.28:192][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Fire' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Erika/Erika_AnimBP.uasset.
+[2017.12.09-11.17.28:908][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.28:908][691]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by Default__PaladinBP_C
+[2017.12.09-11.17.28:908][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Paladin/Paladin_AnimBP.uasset.
+[2017.12.09-11.17.28:908][691]LoadErrors:Error: Error /Game/Characters/Paladin/Paladin_AnimBP : Can't find file for asset. /Engine/BasicShapes/RedMaterial
+[2017.12.09-11.17.28:908][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.28:908][691]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial Referenced by Default__PaladinBP_C
+[2017.12.09-11.17.28:909][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Paladin/Paladin_AnimBP.uasset.
+[2017.12.09-11.17.28:936][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.28:937][691]LoadErrors: Info Failed to load /Engine/BasicShapes/RedMaterial.RedMaterial Referenced by K2Node_VariableSet_3548
+[2017.12.09-11.17.28:937][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Characters/Paladin/Paladin_AnimBP.uasset.
+[2017.12.09-11.17.30:551][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.30:551][691]LoadErrors: Info Failed to load /Game/UI/AllLevels/InGameMenu.InGameMenu_C Referenced by WidgetTree
+[2017.12.09-11.17.30:551][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/TrainingPC.uasset.
+[2017.12.09-11.17.30:551][691]LoadErrors:Error: Error /Game/Blueprints/Gameplay/TrainingPC : Can't find file for asset. /Engine/BasicShapes/RedMaterial
+[2017.12.09-11.17.30:551][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.30:551][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/TrainingPC.uasset.
+[2017.12.09-11.17.31:186][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.31:186][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/GameplayGM.uasset.
+[2017.12.09-11.17.31:186][691]LoadErrors:Error: Error /Game/Blueprints/Gameplay/GameplayGM : Can't find file for asset. /Engine/BasicShapes/RedMaterial
+[2017.12.09-11.17.31:186][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.31:186][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/GameplayGM.uasset.
+[2017.12.09-11.17.31:274][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.31:275][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/GameplayGM.uasset.
+[2017.12.09-11.17.31:389][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.31:390][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/GameplayPC.uasset.
+[2017.12.09-11.17.31:390][691]LoadErrors:Error: Error /Game/Blueprints/Gameplay/GameplayPC : Can't find file for asset. /Engine/BasicShapes/RedMaterial
+[2017.12.09-11.17.31:390][691]LogLinker:Warning: Can't find file '/Engine/BasicShapes/RedMaterial'
+[2017.12.09-11.17.31:390][691]LogLinker:Warning: Can't find file for asset '/Engine/BasicShapes/RedMaterial' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Gameplay/GameplayPC.uasset.
+[2017.12.09-11.17.31:401][691]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.17.31:401][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyPC.uasset.
+[2017.12.09-11.17.31:401][691]LoadErrors:Error: Error /Game/Blueprints/Lobby/LobbyPC : Can't find file for asset. /Game/StarterContent/UE4_LOGO_CARD
+[2017.12.09-11.17.31:402][691]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.17.31:402][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyPC.uasset.
+[2017.12.09-11.17.31:433][691]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.17.31:434][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyPC.uasset.
+[2017.12.09-11.17.32:963][691]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.17.32:963][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyPC.uasset.
+[2017.12.09-11.17.32:965][691]LogLinker:Warning: Can't find file '/Game/StarterContent/UE4_LOGO_CARD'
+[2017.12.09-11.17.32:965][691]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/UE4_LOGO_CARD' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyPC.uasset.
+[2017.12.09-11.17.40:953][691]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-11.17.41:888][691]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.09-11.17.42:325][691]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0036 seconds. Added 112 classes and 0 folders.
+[2017.12.09-11.17.44:288][691]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.09-11.17.44:299][691]LogSlate: Took 0.010432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.09-11.18.20:979][381]LogTexture:Display: Building textures: Arena01 (BGRA8, 877X481) - 153 MB total VRAM
+[2017.12.09-11.18.25:939][487]BlueprintLog: New page: Compile ProfileMenu
+[2017.12.09-11.18.26:790][487]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Save Game', you don't need  Cast To PlayerSaveGame .
+[2017.12.09-11.18.28:094][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu/ProfileMenu" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset" SILENT=true
+[2017.12.09-11.18.28:246][508]LogSavePackage: Save=137.82ms
+[2017.12.09-11.18.28:246][508]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/ProfileMenu454C7916438085C599ACC5818D616344.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset'
+[2017.12.09-11.18.28:257][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/UI/MainMenu/ProfileMenu.uasset
+[2017.12.09-11.18.44:513][913]LogSavePackage: Save=227.60ms
+[2017.12.09-11.18.44:513][913]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/MainMenu5D40DE7848213D55551E4FAA8650B261.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu.umap'
+[2017.12.09-11.18.44:518][913]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu.umap
+[2017.12.09-11.18.44:632][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2017.12.09-11.18.44:643][913]LogSavePackage: Save=3.91ms
+[2017.12.09-11.18.44:643][913]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/MainMenu_BuiltDataC5B6BB7D475C55FE1251FA9E375449E0.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset'
+[2017.12.09-11.18.44:648][913]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset
+[2017.12.09-11.20.03:167][474]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.09-11.20.03:271][474]LogMaterial: Missing cached shader map for material dreyar_M, compiling. 
+[2017.12.09-11.20.03:273][474]LogTemp:Display: Added material ShaderMap 0x00000196965B7900 with Material 0x00000196A20A9A80 to ShaderMapsBeingCompiled
+[2017.12.09-11.20.03:351][474]LogTemp:Display: Kicking off shader compilation for dreyar_M, GameThreadShaderMap 0x00000196965B7900
+[2017.12.09-11.20.16:881][474]LogTemp:Display: Removed shader map 0x00000196965B7900 from material 0x00000196A20A9A80
+[2017.12.09-11.20.18:805][474]LogTemp:Display: Finished compile of shader map 0x00000196965B7900
+[2017.12.09-11.20.33:656][618]LogSlate: Took 0.016301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.09-11.22.08:565][385]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:2945).
+[2017.12.09-11.23.30:255][106]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.09-11.23.34:755][106]LogMaterial: Missing cached shader map for material M_Char_Barbarous_Elite, compiling. 
+[2017.12.09-11.23.34:759][106]LogTemp:Display: Added material ShaderMap 0x00000196FEA72780 with Material 0x00000196D69FA080 to ShaderMapsBeingCompiled
+[2017.12.09-11.23.34:824][106]LogTemp:Display: Kicking off shader compilation for M_Char_Barbarous_Elite, GameThreadShaderMap 0x00000196FEA72780
+[2017.12.09-11.23.35:880][106]LogTexture:Display: Building textures: T_CharM_NaturalElite_D (DXT1, 2048X2048) - 213 MB total VRAM
+[2017.12.09-11.23.43:681][106]LogTexture:Display: Building textures: T_CharM_NaturalElite_Mask (AutoDXT, 2048X2048) - 216 MB total VRAM
+[2017.12.09-11.23.45:104][106]LogTexture:Display: Building textures: T_CharM_NaturalElite_N (AutoDXT, 2048X2048) - 216 MB total VRAM
+[2017.12.09-11.23.52:746][106]LogTexture:Display: Building textures: T_CharM_Trench_D (DXT1, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.02:481][106]LogMaterial: Missing cached shader map for material M_Char_Pit2, compiling. 
+[2017.12.09-11.24.02:483][106]LogTemp:Display: Added material ShaderMap 0x00000196A3CA8B80 with Material 0x00000196FC7DA200 to ShaderMapsBeingCompiled
+[2017.12.09-11.24.02:554][106]LogTemp:Display: Kicking off shader compilation for M_Char_Pit2, GameThreadShaderMap 0x00000196A3CA8B80
+[2017.12.09-11.24.02:789][106]LogTexture:Display: Building textures: T_CharM_Pit3_D (DXT1, 1024X1024) - 218 MB total VRAM
+[2017.12.09-11.24.05:469][106]LogMaterial: Missing cached shader map for material M_Char_Pit3, compiling. 
+[2017.12.09-11.24.05:472][106]LogTemp:Display: Added material ShaderMap 0x00000196E7DDE080 with Material 0x00000196D6923100 to ShaderMapsBeingCompiled
+[2017.12.09-11.24.05:553][106]LogTemp:Display: Kicking off shader compilation for M_Char_Pit3, GameThreadShaderMap 0x00000196E7DDE080
+[2017.12.09-11.24.06:120][106]LogTexture:Display: Building textures: T_CharM_Gorge_D (DXT1, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.18:090][106]LogTexture:Display: Building textures: T_CharM_Ram_C_D (DXT1, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.28:623][106]LogTexture:Display: Building textures: T_CharM_Ram_D (AutoDXT, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.40:015][106]LogTexture:Display: Building textures: T_CharM_ShellB_D (DXT1, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.47:294][106]LogTexture:Display: Building textures: T_CharM_Shell_C (DXT1, 2048X2048) - 218 MB total VRAM
+[2017.12.09-11.24.53:580][106]LogMaterial: Missing cached shader map for material M_CharM_Solid_Alternate, compiling. 
+[2017.12.09-11.24.53:584][106]LogTemp:Display: Added material ShaderMap 0x00000196A064B580 with Material 0x00000196F8103280 to ShaderMapsBeingCompiled
+[2017.12.09-11.24.53:646][106]LogTemp:Display: Kicking off shader compilation for M_CharM_Solid_Alternate, GameThreadShaderMap 0x00000196A064B580
+[2017.12.09-11.24.54:099][106]LogTexture:Display: Building textures: T_CharM_Solid_Alt_Mask (DXT1, 2048X2048) - 226 MB total VRAM
+[2017.12.09-11.24.56:188][106]LogTexture:Display: Building textures: T_CharM_Warrior_Emissive (AutoDXT, 2048X2048) - 229 MB total VRAM
+[2017.12.09-11.25.47:756][106]LogMaterial: Missing cached shader map for material M_Char_Solid, compiling. 
+[2017.12.09-11.25.47:758][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_Char_Solid.M_Char_Solid for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:758][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:764][106]LogMaterial: Missing cached shader map for material M_Char_Solid, compiling. 
+[2017.12.09-11.25.47:765][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_Char_Solid.M_Char_Solid for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:765][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:772][106]LogMaterial: Missing cached shader map for material M_Char_Solid, compiling. 
+[2017.12.09-11.25.47:773][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_Char_Solid.M_Char_Solid for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:773][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:784][106]LogMaterial: Missing cached shader map for material M_Char_Shell, compiling. 
+[2017.12.09-11.25.47:785][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Shell/M_Char_Shell.M_Char_Shell for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:785][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:792][106]LogMaterial: Missing cached shader map for material M_Char_Shell, compiling. 
+[2017.12.09-11.25.47:793][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Shell/M_Char_Shell.M_Char_Shell for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:793][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:799][106]LogMaterial: Missing cached shader map for material M_Char_Shell, compiling. 
+[2017.12.09-11.25.47:800][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Shell/M_Char_Shell.M_Char_Shell for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:800][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:809][106]LogMaterial: Missing cached shader map for material M_Char_Ram, compiling. 
+[2017.12.09-11.25.47:811][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ram/M_Char_Ram.M_Char_Ram for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:811][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:815][106]LogMaterial: Missing cached shader map for material M_Char_Ram, compiling. 
+[2017.12.09-11.25.47:816][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ram/M_Char_Ram.M_Char_Ram for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:816][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:821][106]LogMaterial: Missing cached shader map for material M_Char_Ram, compiling. 
+[2017.12.09-11.25.47:822][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ram/M_Char_Ram.M_Char_Ram for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:822][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:827][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_0_BaseAnimBP_C_0' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_0_BaseAnimBP_C_1' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_0E809AF9454054A76756A494F0980C68' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_BlendSpacePlayer_30EE99594BA8800E891316A954A537D1' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_7CB5950840A88129CF440690158FA382' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_868955CA47AA8EA4CBB5FFB8C9ECE6FF' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:843][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_24C5C25C41379F554C75F1B60EF26068' or package '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_0_BaseAnimBP_C_1' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Speed' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'IsInAir?' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateMachine_6A2B3F3F498754EDA19BC59D1FBDFC37' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_5483CA604A6C6B1A3F0C7CA42EA2F776' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_BlendSpacePlayer_30EE99594BA8800E891316A954A537D1' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_1B423F39470EFC3255FE9F90F9B789D1' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:844][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_A9BDD81649D47D174782A7B7988AA393' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_04FAA7214A4DABD5A3E615B4E46CB693' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_F8E6905D43D0B5B40A10E1ADC1096FBE' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_StateResult_E72E2B0A43DF903C7769DC97804322AF' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_SequencePlayer_8635CADF401A326F2FD668A521A48F48' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_868955CA47AA8EA4CBB5FFB8C9ECE6FF' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_24C5C25C41379F554C75F1B60EF26068' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_0E809AF9454054A76756A494F0980C68' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_TransitionResult_7CB5950840A88129CF440690158FA382' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:845][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_0F00868E442D9B6C920E8AA9922282A6' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_0_BaseAnimBP' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BlueprintUpdateAnimation' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_0E809AF9454054A76756A494F0980C68' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_BlendSpacePlayer_30EE99594BA8800E891316A954A537D1' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_7CB5950840A88129CF440690158FA382' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_868955CA47AA8EA4CBB5FFB8C9ECE6FF' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EvaluateGraphExposedInputs_ExecuteUbergraph_0_BaseAnimBP_AnimGraphNode_TransitionResult_24C5C25C41379F554C75F1B60EF26068' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:846][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:847][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_0_BaseAnimBP_C_0' or package '/Engine/Transient'.
+[2017.12.09-11.25.47:899][106]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.12.09-11.25.47:900][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_FrostGiant/M_Char_FrostGiant.M_Char_FrostGiant for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:900][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:907][106]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.12.09-11.25.47:908][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_FrostGiant/M_Char_FrostGiant.M_Char_FrostGiant for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:908][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:915][106]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.12.09-11.25.47:916][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_FrostGiant/M_Char_FrostGiant.M_Char_FrostGiant for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:916][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:922][106]LogMaterial: Missing cached shader map for material M_Char_FrostGiant, compiling. 
+[2017.12.09-11.25.47:923][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_FrostGiant/M_Char_FrostGiant.M_Char_FrostGiant for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:924][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:977][106]LogMaterial: Missing cached shader map for material M_Char_Natural, compiling. 
+[2017.12.09-11.25.47:978][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Natural/M_Char_Natural.M_Char_Natural for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:978][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:984][106]LogMaterial: Missing cached shader map for material M_Char_Natural, compiling. 
+[2017.12.09-11.25.47:986][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Natural/M_Char_Natural.M_Char_Natural for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:986][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.47:992][106]LogMaterial: Missing cached shader map for material M_Char_Natural, compiling. 
+[2017.12.09-11.25.47:994][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Natural/M_Char_Natural.M_Char_Natural for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.47:994][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:004][106]LogMaterial: Missing cached shader map for material M_Char_Pit, compiling. 
+[2017.12.09-11.25.48:005][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit.M_Char_Pit for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:005][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:011][106]LogMaterial: Missing cached shader map for material M_Char_Pit, compiling. 
+[2017.12.09-11.25.48:012][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit.M_Char_Pit for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:012][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:018][106]LogMaterial: Missing cached shader map for material M_Char_Pit, compiling. 
+[2017.12.09-11.25.48:019][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit.M_Char_Pit for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:019][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:044][106]LogMaterial: Missing cached shader map for material M_Char_Robo, compiling. 
+[2017.12.09-11.25.48:045][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Robo/M_Char_Robo.M_Char_Robo for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:045][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:051][106]LogMaterial: Missing cached shader map for material M_Char_Robo, compiling. 
+[2017.12.09-11.25.48:052][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Robo/M_Char_Robo.M_Char_Robo for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:052][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:059][106]LogMaterial: Missing cached shader map for material M_Char_Robo, compiling. 
+[2017.12.09-11.25.48:060][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Robo/M_Char_Robo.M_Char_Robo for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:060][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:106][106]LogMaterial: Missing cached shader map for material M_Char_Tusk, compiling. 
+[2017.12.09-11.25.48:107][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Tusk.M_Char_Tusk for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:107][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:113][106]LogMaterial: Missing cached shader map for material M_Char_Tusk, compiling. 
+[2017.12.09-11.25.48:115][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Tusk.M_Char_Tusk for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:115][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:121][106]LogMaterial: Missing cached shader map for material M_Char_Tusk, compiling. 
+[2017.12.09-11.25.48:122][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Tusk.M_Char_Tusk for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:122][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:129][106]LogMaterial: Missing cached shader map for material M_Char_Tusk, compiling. 
+[2017.12.09-11.25.48:130][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Tusk.M_Char_Tusk for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:130][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:156][106]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.12.09-11.25.48:157][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior_B.M_Char_Warrior_B for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:157][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:161][106]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.12.09-11.25.48:162][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior_B.M_Char_Warrior_B for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:162][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:167][106]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.12.09-11.25.48:167][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior_B.M_Char_Warrior_B for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:167][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:171][106]LogMaterial: Missing cached shader map for material M_Char_Warrior_B, compiling. 
+[2017.12.09-11.25.48:172][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior_B.M_Char_Warrior_B for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:172][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:181][106]LogMaterial: Missing cached shader map for material M_Char_RaggedElite, compiling. 
+[2017.12.09-11.25.48:182][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_RaggedElite.M_Char_RaggedElite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:182][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:186][106]LogMaterial: Missing cached shader map for material M_Char_RaggedElite, compiling. 
+[2017.12.09-11.25.48:187][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_RaggedElite.M_Char_RaggedElite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:187][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:191][106]LogMaterial: Missing cached shader map for material M_Char_RaggedElite, compiling. 
+[2017.12.09-11.25.48:192][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_RaggedElite.M_Char_RaggedElite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:192][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:232][106]LogMaterial: Missing cached shader map for material M_Char_Ragged, compiling. 
+[2017.12.09-11.25.48:233][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_Ragged.M_Char_Ragged for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:233][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:239][106]LogMaterial: Missing cached shader map for material M_Char_Ragged, compiling. 
+[2017.12.09-11.25.48:241][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_Ragged.M_Char_Ragged for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:241][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:247][106]LogMaterial: Missing cached shader map for material M_Char_Ragged, compiling. 
+[2017.12.09-11.25.48:248][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Ragged/M_Char_Ragged.M_Char_Ragged for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:248][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:294][106]LogMaterial: Missing cached shader map for material M_Char_Forge, compiling. 
+[2017.12.09-11.25.48:295][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Forge/M_Char_Forge.M_Char_Forge for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:295][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:302][106]LogMaterial: Missing cached shader map for material M_Char_Forge, compiling. 
+[2017.12.09-11.25.48:303][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Forge/M_Char_Forge.M_Char_Forge for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:303][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:310][106]LogMaterial: Missing cached shader map for material M_Char_Forge, compiling. 
+[2017.12.09-11.25.48:311][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Forge/M_Char_Forge.M_Char_Forge for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:311][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:322][106]LogMaterial: Missing cached shader map for material M_Char_Cardboard, compiling. 
+[2017.12.09-11.25.48:323][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Cardboard/M_Char_Cardboard.M_Char_Cardboard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:323][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:330][106]LogMaterial: Missing cached shader map for material M_Char_Cardboard, compiling. 
+[2017.12.09-11.25.48:331][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Cardboard/M_Char_Cardboard.M_Char_Cardboard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:331][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:337][106]LogMaterial: Missing cached shader map for material M_Char_Cardboard, compiling. 
+[2017.12.09-11.25.48:338][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Cardboard/M_Char_Cardboard.M_Char_Cardboard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:338][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:365][106]LogMaterial: Missing cached shader map for material M_CharM_Bladed, compiling. 
+[2017.12.09-11.25.48:365][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Bladed/M_CharM_Bladed.M_CharM_Bladed for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:365][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:370][106]LogMaterial: Missing cached shader map for material M_CharM_Bladed, compiling. 
+[2017.12.09-11.25.48:370][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Bladed/M_CharM_Bladed.M_CharM_Bladed for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:370][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:375][106]LogMaterial: Missing cached shader map for material M_CharM_Bladed, compiling. 
+[2017.12.09-11.25.48:375][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Bladed/M_CharM_Bladed.M_CharM_Bladed for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:375][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:385][106]LogMaterial: Missing cached shader map for material M_CharM_Base, compiling. 
+[2017.12.09-11.25.48:386][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Base/M_CharM_Base.M_CharM_Base for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:386][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:393][106]LogMaterial: Missing cached shader map for material M_CharM_Base, compiling. 
+[2017.12.09-11.25.48:394][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Base/M_CharM_Base.M_CharM_Base for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:394][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:401][106]LogMaterial: Missing cached shader map for material M_CharM_Base, compiling. 
+[2017.12.09-11.25.48:402][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Base/M_CharM_Base.M_CharM_Base for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:402][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:417][106]LogMaterial: Missing cached shader map for material M_Char_Barbrous, compiling. 
+[2017.12.09-11.25.48:417][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbrous.M_Char_Barbrous for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:417][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:421][106]LogMaterial: Missing cached shader map for material M_Char_Barbrous, compiling. 
+[2017.12.09-11.25.48:422][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbrous.M_Char_Barbrous for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:422][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:426][106]LogMaterial: Missing cached shader map for material M_Char_Barbrous, compiling. 
+[2017.12.09-11.25.48:427][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbrous.M_Char_Barbrous for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:427][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:428][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object '0_BaseAnimBP_C_0' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:444][106]LogMaterial: Missing cached shader map for material M_Char_Golden, compiling. 
+[2017.12.09-11.25.48:444][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Golden/M_Char_Golden.M_Char_Golden for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:444][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:448][106]LogMaterial: Missing cached shader map for material M_Char_Golden, compiling. 
+[2017.12.09-11.25.48:449][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Golden/M_Char_Golden.M_Char_Golden for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:449][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:453][106]LogMaterial: Missing cached shader map for material M_Char_Golden, compiling. 
+[2017.12.09-11.25.48:454][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Golden/M_Char_Golden.M_Char_Golden for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:454][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:455][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:455][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_SKEL_0_BaseAnimBP_C_11' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:455][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_0_BaseAnimBP_C_11' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:456][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__REINST_0_BaseAnimBP_C_10' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:460][106]LogMaterial: Missing cached shader map for material M_Char_Warrior, compiling. 
+[2017.12.09-11.25.48:461][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior.M_Char_Warrior for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:461][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:465][106]LogMaterial: Missing cached shader map for material M_Char_Warrior, compiling. 
+[2017.12.09-11.25.48:466][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior.M_Char_Warrior for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:466][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:470][106]LogMaterial: Missing cached shader map for material M_Char_Warrior, compiling. 
+[2017.12.09-11.25.48:470][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior.M_Char_Warrior for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:470][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:474][106]LogMaterial: Missing cached shader map for material M_Char_Warrior, compiling. 
+[2017.12.09-11.25.48:475][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Warrior/M_Char_Warrior.M_Char_Warrior for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:475][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:496][106]LogMaterial: Missing cached shader map for material M_Char_Talon, compiling. 
+[2017.12.09-11.25.48:496][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Talon.M_Char_Talon for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:496][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:501][106]LogMaterial: Missing cached shader map for material M_Char_Talon, compiling. 
+[2017.12.09-11.25.48:502][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Talon.M_Char_Talon for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:502][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:506][106]LogMaterial: Missing cached shader map for material M_Char_Talon, compiling. 
+[2017.12.09-11.25.48:506][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Talon.M_Char_Talon for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:506][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:511][106]LogMaterial: Missing cached shader map for material M_Char_Talon, compiling. 
+[2017.12.09-11.25.48:511][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Talon.M_Char_Talon for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:511][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:532][106]LogMaterial: Missing cached shader map for material M_Char_Horn, compiling. 
+[2017.12.09-11.25.48:532][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Horn.M_Char_Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:532][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:537][106]LogMaterial: Missing cached shader map for material M_Char_Horn, compiling. 
+[2017.12.09-11.25.48:537][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Horn.M_Char_Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:537][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:542][106]LogMaterial: Missing cached shader map for material M_Char_Horn, compiling. 
+[2017.12.09-11.25.48:543][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Horn.M_Char_Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:543][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:546][106]LogMaterial: Missing cached shader map for material M_Char_Horn, compiling. 
+[2017.12.09-11.25.48:547][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Tusk/M_Char_Horn.M_Char_Horn for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:547][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:580][106]LogMaterial: Missing cached shader map for material M_Char_Standard_Elite, compiling. 
+[2017.12.09-11.25.48:581][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard_Elite.M_Char_Standard_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:581][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:585][106]LogMaterial: Missing cached shader map for material M_Char_Standard_Elite, compiling. 
+[2017.12.09-11.25.48:585][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard_Elite.M_Char_Standard_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:585][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:590][106]LogMaterial: Missing cached shader map for material M_Char_Standard_Elite, compiling. 
+[2017.12.09-11.25.48:591][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard_Elite.M_Char_Standard_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:591][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:638][106]LogMaterial: Missing cached shader map for material M_CharM_Solid_Alternate, compiling. 
+[2017.12.09-11.25.48:638][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_CharM_Solid_Alternate.M_CharM_Solid_Alternate for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:639][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:639][106]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (2 / 0)
+[2017.12.09-11.25.48:643][106]LogMaterial: Missing cached shader map for material M_CharM_Solid_Alternate, compiling. 
+[2017.12.09-11.25.48:643][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_CharM_Solid_Alternate.M_CharM_Solid_Alternate for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:643][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:648][106]LogMaterial: Missing cached shader map for material M_CharM_Solid_Alternate, compiling. 
+[2017.12.09-11.25.48:648][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_solid/M_CharM_Solid_Alternate.M_CharM_Solid_Alternate for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:648][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:653][106]LogMaterial: Missing cached shader map for material M_Char_Pit3, compiling. 
+[2017.12.09-11.25.48:654][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit3.M_Char_Pit3 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:654][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:658][106]LogMaterial: Missing cached shader map for material M_Char_Pit3, compiling. 
+[2017.12.09-11.25.48:659][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit3.M_Char_Pit3 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:659][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:663][106]LogMaterial: Missing cached shader map for material M_Char_Pit3, compiling. 
+[2017.12.09-11.25.48:663][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit3.M_Char_Pit3 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:663][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:692][106]LogMaterial: Missing cached shader map for material M_Char_Pit2, compiling. 
+[2017.12.09-11.25.48:693][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit2.M_Char_Pit2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:693][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:697][106]LogMaterial: Missing cached shader map for material M_Char_Pit2, compiling. 
+[2017.12.09-11.25.48:698][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit2.M_Char_Pit2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:698][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:702][106]LogMaterial: Missing cached shader map for material M_Char_Pit2, compiling. 
+[2017.12.09-11.25.48:703][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Pit/M_Char_Pit2.M_Char_Pit2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:703][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:708][106]LogMaterial: Missing cached shader map for material M_Char_Barbarous_Elite, compiling. 
+[2017.12.09-11.25.48:709][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbarous_Elite.M_Char_Barbarous_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:709][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:713][106]LogMaterial: Missing cached shader map for material M_Char_Barbarous_Elite, compiling. 
+[2017.12.09-11.25.48:714][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbarous_Elite.M_Char_Barbarous_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:714][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:718][106]LogMaterial: Missing cached shader map for material M_Char_Barbarous_Elite, compiling. 
+[2017.12.09-11.25.48:719][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Barbarous/M_Char_Barbarous_Elite.M_Char_Barbarous_Elite for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:719][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:720][106]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_0_BaseAnimBP_C_10' or package '/Engine/Transient'.
+[2017.12.09-11.25.48:726][106]LogMaterial: Missing cached shader map for material M_Char_Standard, compiling. 
+[2017.12.09-11.25.48:726][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard.M_Char_Standard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:726][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:731][106]LogMaterial: Missing cached shader map for material M_Char_Standard, compiling. 
+[2017.12.09-11.25.48:732][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard.M_Char_Standard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:732][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.25.48:736][106]LogMaterial: Missing cached shader map for material M_Char_Standard, compiling. 
+[2017.12.09-11.25.48:736][106]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeWarriors/Character/CompleteCharacters/Textures_Materials/CharM_Standard/M_Char_Standard.M_Char_Standard for platform PCD3D_SM5, Default Material will be used in game.
+[2017.12.09-11.25.48:736][106]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.12.09-11.26.22:215][106]LogTemp:Display: Removed shader map 0x00000196A064B580 from material 0x00000196F8103280
+[2017.12.09-11.26.22:215][106]LogTemp:Display: Removed shader map 0x00000196E7DDE080 from material 0x00000196D6923100
+[2017.12.09-11.26.22:215][106]LogTemp:Display: Removed shader map 0x00000196A3CA8B80 from material 0x00000196FC7DA200
+[2017.12.09-11.26.22:215][106]LogTemp:Display: Removed shader map 0x00000196FEA72780 from material 0x00000196D69FA080
+[2017.12.09-11.26.31:679][108]LogTemp:Display: Finished compile of shader map 0x00000196FEA72780
+[2017.12.09-11.26.31:721][109]LogTemp:Display: Finished compile of shader map 0x00000196A3CA8B80
+[2017.12.09-11.26.31:731][109]LogTemp:Display: Finished compile of shader map 0x00000196E7DDE080
+[2017.12.09-11.26.31:769][110]LogTemp:Display: Finished compile of shader map 0x00000196A064B580
+[2017.12.09-11.27.31:989][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'
+[2017.12.09-11.27.31:990][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/0_Base.uasset.
+[2017.12.09-11.27.31:990][ 91]LoadErrors:Error: Error /Game/Blueprints/characters/0_Base : Can't find file for asset. /Game/InfinityBladeWarriors/Animations/0_BaseAnimBP
+[2017.12.09-11.27.31:995][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP'
+[2017.12.09-11.27.31:995][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Animations/0_BaseAnimBP' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/0_Base.uasset.
+[2017.12.09-11.27.31:997][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous'
+[2017.12.09-11.27.31:997][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Barbarous.uasset.
+[2017.12.09-11.27.31:998][ 91]LoadErrors:Error: Error /Game/Blueprints/characters/Barbarous : Can't find file for asset. /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous
+[2017.12.09-11.27.31:998][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous'
+[2017.12.09-11.27.31:998][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Barbarous.uasset.
+[2017.12.09-11.27.32:000][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous'
+[2017.12.09-11.27.32:000][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous' while loading NULL.
+[2017.12.09-11.27.32:001][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous'
+[2017.12.09-11.27.32:001][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous' while loading NULL.
+[2017.12.09-11.27.32:003][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous'
+[2017.12.09-11.27.32:003][ 91]LoadErrors: Info Failed to load /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous Referenced by Default__Barbarous_C
+[2017.12.09-11.27.32:003][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous' while loading NULL.
+[2017.12.09-11.27.32:030][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge'
+[2017.12.09-11.27.32:030][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Forge.uasset.
+[2017.12.09-11.27.32:030][ 91]LoadErrors:Error: Error /Game/Blueprints/characters/Forge : Can't find file for asset. /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge
+[2017.12.09-11.27.32:031][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge'
+[2017.12.09-11.27.32:031][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Forge.uasset.
+[2017.12.09-11.27.32:032][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge'
+[2017.12.09-11.27.32:033][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge' while loading NULL.
+[2017.12.09-11.27.32:033][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge'
+[2017.12.09-11.27.32:033][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge' while loading NULL.
+[2017.12.09-11.27.32:034][ 91]LogLinker:Warning: Can't find file '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge'
+[2017.12.09-11.27.32:034][ 91]LoadErrors: Info Failed to load /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge Referenced by Default__Forge_C
+[2017.12.09-11.27.32:034][ 91]LogLinker:Warning: Can't find file for asset '/Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge' while loading NULL.
+[2017.12.09-11.30.23:725][ 61]BlueprintLog: New page: Compile LobbyGM
+[2017.12.09-11.30.25:027][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.12.09-11.30.25:253][ 89]LogSavePackage: Save=160.50ms
+[2017.12.09-11.30.25:253][ 89]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/LobbyGME1C103744364AC7912155DA0E46FF8E6.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.12.09-11.30.25:332][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.12.09-11.30.28:823][150]LogSavePackage: Save=83.10ms
+[2017.12.09-11.30.28:823][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/0_BaseA937B707426E967B6A89B995BC152AB4.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/0_Base.uasset'
+[2017.12.09-11.30.28:835][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/0_Base.uasset
+[2017.12.09-11.30.28:882][150]LogSavePackage: Save=30.50ms
+[2017.12.09-11.30.28:882][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/Frosty18A6837B40A15B517BFB989B7FBBDCC8.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Frosty.uasset'
+[2017.12.09-11.30.28:894][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Frosty.uasset
+[2017.12.09-11.30.28:943][150]LogSavePackage: Save=28.43ms
+[2017.12.09-11.30.28:943][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/NaturalEABAEF334554C340BE136AB2A1285AAF.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Natural.uasset'
+[2017.12.09-11.30.28:955][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Natural.uasset
+[2017.12.09-11.30.28:962][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/characters/Pit" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Pit.uasset" SILENT=true
+[2017.12.09-11.30.29:001][150]LogSavePackage: Save=29.18ms
+[2017.12.09-11.30.29:001][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/Pit22871C6D4F88C6E352F6D1837EA2D67A.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Pit.uasset'
+[2017.12.09-11.30.29:014][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Pit.uasset
+[2017.12.09-11.30.29:020][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/characters/Robo" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Robo.uasset" SILENT=true
+[2017.12.09-11.30.29:059][150]LogSavePackage: Save=28.58ms
+[2017.12.09-11.30.29:059][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/Robo6445CB724B62F4C3BB0836A95F386C08.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Robo.uasset'
+[2017.12.09-11.30.29:071][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Robo.uasset
+[2017.12.09-11.30.29:080][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/characters/Tusk" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Tusk.uasset" SILENT=true
+[2017.12.09-11.30.29:121][150]LogSavePackage: Save=28.36ms
+[2017.12.09-11.30.29:121][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/TuskB7804F194549FA977083A6ACCB22D1C4.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Tusk.uasset'
+[2017.12.09-11.30.29:132][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Tusk.uasset
+[2017.12.09-11.30.29:182][150]LogSavePackage: Save=29.64ms
+[2017.12.09-11.30.29:182][150]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/WarriorFDC546B2466AEEA59B8196BEA85143DC.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Warrior.uasset'
+[2017.12.09-11.30.29:194][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/characters/Warrior.uasset
+[2017.12.09-11.31.11:437][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2017.12.09-11.31.11:582][932]LogSavePackage: Save=136.69ms
+[2017.12.09-11.31.11:582][932]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/LobbyGM7285B4784A4AB1C288306F829348DC1F.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2017.12.09-11.31.11:588][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Blueprints/Lobby/LobbyGM.uasset
+[2017.12.09-11.31.12:999][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.09-11.31.15:055][ 19]LogSavePackage: Save=213.57ms
+[2017.12.09-11.31.15:055][ 19]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/MainMenu8CE3D0B84816C5138DB118B2892C01D0.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu.umap'
+[2017.12.09-11.31.15:061][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu.umap
+[2017.12.09-11.31.15:094][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2017.12.09-11.31.15:108][ 19]LogSavePackage: Save=3.39ms
+[2017.12.09-11.31.15:108][ 19]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/MainMenu_BuiltDataB679A7D14D9656EBA1A11AA69F33524E.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset'
+[2017.12.09-11.31.15:113][ 19]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Maps/MainMenu_BuiltData.uasset
+[2017.12.09-11.31.29:921][289]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.09-11.31.30:279][290]Cmd: QUIT_EDITOR
+[2017.12.09-11.31.30:770][290]LogExit: Preparing to exit.
+[2017.12.09-11.31.32:068][290]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/' was aborted.
+[2017.12.09-11.31.32:384][290]LogExit: Editor shut down
+[2017.12.09-11.31.32:386][290]LogExit: Transaction tracking system shut down
+[2017.12.09-11.31.34:455][290]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.09-11.31.34:459][290]LogExit: Object subsystem successfully closed.
+[2017.12.09-11.31.34:658][290]LogD3D11RHI: Shutdown
+[2017.12.09-11.31.34:659][290]LogD3D11RHI: CleanupD3DDevice
+[2017.12.09-11.31.34:902][290]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.09-11.31.35:661][290]LogModuleManager: Shutting down and abandoning module SequencerWidgets (518)
+[2017.12.09-11.31.35:661][290]LogModuleManager: Shutting down and abandoning module BlueprintGraph (516)
+[2017.12.09-11.31.35:661][290]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (514)
+[2017.12.09-11.31.35:692][290]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (512)
+[2017.12.09-11.31.35:692][290]LogModuleManager: Shutting down and abandoning module CrashTracker (510)
+[2017.12.09-11.31.35:692][290]LogModuleManager: Shutting down and abandoning module SceneOutliner (508)
+[2017.12.09-11.31.35:692][290]LogModuleManager: Shutting down and abandoning module AddContentDialog (506)
+[2017.12.09-11.31.35:703][290]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.12.09-11.31.35:722][290]LogModuleManager: Shutting down and abandoning module WidgetCarousel (505)
+[2017.12.09-11.31.35:722][290]LogModuleManager: Shutting down and abandoning module EditorWidgets (502)
+[2017.12.09-11.31.35:722][290]LogModuleManager: Shutting down and abandoning module CollectionManager (500)
+[2017.12.09-11.31.35:722][290]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Collections/' was aborted.
+[2017.12.09-11.31.35:722][290]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/Developers/LaptopDEV/Collections/' was aborted.
+[2017.12.09-11.31.35:722][290]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Saved/Collections/' was aborted.
+[2017.12.09-11.31.35:722][290]LogModuleManager: Shutting down and abandoning module StatsViewer (498)
+[2017.12.09-11.31.35:730][290]LogModuleManager: Shutting down and abandoning module FoliageEdit (496)
+[2017.12.09-11.31.35:730][290]LogModuleManager: Shutting down and abandoning module LandscapeEditor (494)
+[2017.12.09-11.31.35:734][290]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (492)
+[2017.12.09-11.31.35:734][290]LogModuleManager: Shutting down and abandoning module ActorPickerMode (490)
+[2017.12.09-11.31.35:734][290]LogModuleManager: Shutting down and abandoning module GeometryMode (488)
+[2017.12.09-11.31.35:734][290]LogModuleManager: Shutting down and abandoning module TextureAlignMode (486)
+[2017.12.09-11.31.35:734][290]LogModuleManager: Shutting down and abandoning module BspMode (484)
+[2017.12.09-11.31.35:748][290]LogModuleManager: Shutting down and abandoning module HardwareSurvey (482)
+[2017.12.09-11.31.35:755][290]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (480)
+[2017.12.09-11.31.35:764][290]LogModuleManager: Shutting down and abandoning module AutomationWorker (478)
+[2017.12.09-11.31.35:770][290]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (476)
+[2017.12.09-11.31.35:782][290]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (474)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module PlacementMode (473)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (470)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (468)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module MfMediaFactory (466)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module MfMediaEditor (464)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (462)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (460)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (458)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module Media (457)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (454)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module CharacterAI (452)
+[2017.12.09-11.31.35:801][290]LogModuleManager: Shutting down and abandoning module AudioCapture (450)
+[2017.12.09-11.31.35:808][290]LogModuleManager: Shutting down and abandoning module SequenceRecorder (449)
+[2017.12.09-11.31.35:848][290]LogModuleManager: Shutting down and abandoning module SmartSnapping (446)
+[2017.12.09-11.31.35:848][290]LogModuleManager: Shutting down and abandoning module SessionServices (444)
+[2017.12.09-11.31.35:849][290]LogModuleManager: Shutting down and abandoning module ViewportSnapping (442)
+[2017.12.09-11.31.35:849][290]LogModuleManager: Shutting down and abandoning module ViewportInteraction (440)
+[2017.12.09-11.31.35:849][290]LogModuleManager: Shutting down and abandoning module LogVisualizer (438)
+[2017.12.09-11.31.35:863][290]LogModuleManager: Shutting down and abandoning module IntroTutorials (436)
+[2017.12.09-11.31.35:866][290]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (435)
+[2017.12.09-11.31.35:893][290]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (432)
+[2017.12.09-11.31.35:893][290]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (430)
+[2017.12.09-11.31.35:893][290]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (428)
+[2017.12.09-11.31.35:893][290]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (426)
+[2017.12.09-11.31.35:906][290]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (425)
+[2017.12.09-11.31.36:010][290]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (422)
+[2017.12.09-11.31.36:010][290]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (420)
+[2017.12.09-11.31.36:010][290]LogModuleManager: Shutting down and abandoning module InputBindingEditor (418)
+[2017.12.09-11.31.36:032][290]LogModuleManager: Shutting down and abandoning module NiagaraEditor (416)
+[2017.12.09-11.31.36:066][290]LogModuleManager: Shutting down and abandoning module MergeActors (414)
+[2017.12.09-11.31.36:081][290]LogModuleManager: Shutting down and abandoning module SizeMap (412)
+[2017.12.09-11.31.36:089][290]LogModuleManager: Shutting down and abandoning module TreeMap (410)
+[2017.12.09-11.31.36:096][290]LogModuleManager: Shutting down and abandoning module ReferenceViewer (408)
+[2017.12.09-11.31.36:097][290]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (406)
+[2017.12.09-11.31.36:109][290]LogModuleManager: Shutting down and abandoning module LocalizationService (405)
+[2017.12.09-11.31.36:124][290]LogModuleManager: Shutting down and abandoning module HardwareTargeting (402)
+[2017.12.09-11.31.36:128][290]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (400)
+[2017.12.09-11.31.36:137][290]LogModuleManager: Shutting down and abandoning module UndoHistory (398)
+[2017.12.09-11.31.36:151][290]LogModuleManager: Shutting down and abandoning module UserFeedback (396)
+[2017.12.09-11.31.36:151][290]LogModuleManager: Shutting down and abandoning module XmlParser (394)
+[2017.12.09-11.31.36:163][290]LogModuleManager: Shutting down and abandoning module Blutility (392)
+[2017.12.09-11.31.36:174][290]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (390)
+[2017.12.09-11.31.36:174][290]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (389)
+[2017.12.09-11.31.36:174][290]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (386)
+[2017.12.09-11.31.36:174][290]LogModuleManager: Shutting down and abandoning module SettingsEditor (384)
+[2017.12.09-11.31.36:179][290]LogModuleManager: Shutting down and abandoning module ProjectLauncher (382)
+[2017.12.09-11.31.36:192][290]LogModuleManager: Shutting down and abandoning module SessionFrontend (380)
+[2017.12.09-11.31.36:208][290]LogModuleManager: Shutting down and abandoning module ProfilerClient (378)
+[2017.12.09-11.31.36:223][290]LogModuleManager: Shutting down and abandoning module DeviceManager (376)
+[2017.12.09-11.31.36:237][290]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (375)
+[2017.12.09-11.31.36:294][290]LogModuleManager: Shutting down and abandoning module AutomationController (372)
+[2017.12.09-11.31.36:317][290]LogModuleManager: Shutting down and abandoning module AutomationWindow (370)
+[2017.12.09-11.31.36:329][290]LogModuleManager: Shutting down and abandoning module Layers (368)
+[2017.12.09-11.31.36:354][290]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (366)
+[2017.12.09-11.31.36:354][290]LogModuleManager: Shutting down and abandoning module DetailCustomizations (364)
+[2017.12.09-11.31.36:364][290]LogModuleManager: Shutting down and abandoning module PackagesDialog (362)
+[2017.12.09-11.31.36:365][290]LogModuleManager: Shutting down and abandoning module Persona (360)
+[2017.12.09-11.31.36:400][290]LogModuleManager: Shutting down and abandoning module AnimGraph (359)
+[2017.12.09-11.31.36:400][290]LogModuleManager: Shutting down and abandoning module Kismet (356)
+[2017.12.09-11.31.36:441][290]LogModuleManager: Shutting down and abandoning module GraphEditor (354)
+[2017.12.09-11.31.36:442][290]LogModuleManager: Shutting down and abandoning module ClassViewer (352)
+[2017.12.09-11.31.36:444][290]LogModuleManager: Shutting down and abandoning module Toolbox (350)
+[2017.12.09-11.31.36:455][290]LogModuleManager: Shutting down and abandoning module ModuleUI (348)
+[2017.12.09-11.31.36:462][290]LogModuleManager: Shutting down and abandoning module MovieSceneTools (346)
+[2017.12.09-11.31.36:470][290]LogModuleManager: Shutting down and abandoning module OutputLog (344)
+[2017.12.09-11.31.36:476][290]LogModuleManager: Shutting down and abandoning module GammaUI (342)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module Documentation (340)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module Niagara (338)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module AnalyticsET (334)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module PortalServices (332)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module PortalRpc (330)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module MessagingRpc (328)
+[2017.12.09-11.31.36:480][290]LogModuleManager: Shutting down and abandoning module AIModule (326)
+[2017.12.09-11.31.36:481][290]LogModuleManager: Shutting down and abandoning module GameplayDebugger (325)
+[2017.12.09-11.31.36:490][290]LogModuleManager: Shutting down and abandoning module AITestSuite (323)
+[2017.12.09-11.31.36:490][290]LogModuleManager: Shutting down and abandoning module ProfilerService (320)
+[2017.12.09-11.31.36:563][290]LogModuleManager: Shutting down and abandoning module TaskGraph (318)
+[2017.12.09-11.31.36:593][290]LogModuleManager: Shutting down and abandoning module SteamVRController (316)
+[2017.12.09-11.31.36:593][290]LogModuleManager: Shutting down and abandoning module SteamVR (314)
+[2017.12.09-11.31.36:593][290]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (312)
+[2017.12.09-11.31.36:593][290]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (310)
+[2017.12.09-11.31.36:603][290]LogModuleManager: Shutting down and abandoning module OculusLibrary (308)
+[2017.12.09-11.31.36:603][290]LogModuleManager: Shutting down and abandoning module OculusInput (306)
+[2017.12.09-11.31.36:603][290]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (304)
+[2017.12.09-11.31.36:603][290]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (302)
+[2017.12.09-11.31.36:603][290]LogModuleManager: Shutting down and abandoning module CableComponent (300)
+[2017.12.09-11.31.36:609][290]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (298)
+[2017.12.09-11.31.36:609][290]LogModuleManager: Shutting down and abandoning module Rejoin (296)
+[2017.12.09-11.31.36:609][290]LogModuleManager: Shutting down and abandoning module Hotfix (294)
+[2017.12.09-11.31.36:622][290]LogModuleManager: Shutting down and abandoning module Lobby (292)
+[2017.12.09-11.31.36:622][290]LogModuleManager: Shutting down and abandoning module Party (290)
+[2017.12.09-11.31.36:622][290]LogModuleManager: Shutting down and abandoning module Qos (288)
+[2017.12.09-11.31.36:622][290]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (286)
+[2017.12.09-11.31.36:660][290]LogModuleManager: Shutting down and abandoning module HTML5Networking (284)
+[2017.12.09-11.31.36:660][290]LogModuleManager: Shutting down and abandoning module AlembicImporter (282)
+[2017.12.09-11.31.36:675][290]LogModuleManager: Shutting down and abandoning module AlembicLibrary (281)
+[2017.12.09-11.31.36:675][290]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
+[2017.12.09-11.31.36:684][290]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
+[2017.12.09-11.31.36:685][290]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (274)
+[2017.12.09-11.31.36:685][290]LogModuleManager: Shutting down and abandoning module SuperSearch (273)
+[2017.12.09-11.31.36:685][290]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (270)
+[2017.12.09-11.31.36:685][290]LogModuleManager: Shutting down and abandoning module PluginBrowser (268)
+[2017.12.09-11.31.36:713][290]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (266)
+[2017.12.09-11.31.36:723][290]LogModuleManager: Shutting down and abandoning module EpicSurvey (264)
+[2017.12.09-11.31.36:723][290]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (262)
+[2017.12.09-11.31.36:723][290]LogModuleManager: Shutting down and abandoning module DesktopPlatform (261)
+[2017.12.09-11.31.36:737][290]LogModuleManager: Shutting down and abandoning module UObjectPlugin (258)
+[2017.12.09-11.31.36:737][290]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (256)
+[2017.12.09-11.31.36:750][290]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (254)
+[2017.12.09-11.31.36:761][290]LogModuleManager: Shutting down and abandoning module GitSourceControl (252)
+[2017.12.09-11.31.36:770][290]LogModuleManager: Shutting down and abandoning module SourceControl (251)
+[2017.12.09-11.31.36:782][290]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (248)
+[2017.12.09-11.31.36:782][290]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (246)
+[2017.12.09-11.31.36:782][290]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (244)
+[2017.12.09-11.31.36:782][290]LogModuleManager: Shutting down and abandoning module Paper2DEditor (242)
+[2017.12.09-11.31.36:806][290]LogModuleManager: Shutting down and abandoning module MeshPaint (241)
+[2017.12.09-11.31.36:820][290]LogModuleManager: Shutting down and abandoning module LevelEditor (239)
+[2017.12.09-11.31.36:840][290]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (238)
+[2017.12.09-11.31.36:855][290]LogModuleManager: Shutting down and abandoning module MainFrame (236)
+[2017.12.09-11.31.36:855][290]LogModuleManager: Shutting down and abandoning module HotReload (235)
+[2017.12.09-11.31.36:860][290]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Binaries/Win64' was aborted.
+[2017.12.09-11.31.36:873][290]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
+[2017.12.09-11.31.36:876][290]LogModuleManager: Shutting down and abandoning module Multiplayer (228)
+[2017.12.09-11.31.36:876][290]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2017.12.09-11.31.36:884][290]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2017.12.09-11.31.36:884][290]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2017.12.09-11.31.36:884][290]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2017.12.09-11.31.36:986][290]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2017.12.09-11.31.37:104][290]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2017.12.09-11.31.37:128][290]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2017.12.09-11.31.37:130][290]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2017.12.09-11.31.37:130][290]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2017.12.09-11.31.37:130][290]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2017.12.09-11.31.37:135][290]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2017.12.09-11.31.37:139][290]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2017.12.09-11.31.37:156][290]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2017.12.09-11.31.37:156][290]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2017.12.09-11.31.37:156][290]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2017.12.09-11.31.37:162][290]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2017.12.09-11.31.37:162][290]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2017.12.09-11.31.37:162][290]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2017.12.09-11.31.37:178][290]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2017.12.09-11.31.37:178][290]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2017.12.09-11.31.37:194][290]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2017.12.09-11.31.37:205][290]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2017.12.09-11.31.37:205][290]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2017.12.09-11.31.37:205][290]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2017.12.09-11.31.37:236][290]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2017.12.09-11.31.37:236][290]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2017.12.09-11.31.37:236][290]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2017.12.09-11.31.37:274][290]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2017.12.09-11.31.37:274][290]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2017.12.09-11.31.37:278][290]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2017.12.09-11.31.37:286][290]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2017.12.09-11.31.37:286][290]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2017.12.09-11.31.37:286][290]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2017.12.09-11.31.37:286][290]LogModuleManager: Shutting down and abandoning module Core (160)
+[2017.12.09-11.31.37:286][290]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2017.12.09-11.31.37:626][290]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.09-11.31.37:626][290]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/Multiplayer 4.14/Content/' was aborted.
+[2017.12.09-11.31.37:626][290]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.09-11.31.37:643][290]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2017.12.09-11.31.37:650][290]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2017.12.09-11.31.37:650][290]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2017.12.09-11.31.37:650][290]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2017.12.09-11.31.37:661][290]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2017.12.09-11.31.37:686][290]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2017.12.09-11.31.37:686][290]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2017.12.09-11.31.37:698][290]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2017.12.09-11.31.37:708][290]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2017.12.09-11.31.37:779][290]LogDerivedDataCache: Shutdown
+[2017.12.09-11.31.37:779][290]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2017.12.09-11.31.37:779][290]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2017.12.09-11.31.37:797][290]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2017.12.09-11.31.37:810][290]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2017.12.09-11.31.37:849][290]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2017.12.09-11.31.37:862][290]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2017.12.09-11.31.37:862][290]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2017.12.09-11.31.37:862][290]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2017.12.09-11.31.37:862][290]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2017.12.09-11.31.37:889][290]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2017.12.09-11.31.37:889][290]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2017.12.09-11.31.37:889][290]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2017.12.09-11.31.37:889][290]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2017.12.09-11.31.37:903][290]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2017.12.09-11.31.37:903][290]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2017.12.09-11.31.37:903][290]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2017.12.09-11.31.37:904][290]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2017.12.09-11.31.37:905][290]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2017.12.09-11.31.37:916][290]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.09-11.31.37:916][290]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.09-11.31.37:916][290]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.09-11.31.37:916][290]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.09-11.31.37:916][290]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.09-11.31.37:923][290]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.12.09-11.31.37:948][290]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.09-11.31.37:949][290]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.12.09-11.31.37:966][290]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.12.09-11.31.37:973][290]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.09-11.31.37:973][290]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B323CAEED-439D-9392-7EA2-B6AA7A9A4521%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=f10b5e814ab86eff992295aff25f3f74%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C7a061f36-f19b-465f-b031-b745434426ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.09-11.31.37:987][290]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.12.09-11.31.37:999][290]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.09-11.31.38:011][290]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.09-11.31.38:012][290]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.09-11.31.38:012][290]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.09-11.31.38:012][290]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.09-11.31.38:046][290]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.09-11.31.38:071][290]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.09-11.31.38:071][290]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.09-11.31.38:075][290]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.09-11.31.38:076][290]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.09-11.31.38:076][290]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.09-11.31.38:076][290]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.09-11.31.38:084][290]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.09-11.31.38:090][290]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.09-11.31.38:091][290]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.09-11.31.38:117][290]LogExit: Exiting.
+[2017.12.09-11.31.38:138][290]Log file closed, 12/09/17 12:31:38
