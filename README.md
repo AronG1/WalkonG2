@@ -1,2 +1,2 @@
 # WalkonG2
-aasd
+So... This is my personal project that I am working for while now. It's multiplayer game, where you play team deadmatch. You can host a game or search for one over LAN or internet. You can also and connect your steam account and play with your friends over LAN or internet. It has one level where you can practise your skills, one on one versus bot. Before entering a fight, you go throu lobby map, where host choosing game options. Currently it has two classes to play with. Archer and paladin. I hope others will be added soon.
