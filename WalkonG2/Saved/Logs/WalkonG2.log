@@ -274,3 +274,1469 @@ LogInit: Object subsystem initialized
 [2017.12.23-12.34.28:264][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2017.12.23-12.34.28:761][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2017.12.23-12.34.29:210][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.23-12.38.22:546][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.23-12.38.37:828][692]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.12.23-12.38.37:964][692]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_2.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.12.23-12.39.11:764][118]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0008 seconds. Added 2 classes and 2 folders.
+[2017.12.23-12.40.06:651][150]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.40.08:025][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayPC" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset" SILENT=true
+[2017.12.23-12.40.08:229][150]LogSavePackage: Save=163.07ms
+[2017.12.23-12.40.08:230][150]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/GameplayPC1CC9A94341A3C0D55332C0A625A52E93.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset'
+[2017.12.23-12.40.08:245][150]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset
+[2017.12.23-12.40.08:255][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.40.08:277][150]LogSavePackage: Save=7.72ms
+[2017.12.23-12.40.08:277][150]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys03CEBC5840EBA84EC3347CAEEC6EB7FB.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.40.08:284][150]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.40.08:285][150]Cmd: MAP LOAD FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Maps/ArenaMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.23-12.40.08:285][150]LightingResults: New page: Lighting Build
+[2017.12.23-12.40.08:287][150]LoadErrors: New page: Loading map: ArenaMap.umap
+[2017.12.23-12.40.08:288][150]MapCheck: New page: Map Check
+[2017.12.23-12.40.08:288][150]LightingResults: New page: Lighting Build
+[2017.12.23-12.40.08:415][150]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.23-12.40.08:439][150]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.23-12.40.08:440][150]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.23-12.40.08:494][150]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 55.446ms to complete.
+[2017.12.23-12.40.08:495][150]LogFileHelpers: Loading map 'ArenaMap' took 0.211
+[2017.12.23-12.40.09:201][184]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.40.09:221][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.40.09:221][184]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.09:221][184]LogOnline:Warning: STEAM: Steam API disabled!
+[2017.12.23-12.40.09:221][184]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2017.12.23-12.40.09:241][184]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:40:09 PM)
+[2017.12.23-12.40.09:242][184]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.40.09:251][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008803s)
+[2017.12.23-12.40.09:251][184]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.40.09:251][184]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2017.12.23-12.40.09:251][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009719s)
+[2017.12.23-12.40.09:272][184]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.40.09:281][184]LogInit: FAudioDevice initialized.
+[2017.12.23-12.40.09:340][184]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_21c8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_408_0///####STATCAT_Advanced####
+[2017.12.23-12.40.09:392][184]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.40.09:394][184]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.40.09
+[2017.12.23-12.40.09:397][184]LogWorld: Bringing up level for play took: 0.004124
+[2017.12.23-12.40.09:463][184]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.23-12.40.09:463][184]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.40.09:463][184]LogInit: WinSock: I am DevPC (192.168.1.14:0)
+[2017.12.23-12.40.09:463][184]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.09:464][184]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.12.23-12.40.09:464][184]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.40.09:464][184]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.40.09:464][184]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.40.09:471][184]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.40.09:492][184]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap -0.735
+[2017.12.23-12.40.09:501][184]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:40:09 PM)
+[2017.12.23-12.40.09:616][184]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.40.09:616][184]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.40.09:616][184]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.09:616][184]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.40.09:616][184]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 453732618
+[2017.12.23-12.40.09:616][184]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.40.09:637][184]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.59
+[2017.12.23-12.40.09:678][184]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61472
+[2017.12.23-12.40.09:678][184]LogHandshake: SendConnectChallenge. Timestamp: 0.017714, Cookie: 094028124036239023009252090155189239209118020145047094186102
+[2017.12.23-12.40.09:702][184]LogHandshake: SendChallengeResponse. Timestamp: 0.017714, Cookie: 094028124036239023009252090155189239209118020145047094186102
+[2017.12.23-12.40.09:762][184]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:26130).
+[2017.12.23-12.40.09:866][185]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61472
+[2017.12.23-12.40.09:866][185]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61472
+[2017.12.23-12.40.09:866][185]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.09:866][185]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:40:09, [UNetConnection] RemoteAddr: 127.0.0.1:61472, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.40.09:866][185]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61472, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.40.09:866][185]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.40.09:868][185]LogNet: Remote platform little endian=1
+[2017.12.23-12.40.09:868][185]LogNet: This platform little endian=1
+[2017.12.23-12.40.09:915][186]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-D46EF2BA4324A7F814B3A5803A831A98 userId: DevPC-D46EF2BA4324A7F814B3A5803A831A98
+[2017.12.23-12.40.09:916][186]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.40.09:916][186]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.40.09:934][186]Cmd: MEM
+[2017.12.23-12.40.09:952][186]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.40.09:952][186]LogMemory: Process Physical Memory: 2639.41 MB used, 2640.58 MB peak
+[2017.12.23-12.40.09:952][186]LogMemory: Process Virtual Memory: 4995.17 MB used, 4995.18 MB peak
+[2017.12.23-12.40.09:952][186]LogMemory: Physical Memory: 7253.31 MB used,  9072.51 MB free, 16325.82 MB total
+[2017.12.23-12.40.09:952][186]LogMemory: Virtual Memory: 5834.80 MB used,  9072.51 MB free, 134217728.00 MB total
+[2017.12.23-12.40.09:952][186]LogMemory: 
+[2017.12.23-12.40.09:952][186]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.40.09:962][186]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.40.09:965][186]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.40.09
+[2017.12.23-12.40.09:965][186]LogWorld: Bringing up level for play took: 0.001546
+[2017.12.23-12.40.09:965][186]LogLoad: Took 0.049239 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.40.10:004][187]LogNet: Client netspeed is 10000
+[2017.12.23-12.40.10:005][187]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-D46EF2BA4324A7F814B3A5803A831A98?SplitscreenCount=1
+[2017.12.23-12.40.10:005][187]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.10:009][187]LogNet: Join succeeded: DevPC-D46EF2BA4324A7
+[2017.12.23-12.40.10:040][188]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.10:040][188]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.16:408][436]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.16:410][436]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.40.16:411][436]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.40.16:454][436]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.16:454][436]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.40.16:473][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61472, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.40.16:473][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61472, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.40.16
+[2017.12.23-12.40.16:473][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61472, Name: IpConnection_1, Driver: GameNetDriver None, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.40.16:473][436]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.40.16:473][436]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.40.16
+[2017.12.23-12.40.16:473][436]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.40.16:475][436]LogExit: GameNetDriver None shut down
+[2017.12.23-12.40.16:476][436]LogExit: GameNetDriver None shut down
+[2017.12.23-12.40.16:514][437]LogPlayLevel:Display: Destroying online subsystem :Context_34
+[2017.12.23-12.40.16:514][437]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.16:514][437]LogPlayLevel:Display: Destroying online subsystem :Context_33
+[2017.12.23-12.40.16:514][437]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.24:124][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.40.24:137][844]LogSavePackage: Save=4.78ms
+[2017.12.23-12.40.24:137][844]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys27777C02463C780A8C9CCD89E5868001.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.40.24:140][844]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.40.25:219][902]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.40.25:237][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.40.25:247][902]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:40:25 PM)
+[2017.12.23-12.40.25:248][902]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.40.25:256][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008513s)
+[2017.12.23-12.40.25:257][902]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.40.25:257][902]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2017.12.23-12.40.25:257][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009269s)
+[2017.12.23-12.40.25:278][902]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.40.25:286][902]LogInit: FAudioDevice initialized.
+[2017.12.23-12.40.25:402][902]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.40.25:406][902]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.40.25
+[2017.12.23-12.40.25:407][902]LogWorld: Bringing up level for play took: 0.003346
+[2017.12.23-12.40.25:420][902]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.40.25:420][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.25:420][902]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.12.23-12.40.25:420][902]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.40.25:420][902]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.40.25:420][902]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.40.25:430][902]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.40.25:456][902]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap -0.77
+[2017.12.23-12.40.25:467][902]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:40:25 PM)
+[2017.12.23-12.40.25:664][902]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.40.25:665][902]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.40.25:666][902]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.25:666][902]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.40.25:666][902]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.40.25:716][902]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.51
+[2017.12.23-12.40.25:766][902]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61473
+[2017.12.23-12.40.25:766][902]LogHandshake: SendConnectChallenge. Timestamp: 0.017737, Cookie: 085163187038179146005208162160243205104100233053165042217180
+[2017.12.23-12.40.25:767][902]LogHandshake: SendChallengeResponse. Timestamp: 0.017737, Cookie: 085163187038179146005208162160243205104100233053165042217180
+[2017.12.23-12.40.25:897][903]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61473
+[2017.12.23-12.40.25:898][903]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61473
+[2017.12.23-12.40.25:898][903]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.40.25:898][903]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:40:25, [UNetConnection] RemoteAddr: 127.0.0.1:61473, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.40.25:898][903]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61473, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.40.25:898][903]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.40.25:898][903]LogNet: Remote platform little endian=1
+[2017.12.23-12.40.25:898][903]LogNet: This platform little endian=1
+[2017.12.23-12.40.25:952][904]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-C1ED9DD540F59841E389F1870DEC7430 userId: DevPC-C1ED9DD540F59841E389F1870DEC7430
+[2017.12.23-12.40.25:953][904]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.40.25:953][904]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.40.25:975][904]Cmd: MEM
+[2017.12.23-12.40.25:992][904]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.40.25:992][904]LogMemory: Process Physical Memory: 2638.26 MB used, 2641.65 MB peak
+[2017.12.23-12.40.25:992][904]LogMemory: Process Virtual Memory: 4879.29 MB used, 5043.52 MB peak
+[2017.12.23-12.40.25:992][904]LogMemory: Physical Memory: 7249.51 MB used,  9076.31 MB free, 16325.82 MB total
+[2017.12.23-12.40.25:992][904]LogMemory: Virtual Memory: 5898.99 MB used,  9076.31 MB free, 134217728.00 MB total
+[2017.12.23-12.40.25:992][904]LogMemory: 
+[2017.12.23-12.40.25:992][904]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.40.26:001][904]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.40.26:003][904]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.40.26
+[2017.12.23-12.40.26:003][904]LogWorld: Bringing up level for play took: 0.001462
+[2017.12.23-12.40.26:004][904]LogLoad: Took 0.050864 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.40.26:041][905]LogNet: Client netspeed is 10000
+[2017.12.23-12.40.26:041][905]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-C1ED9DD540F59841E389F1870DEC7430?SplitscreenCount=1
+[2017.12.23-12.40.26:041][905]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.26:044][905]LogNet: Join succeeded: DevPC-C1ED9DD540F598
+[2017.12.23-12.40.26:075][906]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.26:075][906]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.40.28:902][ 13]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.28:903][ 13]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.40.28:903][ 13]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.40.28:953][ 13]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.28:953][ 13]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.40.28:976][ 13]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61473, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.40.28:976][ 13]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61473, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.40.28
+[2017.12.23-12.40.28:976][ 13]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61473, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.40.28:977][ 13]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.40.28:977][ 13]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.40.28
+[2017.12.23-12.40.28:977][ 13]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.40.28:981][ 13]LogExit: GameNetDriver None shut down
+[2017.12.23-12.40.28:982][ 13]LogExit: GameNetDriver None shut down
+[2017.12.23-12.40.29:021][ 14]LogPlayLevel:Display: Destroying online subsystem :Context_36
+[2017.12.23-12.40.29:021][ 14]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.29:021][ 14]LogPlayLevel:Display: Destroying online subsystem :Context_35
+[2017.12.23-12.40.29:021][ 14]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.40.51:257][196]LogMaterial: Missing cached shader map for material SwordTrails_Mat, compiling. 
+[2017.12.23-12.40.51:257][196]LogTemp:Display: Added material ShaderMap 0x0000021A9E602B00 with Material 0x0000021A8C992E80 to ShaderMapsBeingCompiled
+[2017.12.23-12.40.51:268][196]LogTemp:Display: Kicking off shader compilation for SwordTrails_Mat, GameThreadShaderMap 0x0000021A9E602B00
+[2017.12.23-12.40.51:348][196]LogMaterial: Missing cached shader map for material SwordTrails_Mat, compiling. 
+[2017.12.23-12.40.51:348][196]LogTemp:Display: Added material ShaderMap 0x0000021A9E392B00 with Material 0x0000021A8C992E80 to ShaderMapsBeingCompiled
+[2017.12.23-12.40.51:354][196]LogTemp:Display: Kicking off shader compilation for SwordTrails_Mat, GameThreadShaderMap 0x0000021A9E392B00
+[2017.12.23-12.40.51:354][196]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.12.23-12.40.51:382][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.12.23-12.40.51:382][196]LogTemp:Display: Added material ShaderMap 0x0000021A9E4B4F00 with Material 0x0000021A8F98F700 to ShaderMapsBeingCompiled
+[2017.12.23-12.40.51:384][196]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureCoordinate_0, GameThreadShaderMap 0x0000021A9E4B4F00
+[2017.12.23-12.40.51:385][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.12.23-12.40.51:385][196]LogTemp:Display: Added material ShaderMap 0x0000021BBE59D280 with Material 0x0000021AAC944400 to ShaderMapsBeingCompiled
+[2017.12.23-12.40.51:387][196]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionComponentMask_0, GameThreadShaderMap 0x0000021BBE59D280
+[2017.12.23-12.40.52:148][216]LogTemp:Display: Finished compile of shader map 0x0000021A9E4B4F00
+[2017.12.23-12.40.52:148][216]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureCoordinate_0 complete, GameThreadShaderMap 0x0000021A9E4B4F00, marking material FMatExpressionPreview MaterialExpressionTextureCoordinate_0 as finished
+[2017.12.23-12.40.52:148][216]LogTemp:Display: Marking material as finished 0x0000021A8F98F700
+[2017.12.23-12.40.52:222][219]LogTemp:Display: Finished compile of shader map 0x0000021BBE59D280
+[2017.12.23-12.40.52:222][219]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionComponentMask_0 complete, GameThreadShaderMap 0x0000021BBE59D280, marking material FMatExpressionPreview MaterialExpressionComponentMask_0 as finished
+[2017.12.23-12.40.52:222][219]LogTemp:Display: Marking material as finished 0x0000021AAC944400
+[2017.12.23-12.40.52:270][221]LogTemp:Display: Finished compile of shader map 0x0000021A9E392B00
+[2017.12.23-12.40.52:270][221]LogTemp:Display: Shader map SwordTrails_Mat complete, GameThreadShaderMap 0x0000021A9E392B00, marking material SwordTrails_Mat as finished
+[2017.12.23-12.40.52:270][221]LogTemp:Display: Marking material as finished 0x0000021A8C992E80
+[2017.12.23-12.40.52:290][222]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2017.12.23-12.40.52:290][222]MaterialEditorStats: Info Vertex shader: 83 instructions
+[2017.12.23-12.40.52:290][222]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.12.23-12.43.49:175][678]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.12.23-12.43.49:207][678]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_34:PersistentLevel.Actor_3.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.12.23-12.43.51:139][772]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Paladin/Animations/AttackSpinLight.AttackSpinLight
+[2017.12.23-12.44.14:444][121]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Paladin/Animations/Turn90Left.Turn90Left
+[2017.12.23-12.45.15:033][899]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Paladin/Animations/Turn90Right.Turn90Right
+[2017.12.23-12.45.50:144][476]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:73228).
+[2017.12.23-12.47.26:979][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.47.26:994][888]LogSavePackage: Save=5.05ms
+[2017.12.23-12.47.26:994][888]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys7D9B6BFC4CE8F13D52642ABE68026901.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.47.26:996][888]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.47.28:145][950]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.47.28:163][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.47.28:174][950]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:47:28 PM)
+[2017.12.23-12.47.28:174][950]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.47.28:184][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009501s)
+[2017.12.23-12.47.28:184][950]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.47.28:185][950]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.12.23-12.47.28:185][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.010575s)
+[2017.12.23-12.47.28:213][950]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.47.28:222][950]LogInit: FAudioDevice initialized.
+[2017.12.23-12.47.28:354][950]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.47.28:359][950]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.47.28
+[2017.12.23-12.47.28:360][950]LogWorld: Bringing up level for play took: 0.004071
+[2017.12.23-12.47.28:373][950]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.47.28:374][950]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.28:374][950]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.12.23-12.47.28:374][950]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.47.28:374][950]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.47.28:374][950]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.47.28:386][950]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.47.28:412][950]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.186
+[2017.12.23-12.47.28:427][950]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:47:28 PM)
+[2017.12.23-12.47.28:533][950]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.47.28:534][950]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.47.28:534][950]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.28:534][950]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.47.28:534][950]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.47.28:555][950]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.328
+[2017.12.23-12.47.28:596][950]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49865
+[2017.12.23-12.47.28:596][950]LogHandshake: SendConnectChallenge. Timestamp: 0.017343, Cookie: 028100105060077059190126131241075103090044070228002022177123
+[2017.12.23-12.47.28:597][950]LogHandshake: SendChallengeResponse. Timestamp: 0.017343, Cookie: 028100105060077059190126131241075103090044070228002022177123
+[2017.12.23-12.47.28:746][951]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49865
+[2017.12.23-12.47.28:746][951]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49865
+[2017.12.23-12.47.28:746][951]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.28:746][951]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:47:28, [UNetConnection] RemoteAddr: 127.0.0.1:49865, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.47.28:746][951]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49865, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.47.28:746][951]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.47.28:746][951]LogNet: Remote platform little endian=1
+[2017.12.23-12.47.28:746][951]LogNet: This platform little endian=1
+[2017.12.23-12.47.28:795][952]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-65574E50465CA17D7328E3B939BCA06D userId: DevPC-65574E50465CA17D7328E3B939BCA06D
+[2017.12.23-12.47.28:795][952]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.47.28:795][952]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.47.28:817][952]Cmd: MEM
+[2017.12.23-12.47.28:835][952]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.47.28:835][952]LogMemory: Process Physical Memory: 2664.62 MB used, 2683.44 MB peak
+[2017.12.23-12.47.28:835][952]LogMemory: Process Virtual Memory: 5346.64 MB used, 5449.74 MB peak
+[2017.12.23-12.47.28:835][952]LogMemory: Physical Memory: 7262.09 MB used,  9063.73 MB free, 16325.82 MB total
+[2017.12.23-12.47.28:835][952]LogMemory: Virtual Memory: 6294.21 MB used,  9063.73 MB free, 134217728.00 MB total
+[2017.12.23-12.47.28:835][952]LogMemory: 
+[2017.12.23-12.47.28:835][952]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.47.28:843][952]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.47.28:846][952]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.47.28
+[2017.12.23-12.47.28:846][952]LogWorld: Bringing up level for play took: 0.001473
+[2017.12.23-12.47.28:846][952]LogLoad: Took 0.050586 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.47.28:883][953]LogNet: Client netspeed is 10000
+[2017.12.23-12.47.28:883][953]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-65574E50465CA17D7328E3B939BCA06D?SplitscreenCount=1
+[2017.12.23-12.47.28:883][953]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.28:885][953]LogNet: Join succeeded: DevPC-65574E50465CA1
+[2017.12.23-12.47.28:916][954]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.28:916][954]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.31:534][ 58]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.47.31:535][ 58]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.47.31:535][ 58]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.47.31:578][ 58]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.47.31:579][ 58]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.47.31:614][ 58]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49865, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.47.31:614][ 58]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49865, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.47.31
+[2017.12.23-12.47.31:614][ 58]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49865, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.47.31:614][ 58]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.47.31:614][ 58]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.47.31
+[2017.12.23-12.47.31:614][ 58]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.47.31:618][ 58]LogExit: GameNetDriver None shut down
+[2017.12.23-12.47.31:619][ 58]LogExit: GameNetDriver None shut down
+[2017.12.23-12.47.31:673][ 59]LogPlayLevel:Display: Destroying online subsystem :Context_43
+[2017.12.23-12.47.31:673][ 59]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.47.31:673][ 59]LogPlayLevel:Display: Destroying online subsystem :Context_42
+[2017.12.23-12.47.31:673][ 59]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.47.42:019][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.47.42:033][625]LogSavePackage: Save=4.53ms
+[2017.12.23-12.47.42:033][625]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys26EB450F455F4CB73F17BE882E5EF8F2.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.47.42:036][625]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.47.42:856][671]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.47.42:874][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.47.42:884][671]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:47:42 PM)
+[2017.12.23-12.47.42:885][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.47.42:894][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008536s)
+[2017.12.23-12.47.42:894][671]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.47.42:894][671]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.12.23-12.47.42:894][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009295s)
+[2017.12.23-12.47.42:914][671]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.47.42:923][671]LogInit: FAudioDevice initialized.
+[2017.12.23-12.47.43:018][671]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.47.43:020][671]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.47.43
+[2017.12.23-12.47.43:021][671]LogWorld: Bringing up level for play took: 0.001859
+[2017.12.23-12.47.43:032][671]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.47.43:033][671]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.43:033][671]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2017.12.23-12.47.43:033][671]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.47.43:033][671]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.47.43:033][671]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.47.43:038][671]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.47.43:059][671]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.833
+[2017.12.23-12.47.43:068][671]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:47:43 PM)
+[2017.12.23-12.47.43:190][671]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.47.43:190][671]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.47.43:190][671]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.43:190][671]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.47.43:190][671]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.47.43:212][671]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.986
+[2017.12.23-12.47.43:254][671]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49866
+[2017.12.23-12.47.43:254][671]LogHandshake: SendConnectChallenge. Timestamp: 0.016396, Cookie: 166252024006099077010042214103044224148043145120180181248170
+[2017.12.23-12.47.43:255][671]LogHandshake: SendChallengeResponse. Timestamp: 0.016396, Cookie: 166252024006099077010042214103044224148043145120180181248170
+[2017.12.23-12.47.43:409][672]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49866
+[2017.12.23-12.47.43:409][672]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49866
+[2017.12.23-12.47.43:409][672]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.47.43:409][672]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:47:43, [UNetConnection] RemoteAddr: 127.0.0.1:49866, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.47.43:409][672]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49866, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.47.43:409][672]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.47.43:410][672]LogNet: Remote platform little endian=1
+[2017.12.23-12.47.43:410][672]LogNet: This platform little endian=1
+[2017.12.23-12.47.43:459][673]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-FE4C6404449CA9B008ED31A8ED3FFC74 userId: DevPC-FE4C6404449CA9B008ED31A8ED3FFC74
+[2017.12.23-12.47.43:460][673]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.47.43:460][673]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.47.43:481][673]Cmd: MEM
+[2017.12.23-12.47.43:498][673]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.47.43:498][673]LogMemory: Process Physical Memory: 2664.76 MB used, 2683.44 MB peak
+[2017.12.23-12.47.43:498][673]LogMemory: Process Virtual Memory: 5289.02 MB used, 5477.01 MB peak
+[2017.12.23-12.47.43:498][673]LogMemory: Physical Memory: 7261.77 MB used,  9064.05 MB free, 16325.82 MB total
+[2017.12.23-12.47.43:498][673]LogMemory: Virtual Memory: 6344.46 MB used,  9064.05 MB free, 134217728.00 MB total
+[2017.12.23-12.47.43:498][673]LogMemory: 
+[2017.12.23-12.47.43:498][673]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.47.43:507][673]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.47.43:510][673]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.47.43
+[2017.12.23-12.47.43:510][673]LogWorld: Bringing up level for play took: 0.001563
+[2017.12.23-12.47.43:510][673]LogLoad: Took 0.050056 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.47.43:546][674]LogNet: Client netspeed is 10000
+[2017.12.23-12.47.43:546][674]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-FE4C6404449CA9B008ED31A8ED3FFC74?SplitscreenCount=1
+[2017.12.23-12.47.43:547][674]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.43:549][674]LogNet: Join succeeded: DevPC-FE4C6404449CA9
+[2017.12.23-12.47.43:579][675]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.43:580][675]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.47.54:327][114]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-12.47.55:314][154]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-12.47.56:486][202]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-12.47.57:716][252]LogBlueprintUserMessages: [PaladinBP_C_1] Server: NIJE ZIV
+[2017.12.23-12.47.59:978][344]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_3. Function ServerInitialization will not be processed.
+[2017.12.23-12.48.03:331][480]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_3. Function ResetAttack will not be processed.
+[2017.12.23-12.48.04:152][512]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.48.04:152][512]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.48.04:152][512]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.48.04:190][512]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.48.04:190][512]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.48.04:209][512]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49866, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.48.04:209][512]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49866, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.48.04
+[2017.12.23-12.48.04:209][512]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49866, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.48.04:209][512]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.48.04:209][512]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.48.04
+[2017.12.23-12.48.04:209][512]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.48.04:212][512]LogExit: GameNetDriver None shut down
+[2017.12.23-12.48.04:212][512]LogExit: GameNetDriver None shut down
+[2017.12.23-12.48.04:256][513]LogPlayLevel:Display: Destroying online subsystem :Context_45
+[2017.12.23-12.48.04:256][513]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.48.04:256][513]LogPlayLevel:Display: Destroying online subsystem :Context_44
+[2017.12.23-12.48.04:256][513]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.48.08:649][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.48.08:661][755]LogSavePackage: Save=2.63ms
+[2017.12.23-12.48.08:661][755]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys86A749124F5295FC211948899124F47E.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.48.08:662][755]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.48.26:806][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys2" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys2.uasset" SILENT=true
+[2017.12.23-12.48.26:812][585]LogSavePackage: Save=4.70ms
+[2017.12.23-12.48.26:812][585]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSys29F56827547B6F072204B458A88DEFEBD.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys2.uasset'
+[2017.12.23-12.48.26:815][585]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys2.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info On branch Paladin
+[2017.12.23-12.48.36:926][930]SourceControl: Info Your branch is up to date with 'origin/Paladin'.
+[2017.12.23-12.48.36:926][930]SourceControl: Info Changes to be committed:
+[2017.12.23-12.48.36:926][930]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	modified:   WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	new file:   WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys2.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info Changes not staged for commit:
+[2017.12.23-12.48.36:926][930]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.12.23-12.48.36:926][930]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	modified:   WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	modified:   WalkonG2/Saved/Autosaves/PackageRestoreData.json
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	modified:   WalkonG2/Saved/Config/Windows/Editor.ini
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	modified:   WalkonG2/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.23-12.48.36:926][930]SourceControl: Info Untracked files:
+[2017.12.23-12.48.36:926][930]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	WalkonG2/Saved/Backup/BlueSwordTrail_PartSys_2017-12-23-13-40-08.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	WalkonG2/Saved/Backup/BlueSwordTrail_PartSys_2017-12-23-13-47-26.uasset
+[2017.12.23-12.48.36:926][930]SourceControl: Info 	WalkonG2/Saved/Backup/GameplayPC_2017-12-23-13-40-08.uasset
+[2017.12.23-12.48.37:212][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/WhiteSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.48.37:219][930]LogSavePackage: Save=5.25ms
+[2017.12.23-12.48.37:219][930]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/WhiteSwordTrail_PartSys387FFCBE497F983C6A3C8498E0109437.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset'
+[2017.12.23-12.48.37:222][930]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset
+[2017.12.23-12.48.37:683][930]LogTemp:Display: Removed shader map 0x0000021A9E602B00 from material 0x0000021A8C992E80
+[2017.12.23-12.49.00:234][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/RedSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.49.00:241][690]LogSavePackage: Save=5.02ms
+[2017.12.23-12.49.00:241][690]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/RedSwordTrail_PartSys801002804F59CE2F253264B6E05879F1.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset'
+[2017.12.23-12.49.00:244][690]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset
+[2017.12.23-12.49.04:713][796]LogSavePackage: Save=8.95ms
+[2017.12.23-12.49.04:713][796]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Attack_02_Montage2DF0E81F42E93529A89DEBAE53CB45F9.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Animations/AnimationMontages/Attack_02_Montage.uasset'
+[2017.12.23-12.49.04:718][796]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Animations/AnimationMontages/Attack_02_Montage.uasset
+[2017.12.23-12.49.33:184][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/RedSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.49.33:199][172]LogSavePackage: Save=4.75ms
+[2017.12.23-12.49.33:199][172]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/RedSwordTrail_PartSysCFA24B714833842AE7265096DDA436EA.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset'
+[2017.12.23-12.49.33:202][172]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset
+[2017.12.23-12.49.52:021][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/RedSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.49.52:034][157]LogSavePackage: Save=4.53ms
+[2017.12.23-12.49.52:034][157]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/RedSwordTrail_PartSys3EA34E4B4076533903035AA2C2BC7556.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset'
+[2017.12.23-12.49.52:037][157]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset
+[2017.12.23-12.50.08:678][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/WhiteSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.50.08:693][ 54]LogSavePackage: Save=4.90ms
+[2017.12.23-12.50.08:693][ 54]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/WhiteSwordTrail_PartSysB3A82EDB4F58FAB15575C984BDEF3E14.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset'
+[2017.12.23-12.50.08:696][ 54]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset
+[2017.12.23-12.50.15:052][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/RedSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.50.15:063][402]LogSavePackage: Save=2.78ms
+[2017.12.23-12.50.15:063][402]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/RedSwordTrail_PartSysD1BF06EA4E7E5EDA3A115B9660A6B2BD.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset'
+[2017.12.23-12.50.15:065][402]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset
+[2017.12.23-12.50.18:587][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/BlueSwordTrail_PartSys" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset" SILENT=true
+[2017.12.23-12.50.18:598][590]LogSavePackage: Save=2.67ms
+[2017.12.23-12.50.18:598][590]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/BlueSwordTrail_PartSysB5D619F04756B907E715249CE33254B8.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset'
+[2017.12.23-12.50.18:600][590]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys.uasset
+[2017.12.23-12.50.56:973][448]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Paladin/Animations/Turn180Walk.Turn180Walk
+[2017.12.23-12.52.13:362][838]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.52.13:382][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.52.13:391][838]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:52:13 PM)
+[2017.12.23-12.52.13:391][838]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.52.13:404][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012747s)
+[2017.12.23-12.52.13:405][838]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.52.13:405][838]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.12.23-12.52.13:405][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.013537s)
+[2017.12.23-12.52.13:427][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.52.13:436][838]LogInit: FAudioDevice initialized.
+[2017.12.23-12.52.13:547][838]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.52.13:549][838]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.52.13
+[2017.12.23-12.52.13:550][838]LogWorld: Bringing up level for play took: 0.002126
+[2017.12.23-12.52.13:561][838]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.52.13:562][838]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.52.13:562][838]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2017.12.23-12.52.13:562][838]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.52.13:562][838]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.52.13:562][838]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.52.13:568][838]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.52.13:591][838]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap -0.636
+[2017.12.23-12.52.13:603][838]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:52:13 PM)
+[2017.12.23-12.52.13:723][838]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.52.13:723][838]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.52.13:724][838]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.52.13:724][838]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.52.13:724][838]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.52.13:757][838]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.47
+[2017.12.23-12.52.13:803][838]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59169
+[2017.12.23-12.52.13:803][838]LogHandshake: SendConnectChallenge. Timestamp: 0.019824, Cookie: 220107037052190014144101221219041217137178186006027246096056
+[2017.12.23-12.52.13:804][838]LogHandshake: SendChallengeResponse. Timestamp: 0.019824, Cookie: 220107037052190014144101221219041217137178186006027246096056
+[2017.12.23-12.52.13:978][839]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59169
+[2017.12.23-12.52.13:979][839]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59169
+[2017.12.23-12.52.13:979][839]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.52.13:979][839]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:52:13, [UNetConnection] RemoteAddr: 127.0.0.1:59169, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.52.13:979][839]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59169, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.52.13:979][839]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.52.13:979][839]LogNet: Remote platform little endian=1
+[2017.12.23-12.52.13:979][839]LogNet: This platform little endian=1
+[2017.12.23-12.52.14:039][840]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-9C248ED1492550A683F88CAB2A47E5A9 userId: DevPC-9C248ED1492550A683F88CAB2A47E5A9
+[2017.12.23-12.52.14:040][840]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.52.14:040][840]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.52.14:062][840]Cmd: MEM
+[2017.12.23-12.52.14:079][840]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.52.14:079][840]LogMemory: Process Physical Memory: 2736.99 MB used, 2737.00 MB peak
+[2017.12.23-12.52.14:079][840]LogMemory: Process Virtual Memory: 5449.36 MB used, 5477.01 MB peak
+[2017.12.23-12.52.14:079][840]LogMemory: Physical Memory: 7343.75 MB used,  8982.07 MB free, 16325.82 MB total
+[2017.12.23-12.52.14:079][840]LogMemory: Virtual Memory: 6430.59 MB used,  8982.07 MB free, 134217728.00 MB total
+[2017.12.23-12.52.14:079][840]LogMemory: 
+[2017.12.23-12.52.14:079][840]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.52.14:088][840]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.52.14:091][840]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.52.14
+[2017.12.23-12.52.14:091][840]LogWorld: Bringing up level for play took: 0.001568
+[2017.12.23-12.52.14:092][840]LogLoad: Took 0.051727 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.52.14:143][841]LogNet: Client netspeed is 10000
+[2017.12.23-12.52.14:143][841]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-9C248ED1492550A683F88CAB2A47E5A9?SplitscreenCount=1
+[2017.12.23-12.52.14:143][841]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.52.14:146][841]LogNet: Join succeeded: DevPC-9C248ED1492550
+[2017.12.23-12.52.14:181][842]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.52.14:181][842]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.52.48:781][954]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.52.48:781][954]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.52.48:781][954]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.52.48:818][954]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.52.48:819][954]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.52.48:849][954]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59169, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.52.48:849][954]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59169, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.52.48
+[2017.12.23-12.52.48:849][954]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59169, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.52.48:849][954]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.52.48:849][954]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.52.48
+[2017.12.23-12.52.48:849][954]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.52.48:852][954]LogExit: GameNetDriver None shut down
+[2017.12.23-12.52.48:853][954]LogExit: GameNetDriver None shut down
+[2017.12.23-12.52.48:890][955]LogPlayLevel:Display: Destroying online subsystem :Context_49
+[2017.12.23-12.52.48:890][955]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.52.48:890][955]LogPlayLevel:Display: Destroying online subsystem :Context_48
+[2017.12.23-12.52.48:890][955]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.52.56:183][300]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.12.23-12.52.56:269][301]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.WalkonG2
+
+[2017.12.23-12.52.56:269][301]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.12.23-12.52.56:269][301]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.12.23-12.52.56:269][301]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.12.23-12.52.56:269][301]LogTemp:Display: BranchPath = DEVPC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DEVPC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Aron\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.12.23-12.52.56:328][303]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.12.23-12.53.18:775][432]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.53.18:794][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.53.18:802][432]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:53:18 PM)
+[2017.12.23-12.53.18:803][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.53.18:811][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008057s)
+[2017.12.23-12.53.18:811][432]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.53.18:811][432]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2017.12.23-12.53.18:812][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.008839s)
+[2017.12.23-12.53.18:833][432]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.53.18:842][432]LogInit: FAudioDevice initialized.
+[2017.12.23-12.53.18:951][432]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.53.18:956][432]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.53.18
+[2017.12.23-12.53.18:956][432]LogWorld: Bringing up level for play took: 0.003240
+[2017.12.23-12.53.18:969][432]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.53.18:970][432]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.18:970][432]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2017.12.23-12.53.18:970][432]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.53.18:970][432]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.53.18:970][432]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.53.18:993][432]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.53.19:023][432]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.797
+[2017.12.23-12.53.19:037][432]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:53:19 PM)
+[2017.12.23-12.53.19:159][432]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.53.19:159][432]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.53.19:160][432]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.19:160][432]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.53.19:160][432]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.53.19:186][432]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.96
+[2017.12.23-12.53.19:230][432]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65321
+[2017.12.23-12.53.19:230][432]LogHandshake: SendConnectChallenge. Timestamp: 0.018188, Cookie: 150065141088022191215188009144099180103041116125101252213215
+[2017.12.23-12.53.19:231][432]LogHandshake: SendChallengeResponse. Timestamp: 0.018188, Cookie: 150065141088022191215188009144099180103041116125101252213215
+[2017.12.23-12.53.19:375][433]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65321
+[2017.12.23-12.53.19:375][433]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65321
+[2017.12.23-12.53.19:375][433]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.19:375][433]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:53:19, [UNetConnection] RemoteAddr: 127.0.0.1:65321, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.53.19:375][433]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65321, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.53.19:375][433]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.53.19:375][433]LogNet: Remote platform little endian=1
+[2017.12.23-12.53.19:375][433]LogNet: This platform little endian=1
+[2017.12.23-12.53.19:418][434]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-C060B5284A6E92E77330B2A96D9F5D5E userId: DevPC-C060B5284A6E92E77330B2A96D9F5D5E
+[2017.12.23-12.53.19:419][434]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.53.19:419][434]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.53.19:442][434]Cmd: MEM
+[2017.12.23-12.53.19:463][434]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.53.19:463][434]LogMemory: Process Physical Memory: 2808.90 MB used, 2828.08 MB peak
+[2017.12.23-12.53.19:463][434]LogMemory: Process Virtual Memory: 5517.44 MB used, 5631.24 MB peak
+[2017.12.23-12.53.19:463][434]LogMemory: Physical Memory: 7410.33 MB used,  8915.49 MB free, 16325.82 MB total
+[2017.12.23-12.53.19:463][434]LogMemory: Virtual Memory: 6519.74 MB used,  8915.49 MB free, 134217728.00 MB total
+[2017.12.23-12.53.19:463][434]LogMemory: 
+[2017.12.23-12.53.19:463][434]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.53.19:471][434]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.53.19:474][434]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.53.19
+[2017.12.23-12.53.19:474][434]LogWorld: Bringing up level for play took: 0.001522
+[2017.12.23-12.53.19:474][434]LogLoad: Took 0.055608 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.53.19:525][435]LogNet: Client netspeed is 10000
+[2017.12.23-12.53.19:525][435]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-C060B5284A6E92E77330B2A96D9F5D5E?SplitscreenCount=1
+[2017.12.23-12.53.19:525][435]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.19:527][435]LogNet: Join succeeded: DevPC-C060B5284A6E92
+[2017.12.23-12.53.19:562][436]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.19:562][436]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.27:386][706]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_HardAttackServer', from offset 6444
+[2017.12.23-12.53.27:386][706]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Characters/Paladin/PaladinBP.PaladinBP_C:InpActEvt_HardAttack_K2Node_InputActionEvent_16
+	Function /Game/Characters/Paladin/PaladinBP.PaladinBP_C:ExecuteUbergraph_PaladinBP
+
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_29.WidgetTree_117.TextBlock_3.TextBinding_71 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_29.WidgetTree_117.TextBlock_4.TextBinding_72 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_30.WidgetTree_120.TextBlock_3.TextBinding_73 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_30.WidgetTree_120.TextBlock_4.TextBinding_74 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_10.PaladinUMG_C_27.WidgetTree_113.TextBlock_3.TextBinding_67 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.27:472][706]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_10.PaladinUMG_C_27.WidgetTree_113.TextBlock_4.TextBinding_68 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (ColorBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_29.WidgetTree_117.ProgressBar_0.ColorBinding_32 - Function /Script/UMG.ColorBinding:GetLinearValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_29.WidgetTree_117.ProgressBar_0.FloatBinding_62 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_29.WidgetTree_117.ProgressBar_1.FloatBinding_63 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (ColorBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_30.WidgetTree_120.ProgressBar_0.ColorBinding_33 - Function /Script/UMG.ColorBinding:GetLinearValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_30.WidgetTree_120.ProgressBar_0.FloatBinding_64 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_11.PaladinUMG_C_30.WidgetTree_120.ProgressBar_1.FloatBinding_65 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (ColorBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_10.PaladinUMG_C_27.WidgetTree_113.ProgressBar_0.ColorBinding_30 - Function /Script/UMG.ColorBinding:GetLinearValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_10.PaladinUMG_C_27.WidgetTree_113.ProgressBar_0.FloatBinding_58 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.28:533][706]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInfoInstance_C_10.PaladinUMG_C_27.WidgetTree_113.ProgressBar_1.FloatBinding_59 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.12.23-12.53.37:741][707]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 10.36, Realtime: 10.36. IpNetDriver_10
+[2017.12.23-12.53.37:742][707]LogNet: UNetDriver::TickDispatch: Very long time between ticks. DeltaTime: 10.36, Realtime: 10.36. IpNetDriver_11
+[2017.12.23-12.53.40:844][820]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.53.40:845][820]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.53.40:845][820]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.53.40:883][820]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.53.40:883][820]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.53.40:899][820]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65321, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.53.40:899][820]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65321, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.53.40
+[2017.12.23-12.53.40:899][820]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65321, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.53.40:900][820]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.53.40:900][820]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.53.40
+[2017.12.23-12.53.40:900][820]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.53.40:902][820]LogExit: GameNetDriver None shut down
+[2017.12.23-12.53.40:903][820]LogExit: GameNetDriver None shut down
+[2017.12.23-12.53.40:944][821]LogPlayLevel:Display: Destroying online subsystem :Context_51
+[2017.12.23-12.53.40:944][821]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.53.40:944][821]LogPlayLevel:Display: Destroying online subsystem :Context_50
+[2017.12.23-12.53.40:944][821]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.53.46:786][ 57]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-12.53.46:804][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-12.53.46:812][ 57]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:53:46 PM)
+[2017.12.23-12.53.46:813][ 57]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-12.53.46:821][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008362s)
+[2017.12.23-12.53.46:822][ 57]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.53.46:822][ 57]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.12.23-12.53.46:822][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009124s)
+[2017.12.23-12.53.46:846][ 57]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-12.53.46:855][ 57]LogInit: FAudioDevice initialized.
+[2017.12.23-12.53.46:990][ 57]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-12.53.46:996][ 57]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.53.46
+[2017.12.23-12.53.46:997][ 57]LogWorld: Bringing up level for play took: 0.004116
+[2017.12.23-12.53.47:010][ 57]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-12.53.47:011][ 57]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.47:011][ 57]LogNet: GameNetDriver IpNetDriver_12 IpNetDriver listening on port 7777
+[2017.12.23-12.53.47:011][ 57]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.53.47:011][ 57]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-12.53.47:011][ 57]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.53.47:023][ 57]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-12.53.47:075][ 57]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.849
+[2017.12.23-12.53.47:088][ 57]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 2:53:47 PM)
+[2017.12.23-12.53.47:228][ 57]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-12.53.47:229][ 57]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-12.53.47:229][ 57]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.47:229][ 57]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-12.53.47:229][ 57]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_13, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-12.53.47:272][ 57]PIE: Info Play in editor start time for /Game/Maps/MainMenu 1.046
+[2017.12.23-12.53.47:324][ 57]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58079
+[2017.12.23-12.53.47:324][ 57]LogHandshake: SendConnectChallenge. Timestamp: 0.020903, Cookie: 010089053221148160171225017012219065133198196229020013214001
+[2017.12.23-12.53.47:325][ 57]LogHandshake: SendChallengeResponse. Timestamp: 0.020903, Cookie: 010089053221148160171225017012219065133198196229020013214001
+[2017.12.23-12.53.47:526][ 58]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:58079
+[2017.12.23-12.53.47:526][ 58]LogNet: Server accepting post-challenge connection from: 127.0.0.1:58079
+[2017.12.23-12.53.47:527][ 58]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-12.53.47:527][ 58]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 13:53:47, [UNetConnection] RemoteAddr: 127.0.0.1:58079, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.53.47:527][ 58]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:58079, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-12.53.47:527][ 58]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-12.53.47:527][ 58]LogNet: Remote platform little endian=1
+[2017.12.23-12.53.47:527][ 58]LogNet: This platform little endian=1
+[2017.12.23-12.53.47:594][ 59]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-27842D0A47EBBA867D39E38EE3E3B935 userId: DevPC-27842D0A47EBBA867D39E38EE3E3B935
+[2017.12.23-12.53.47:594][ 59]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-12.53.47:594][ 59]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-12.53.47:622][ 59]Cmd: MEM
+[2017.12.23-12.53.47:640][ 59]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-12.53.47:640][ 59]LogMemory: Process Physical Memory: 2875.59 MB used, 2875.66 MB peak
+[2017.12.23-12.53.47:640][ 59]LogMemory: Process Virtual Memory: 5727.11 MB used, 5727.11 MB peak
+[2017.12.23-12.53.47:640][ 59]LogMemory: Physical Memory: 7487.47 MB used,  8838.35 MB free, 16325.82 MB total
+[2017.12.23-12.53.47:640][ 59]LogMemory: Virtual Memory: 6693.37 MB used,  8838.35 MB free, 134217728.00 MB total
+[2017.12.23-12.53.47:640][ 59]LogMemory: 
+[2017.12.23-12.53.47:640][ 59]Allocator Stats for TBB: (not implemented)
+[2017.12.23-12.53.47:649][ 59]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-12.53.47:652][ 59]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-13.53.47
+[2017.12.23-12.53.47:652][ 59]LogWorld: Bringing up level for play took: 0.001774
+[2017.12.23-12.53.47:652][ 59]LogLoad: Took 0.057827 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-12.53.47:706][ 60]LogNet: Client netspeed is 10000
+[2017.12.23-12.53.47:706][ 60]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-27842D0A47EBBA867D39E38EE3E3B935?SplitscreenCount=1
+[2017.12.23-12.53.47:706][ 60]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.47:708][ 60]LogNet: Join succeeded: DevPC-27842D0A47EBBA
+[2017.12.23-12.53.47:746][ 61]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.47:746][ 61]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-12.53.51:156][161]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-12.54.24:365][108]LogBlueprintUserMessages: [PaladinBP_C_3] Server: TEAMMATE hit
+[2017.12.23-12.54.32:157][337]LogBlueprintUserMessages: [PaladinBP_C_3] Server: TEAMMATE hit
+[2017.12.23-12.54.32:158][337]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function OnHitServer will not be processed.
+[2017.12.23-12.54.32:192][338]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function OnHitServer will not be processed.
+[2017.12.23-12.54.32:192][338]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function OnHitServer will not be processed.
+[2017.12.23-12.54.41:476][610]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.54.41:477][610]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-12.54.41:477][610]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-12.54.41:514][610]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.54.41:515][610]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-12.54.41:532][610]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58079, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.54.41:532][610]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:58079, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.54.41
+[2017.12.23-12.54.41:532][610]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:58079, Name: IpConnection_13, Driver: GameNetDriver IpNetDriver_12, IsServer: YES, PC: None, Owner: None
+[2017.12.23-12.54.41:532][610]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.54.41:532][610]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-12.54.41
+[2017.12.23-12.54.41:532][610]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_12, Driver: GameNetDriver IpNetDriver_13, IsServer: NO, PC: None, Owner: None
+[2017.12.23-12.54.41:535][610]LogExit: GameNetDriver None shut down
+[2017.12.23-12.54.41:536][610]LogExit: GameNetDriver None shut down
+[2017.12.23-12.54.41:576][611]LogPlayLevel:Display: Destroying online subsystem :Context_53
+[2017.12.23-12.54.41:577][611]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.54.41:577][611]LogPlayLevel:Display: Destroying online subsystem :Context_52
+[2017.12.23-12.54.41:577][611]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-12.55.13:890][ 78]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.12.23-12.55.13:945][ 78]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_4.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.12.23-12.56.42:864][895]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaMap' took 0.020
+[2017.12.23-12.56.42:867][895]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Paladin/PaladinBP] ([1] browsable assets)...
+[2017.12.23-12.56.42:878][895]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Paladin/PaladinBP.PaladinBP]
+[2017.12.23-12.56.42:878][895]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Paladin/PaladinBP]
+[2017.12.23-12.56.42:878][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/PaladinBP" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.12.23-12.56.43:169][895]LogSavePackage: Save=247.39ms
+[2017.12.23-12.56.43:169][895]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/PaladinBP_Auto14A886AB94EED0144A7EB6C8BF4EA775F.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto1.uasset'
+[2017.12.23-12.56.43:172][895]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto1.uasset
+[2017.12.23-12.56.43:172][895]LogFileHelpers: Auto-saving content packages took 0.307
+[2017.12.23-13.10.28:628][296]BlueprintLog: New page: Compile PaladinBP
+[2017.12.23-13.10.45:529][107]BlueprintLog: New page: Compile Paladin_AnimBP
+[2017.12.23-13.10.45:698][107]BlueprintEditorCompileResults: Info  Pose  was visible but ignored
+[2017.12.23-13.10.46:493][147]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-13.10.46:515][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-13.10.46:526][147]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:10:46 PM)
+[2017.12.23-13.10.46:527][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-13.10.46:535][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008430s)
+[2017.12.23-13.10.46:536][147]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.10.46:536][147]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.12.23-13.10.46:536][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009330s)
+[2017.12.23-13.10.46:563][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-13.10.46:574][147]LogInit: FAudioDevice initialized.
+[2017.12.23-13.10.46:646][147]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-13.10.46:649][147]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.10.46
+[2017.12.23-13.10.46:649][147]LogWorld: Bringing up level for play took: 0.001848
+[2017.12.23-13.10.46:661][147]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-13.10.46:661][147]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.10.46:661][147]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 7777
+[2017.12.23-13.10.46:661][147]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.10.46:661][147]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.10.46:661][147]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.10.46:666][147]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.10.46:675][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.449
+[2017.12.23-13.10.46:685][147]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:10:46 PM)
+[2017.12.23-13.10.46:814][147]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-13.10.46:815][147]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-13.10.46:816][147]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.10.46:816][147]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-13.10.46:816][147]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-13.10.46:833][147]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.607
+[2017.12.23-13.10.46:875][147]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56631
+[2017.12.23-13.10.46:875][147]LogHandshake: SendConnectChallenge. Timestamp: 0.017942, Cookie: 169000032085243222004083135154065239023160040056245042036249
+[2017.12.23-13.10.46:876][147]LogHandshake: SendChallengeResponse. Timestamp: 0.017942, Cookie: 169000032085243222004083135154065239023160040056245042036249
+[2017.12.23-13.10.47:055][148]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56631
+[2017.12.23-13.10.47:055][148]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56631
+[2017.12.23-13.10.47:055][148]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.10.47:056][148]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 14:10:47, [UNetConnection] RemoteAddr: 127.0.0.1:56631, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.10.47:056][148]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56631, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.10.47:056][148]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-13.10.47:056][148]LogNet: Remote platform little endian=1
+[2017.12.23-13.10.47:056][148]LogNet: This platform little endian=1
+[2017.12.23-13.10.47:115][149]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-2ACA881445833272717DDFAE697096C3 userId: DevPC-2ACA881445833272717DDFAE697096C3
+[2017.12.23-13.10.47:116][149]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-13.10.47:116][149]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-13.10.47:138][149]Cmd: MEM
+[2017.12.23-13.10.47:156][149]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-13.10.47:156][149]LogMemory: Process Physical Memory: 2861.04 MB used, 2875.66 MB peak
+[2017.12.23-13.10.47:156][149]LogMemory: Process Virtual Memory: 5805.71 MB used, 5805.71 MB peak
+[2017.12.23-13.10.47:156][149]LogMemory: Physical Memory: 7561.09 MB used,  8764.73 MB free, 16325.82 MB total
+[2017.12.23-13.10.47:156][149]LogMemory: Virtual Memory: 6791.89 MB used,  8764.73 MB free, 134217728.00 MB total
+[2017.12.23-13.10.47:156][149]LogMemory: 
+[2017.12.23-13.10.47:156][149]Allocator Stats for TBB: (not implemented)
+[2017.12.23-13.10.47:165][149]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.10.47:168][149]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.10.47
+[2017.12.23-13.10.47:168][149]LogWorld: Bringing up level for play took: 0.001662
+[2017.12.23-13.10.47:168][149]LogLoad: Took 0.051946 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-13.10.47:219][150]LogNet: Client netspeed is 10000
+[2017.12.23-13.10.47:219][150]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-2ACA881445833272717DDFAE697096C3?SplitscreenCount=1
+[2017.12.23-13.10.47:219][150]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.10.47:222][150]LogNet: Join succeeded: DevPC-2ACA8814458332
+[2017.12.23-13.10.47:255][151]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.10.47:255][151]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.10.48:750][201]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.10.48:751][201]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.10.51:900][308]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.10.51:901][308]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.10.53:857][375]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.10.53:857][375]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.10.55:497][431]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.10.55:529][432]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.10.57:433][495]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.10.57:433][495]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-13.10.57:433][495]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-13.10.57:471][495]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.10.57:472][495]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-13.10.57:489][495]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56631, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1
+[2017.12.23-13.10.57:489][495]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56631, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1, Channels: 5, Time: 2017.12.23-13.10.57
+[2017.12.23-13.10.57:489][495]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56631, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: GameplayPC_C_1, Owner: GameplayPC_C_1
+[2017.12.23-13.10.57:489][495]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.10.57:489][495]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-13.10.57
+[2017.12.23-13.10.57:489][495]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.10.57:493][495]LogExit: GameNetDriver None shut down
+[2017.12.23-13.10.57:493][495]LogExit: GameNetDriver None shut down
+[2017.12.23-13.10.57:577][496]LogPlayLevel:Display: Destroying online subsystem :Context_59
+[2017.12.23-13.10.57:577][496]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.10.57:577][496]LogPlayLevel:Display: Destroying online subsystem :Context_58
+[2017.12.23-13.10.57:577][496]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.18.21:814][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ArenaMap' took 0.032
+[2017.12.23-13.18.21:817][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Paladin/PaladinBP] ([1] browsable assets)...
+[2017.12.23-13.18.21:829][128]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/Paladin/PaladinBP.PaladinBP]
+[2017.12.23-13.18.21:829][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Paladin/PaladinBP]
+[2017.12.23-13.18.21:829][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/PaladinBP" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.12.23-13.18.22:120][128]LogSavePackage: Save=279.39ms
+[2017.12.23-13.18.22:120][128]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/PaladinBP_Auto29307E1FC47A013EEB1A54C9A8033F6EE.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto2.uasset'
+[2017.12.23-13.18.22:123][128]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/PaladinBP_Auto2.uasset
+[2017.12.23-13.18.22:124][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Paladin/Paladin_AnimBP] ([1] browsable assets)...
+[2017.12.23-13.18.22:136][128]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Paladin/Paladin_AnimBP.Paladin_AnimBP]
+[2017.12.23-13.18.22:136][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Paladin/Paladin_AnimBP]
+[2017.12.23-13.18.22:208][128]LogSavePackage: Save=62.57ms
+[2017.12.23-13.18.22:208][128]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Paladin_AnimBP_Auto261B8ECA74F8AB78B92385BB51119DE1B.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/Paladin_AnimBP_Auto2.uasset'
+[2017.12.23-13.18.22:210][128]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Autosaves/Game/Characters/Paladin/Paladin_AnimBP_Auto2.uasset
+[2017.12.23-13.18.22:210][128]LogFileHelpers: Auto-saving content packages took 0.395
+[2017.12.23-13.22.28:061][570]BlueprintLog: New page: Compile PaladinBP
+[2017.12.23-13.22.30:099][592]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-13.22.30:120][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-13.22.30:129][592]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:22:30 PM)
+[2017.12.23-13.22.30:130][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-13.22.30:141][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011190s)
+[2017.12.23-13.22.30:141][592]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.22.30:142][592]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.12.23-13.22.30:142][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.012295s)
+[2017.12.23-13.22.30:167][592]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-13.22.30:177][592]LogInit: FAudioDevice initialized.
+[2017.12.23-13.22.30:288][592]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-13.22.30:293][592]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.22.30
+[2017.12.23-13.22.30:294][592]LogWorld: Bringing up level for play took: 0.004157
+[2017.12.23-13.22.30:308][592]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-13.22.30:308][592]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.30:308][592]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 7777
+[2017.12.23-13.22.30:308][592]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.22.30:308][592]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.22.30:308][592]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.22.30:320][592]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.22.30:360][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.133
+[2017.12.23-13.22.30:371][592]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:22:30 PM)
+[2017.12.23-13.22.30:492][592]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-13.22.30:492][592]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-13.22.30:493][592]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.30:493][592]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-13.22.30:493][592]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-13.22.30:524][592]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.298
+[2017.12.23-13.22.30:579][592]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52914
+[2017.12.23-13.22.30:579][592]LogHandshake: SendConnectChallenge. Timestamp: 0.017783, Cookie: 185142011168189001183103014247091152107148201105169007158250
+[2017.12.23-13.22.30:580][592]LogHandshake: SendChallengeResponse. Timestamp: 0.017783, Cookie: 185142011168189001183103014247091152107148201105169007158250
+[2017.12.23-13.22.30:754][593]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52914
+[2017.12.23-13.22.30:754][593]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52914
+[2017.12.23-13.22.30:754][593]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.30:754][593]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 14:22:30, [UNetConnection] RemoteAddr: 127.0.0.1:52914, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.22.30:754][593]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52914, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.22.30:755][593]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-13.22.30:755][593]LogNet: Remote platform little endian=1
+[2017.12.23-13.22.30:755][593]LogNet: This platform little endian=1
+[2017.12.23-13.22.30:795][594]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-81FF30444F80044843B5B58FEB12B1F9 userId: DevPC-81FF30444F80044843B5B58FEB12B1F9
+[2017.12.23-13.22.30:796][594]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-13.22.30:796][594]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-13.22.30:818][594]Cmd: MEM
+[2017.12.23-13.22.30:837][594]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-13.22.30:837][594]LogMemory: Process Physical Memory: 3223.81 MB used, 3228.59 MB peak
+[2017.12.23-13.22.30:837][594]LogMemory: Process Virtual Memory: 6267.91 MB used, 6267.91 MB peak
+[2017.12.23-13.22.30:837][594]LogMemory: Physical Memory: 7962.02 MB used,  8363.80 MB free, 16325.82 MB total
+[2017.12.23-13.22.30:837][594]LogMemory: Virtual Memory: 7257.90 MB used,  8363.80 MB free, 134217728.00 MB total
+[2017.12.23-13.22.30:837][594]LogMemory: 
+[2017.12.23-13.22.30:837][594]Allocator Stats for TBB: (not implemented)
+[2017.12.23-13.22.30:845][594]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.22.30:848][594]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.22.30
+[2017.12.23-13.22.30:849][594]LogWorld: Bringing up level for play took: 0.001654
+[2017.12.23-13.22.30:849][594]LogLoad: Took 0.052578 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-13.22.30:889][595]LogNet: Client netspeed is 10000
+[2017.12.23-13.22.30:889][595]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-81FF30444F80044843B5B58FEB12B1F9?SplitscreenCount=1
+[2017.12.23-13.22.30:889][595]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.30:891][595]LogNet: Join succeeded: DevPC-81FF30444F8004
+[2017.12.23-13.22.30:925][596]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.30:925][596]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.32:461][655]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.22.32:462][655]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.22.34:018][717]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.22.34:019][717]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.22.35:069][759]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.22.35:070][759]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.22.36:485][814]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.22.36:486][814]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.22.38:501][892]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.38:502][892]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-13.22.38:502][892]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-13.22.38:539][892]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.38:539][892]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-13.22.38:557][892]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52914, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.22.38:557][892]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52914, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None, Channels: 7, Time: 2017.12.23-13.22.38
+[2017.12.23-13.22.38:557][892]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52914, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.22.38:557][892]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.22.38:557][892]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None, Channels: 10, Time: 2017.12.23-13.22.38
+[2017.12.23-13.22.38:557][892]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.22.38:560][892]LogExit: GameNetDriver None shut down
+[2017.12.23-13.22.38:561][892]LogExit: GameNetDriver None shut down
+[2017.12.23-13.22.38:597][893]LogPlayLevel:Display: Destroying online subsystem :Context_62
+[2017.12.23-13.22.38:597][893]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.38:597][893]LogPlayLevel:Display: Destroying online subsystem :Context_61
+[2017.12.23-13.22.38:597][893]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.44:790][210]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-13.22.44:812][210]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.23-13.22.44:812][210]LogPlayLevel: [PlayLevel] Compiling PaladinBP before play...
+[2017.12.23-13.22.45:030][210]LogPlayLevel: [PlayLevel]   Compiling Paladin_AnimBP as a dependent...
+[2017.12.23-13.22.45:497][210]LogPlayLevel: PlayLevel: Blueprint regeneration took 685 ms (2 blueprints)
+[2017.12.23-13.22.45:506][210]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:22:45 PM)
+[2017.12.23-13.22.45:507][210]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-13.22.45:516][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008573s)
+[2017.12.23-13.22.45:516][210]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.22.45:516][210]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2017.12.23-13.22.45:516][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009340s)
+[2017.12.23-13.22.45:538][210]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-13.22.45:547][210]LogInit: FAudioDevice initialized.
+[2017.12.23-13.22.45:615][210]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-13.22.45:620][210]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.22.45
+[2017.12.23-13.22.45:620][210]LogWorld: Bringing up level for play took: 0.003307
+[2017.12.23-13.22.45:633][210]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-13.22.45:633][210]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.45:634][210]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 7777
+[2017.12.23-13.22.45:634][210]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.22.45:634][210]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.22.45:634][210]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.22.45:648][210]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.22.45:665][210]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap -0.561
+[2017.12.23-13.22.45:684][210]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:22:45 PM)
+[2017.12.23-13.22.45:782][210]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-13.22.45:782][210]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-13.22.45:783][210]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.45:783][210]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-13.22.45:783][210]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_18, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-13.22.45:793][210]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.433
+[2017.12.23-13.22.45:837][210]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52915
+[2017.12.23-13.22.45:837][210]LogHandshake: SendConnectChallenge. Timestamp: 0.017035, Cookie: 125212139009214056177195235117095178030019083225055127059032
+[2017.12.23-13.22.45:838][210]LogHandshake: SendChallengeResponse. Timestamp: 0.017035, Cookie: 125212139009214056177195235117095178030019083225055127059032
+[2017.12.23-13.22.46:948][211]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52915
+[2017.12.23-13.22.46:948][211]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52915
+[2017.12.23-13.22.46:948][211]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.22.46:948][211]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 14:22:46, [UNetConnection] RemoteAddr: 127.0.0.1:52915, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.22.46:948][211]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52915, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.22.46:948][211]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-13.22.46:948][211]LogNet: Remote platform little endian=1
+[2017.12.23-13.22.46:948][211]LogNet: This platform little endian=1
+[2017.12.23-13.22.47:012][212]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-BA6CEFB1412792BCD610189A3935EB10 userId: DevPC-BA6CEFB1412792BCD610189A3935EB10
+[2017.12.23-13.22.47:012][212]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-13.22.47:013][212]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-13.22.47:033][212]Cmd: MEM
+[2017.12.23-13.22.47:052][212]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-13.22.47:052][212]LogMemory: Process Physical Memory: 3226.05 MB used, 3230.97 MB peak
+[2017.12.23-13.22.47:052][212]LogMemory: Process Virtual Memory: 6238.67 MB used, 6360.46 MB peak
+[2017.12.23-13.22.47:052][212]LogMemory: Physical Memory: 7943.31 MB used,  8382.51 MB free, 16325.82 MB total
+[2017.12.23-13.22.47:052][212]LogMemory: Virtual Memory: 7260.09 MB used,  8382.51 MB free, 134217728.00 MB total
+[2017.12.23-13.22.47:052][212]LogMemory: 
+[2017.12.23-13.22.47:052][212]Allocator Stats for TBB: (not implemented)
+[2017.12.23-13.22.47:060][212]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.22.47:063][212]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.22.47
+[2017.12.23-13.22.47:063][212]LogWorld: Bringing up level for play took: 0.001559
+[2017.12.23-13.22.47:063][212]LogLoad: Took 0.051015 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-13.22.47:114][213]LogNet: Client netspeed is 10000
+[2017.12.23-13.22.47:114][213]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-BA6CEFB1412792BCD610189A3935EB10?SplitscreenCount=1
+[2017.12.23-13.22.47:114][213]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.47:117][213]LogNet: Join succeeded: DevPC-BA6CEFB1412792
+[2017.12.23-13.22.47:150][214]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.47:150][214]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.22.48:432][262]LogBlueprintUserMessages: [PaladinBP_C_3] Server: PARTICLEEEE
+[2017.12.23-13.22.48:433][262]LogBlueprintUserMessages: [PaladinBP_C_2] Client 1: PARTICLEEEE
+[2017.12.23-13.22.51:618][350]LogBlueprintUserMessages: [PaladinBP_C_1] Server: PARTICLEEEE
+[2017.12.23-13.22.51:818][358]LogBlueprintUserMessages: [PaladinBP_C_1] Client 1: PARTICLEEEE
+[2017.12.23-13.22.51:969][364]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function ResetAttack will not be processed.
+[2017.12.23-13.22.52:897][401]LogBlueprintUserMessages: [PaladinBP_C_1] Server: PARTICLEEEE
+[2017.12.23-13.22.52:898][401]LogBlueprintUserMessages: [PaladinBP_C_1] Client 1: PARTICLEEEE
+[2017.12.23-13.22.53:424][422]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function ResetAttack will not be processed.
+[2017.12.23-13.22.54:129][450]LogBlueprintUserMessages: [PaladinBP_C_1] Server: PARTICLEEEE
+[2017.12.23-13.22.54:130][450]LogBlueprintUserMessages: [PaladinBP_C_1] Client 1: PARTICLEEEE
+[2017.12.23-13.22.54:305][457]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor PaladinBP_C_1. Function ResetAttack will not be processed.
+[2017.12.23-13.22.55:068][486]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.55:068][486]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-13.22.55:068][486]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-13.22.55:106][486]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.55:106][486]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-13.22.55:125][486]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52915, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.22.55:125][486]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52915, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-13.22.55
+[2017.12.23-13.22.55:125][486]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52915, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.22.55:125][486]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.22.55:125][486]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-13.22.55
+[2017.12.23-13.22.55:125][486]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.22.55:128][486]LogExit: GameNetDriver None shut down
+[2017.12.23-13.22.55:128][486]LogExit: GameNetDriver None shut down
+[2017.12.23-13.22.55:165][487]LogPlayLevel:Display: Destroying online subsystem :Context_64
+[2017.12.23-13.22.55:165][487]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.22.55:165][487]LogPlayLevel:Display: Destroying online subsystem :Context_63
+[2017.12.23-13.22.55:165][487]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: libcurl info message cache 0 (Connection 22 seems to be dead!)
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: libcurl info message cache 1 (Closing connection 22)
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.23-13.25.34:093][848]LogHttp:Warning: 0000021BDFCC1780: libcurl info message cache 4 (Closing connection 23)
+[2017.12.23-13.27.00:420][159]LogSlate: Took 0.001020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.23-13.30.05:291][957]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Paladin/Animations/AttackFake.AttackFake
+[2017.12.23-13.30.58:108][899]BlueprintLog: New page: Compile PaladinBP
+[2017.12.23-13.30.58:386][899]LogBlueprint:Error: [Compiler Paladin_AnimBP] Error Could not find a function named "Particle" in 'PaladinBP_C'.
+Make sure 'PaladinBP_C' has been compiled for  Particle
+[2017.12.23-13.30.58:397][899]LogBlueprint:Error: [Compiler Paladin_AnimBP] Error Could not find a function named "Particle" in 'PaladinBP_C'.
+Make sure 'PaladinBP_C' has been compiled for  Particle
+[2017.12.23-13.31.03:774][ 72]BlueprintLog: New page: Compile Paladin_AnimBP
+[2017.12.23-13.31.03:968][ 72]BlueprintEditorCompileResults: Info  Pose  was visible but ignored
+[2017.12.23-13.31.06:339][195]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.12.23-13.31.06:362][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.23-13.31.06:372][195]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:31:06 PM)
+[2017.12.23-13.31.06:372][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_ArenaMap
+[2017.12.23-13.31.06:381][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008674s)
+[2017.12.23-13.31.06:381][195]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.31.06:381][195]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.12.23-13.31.06:382][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ArenaMap.ArenaMap to /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap (0.009541s)
+[2017.12.23-13.31.06:407][195]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.23-13.31.06:417][195]LogInit: FAudioDevice initialized.
+[2017.12.23-13.31.06:488][195]LogLoad: Game class is 'GameplayGM_C'
+[2017.12.23-13.31.06:492][195]LogWorld: Bringing World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.31.06
+[2017.12.23-13.31.06:493][195]LogWorld: Bringing up level for play took: 0.003818
+[2017.12.23-13.31.06:506][195]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.12.23-13.31.06:506][195]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.31.06:506][195]LogNet: GameNetDriver IpNetDriver_20 IpNetDriver listening on port 7777
+[2017.12.23-13.31.06:506][195]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.31.06:506][195]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.12.23-13.31.06:506][195]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.31.06:517][195]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.12.23-13.31.06:530][195]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_ArenaMap 0.304
+[2017.12.23-13.31.06:552][195]PIE: New page: PIE session: ArenaMap (Dec 23, 2017, 3:31:06 PM)
+[2017.12.23-13.31.06:675][195]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.12.23-13.31.06:675][195]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.12.23-13.31.06:676][195]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.31.06:676][195]LogNet: Game client on port 7777, rate 10000
+[2017.12.23-13.31.06:676][195]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_20, Driver: PendingNetDriver IpNetDriver_21, IsServer: NO, PC: NULL, Owner: NULL
+[2017.12.23-13.31.06:690][195]PIE: Info Play in editor start time for /Game/Maps/MainMenu 0.464
+[2017.12.23-13.31.06:727][195]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49768
+[2017.12.23-13.31.06:727][195]LogHandshake: SendConnectChallenge. Timestamp: 0.017970, Cookie: 236130193182035087205172142049152036086199007152112189114021
+[2017.12.23-13.31.06:729][195]LogHandshake: SendChallengeResponse. Timestamp: 0.017970, Cookie: 236130193182035087205172142049152036086199007152112189114021
+[2017.12.23-13.31.06:890][196]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49768
+[2017.12.23-13.31.06:890][196]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49768
+[2017.12.23-13.31.06:890][196]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.12.23-13.31.06:890][196]LogNet: NotifyAcceptedConnection: Name: ArenaMap, TimeStamp: 12/23/17 14:31:06, [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.31.06:890][196]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL
+[2017.12.23-13.31.06:890][196]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_ArenaMap.ArenaMap: Accepted
+[2017.12.23-13.31.06:890][196]LogNet: Remote platform little endian=1
+[2017.12.23-13.31.06:890][196]LogNet: This platform little endian=1
+[2017.12.23-13.31.06:942][197]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-84FD1E3848B78BF823034D9A1ED25B7F userId: DevPC-84FD1E3848B78BF823034D9A1ED25B7F
+[2017.12.23-13.31.06:943][197]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_ArenaMap, Game: /Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C)
+[2017.12.23-13.31.06:943][197]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_ArenaMap?game=/Game/Blueprints/Gameplay/GameplayGM.GameplayGM_C
+[2017.12.23-13.31.06:973][197]Cmd: MEM
+[2017.12.23-13.31.06:994][197]LogMemory: Platform Memory Stats for Windows
+[2017.12.23-13.31.06:994][197]LogMemory: Process Physical Memory: 2024.14 MB used, 3230.97 MB peak
+[2017.12.23-13.31.06:994][197]LogMemory: Process Virtual Memory: 6454.07 MB used, 6454.07 MB peak
+[2017.12.23-13.31.06:994][197]LogMemory: Physical Memory: 6548.86 MB used,  9776.96 MB free, 16325.82 MB total
+[2017.12.23-13.31.06:994][197]LogMemory: Virtual Memory: 7498.34 MB used,  9776.96 MB free, 134217728.00 MB total
+[2017.12.23-13.31.06:994][197]LogMemory: 
+[2017.12.23-13.31.06:994][197]Allocator Stats for TBB: (not implemented)
+[2017.12.23-13.31.07:003][197]LogAIModule: Creating AISystem for world ArenaMap
+[2017.12.23-13.31.07:006][197]LogWorld: Bringing World /Game/Maps/UEDPIE_2_ArenaMap.ArenaMap up for play (max tick rate 0) at 2017.12.23-14.31.07
+[2017.12.23-13.31.07:006][197]LogWorld: Bringing up level for play took: 0.001635
+[2017.12.23-13.31.07:006][197]LogLoad: Took 0.062829 seconds to LoadMap(/Game/Maps/UEDPIE_1_ArenaMap)
+[2017.12.23-13.31.07:057][198]LogNet: Client netspeed is 10000
+[2017.12.23-13.31.07:057][198]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-84FD1E3848B78BF823034D9A1ED25B7F?SplitscreenCount=1
+[2017.12.23-13.31.07:058][198]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.31.07:060][198]LogNet: Join succeeded: DevPC-84FD1E3848B78B
+[2017.12.23-13.31.07:093][199]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.31.07:093][199]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.12.23-13.31.08:042][230]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-13.31.08:131][233]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-13.31.09:602][283]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-13.31.11:242][339]LogBlueprintUserMessages: [PaladinBP_C_1] Server: TEAMMATE hit
+[2017.12.23-13.31.40:441][335]LogBlueprintUserMessages: [CubeArrows_122] Server: CAST FAILED:: no adding arrows
+[2017.12.23-13.31.45:260][497]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.31.45:261][497]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2017.12.23-13.31.45:261][497]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.12.23-13.31.45:298][497]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.31.45:298][497]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.12.23-13.31.45:317][497]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.31.45:317][497]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-13.31.45
+[2017.12.23-13.31.45:317][497]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49768, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: None, Owner: None
+[2017.12.23-13.31.45:317][497]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.31.45:317][497]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.12.23-13.31.45
+[2017.12.23-13.31.45:317][497]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None
+[2017.12.23-13.31.45:321][497]LogExit: GameNetDriver None shut down
+[2017.12.23-13.31.45:321][497]LogExit: GameNetDriver None shut down
+[2017.12.23-13.31.45:393][498]LogPlayLevel:Display: Destroying online subsystem :Context_66
+[2017.12.23-13.31.45:393][498]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.31.45:393][498]LogPlayLevel:Display: Destroying online subsystem :Context_65
+[2017.12.23-13.31.45:393][498]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.31.51:359][792]LogCascade: Quitting Cascade. FXSystem=0x0000021AAD8623E0
+[2017.12.23-13.31.52:121][835]LogCascade: Quitting Cascade. FXSystem=0x0000021AB2ED5E40
+[2017.12.23-13.31.52:137][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2017.12.23-13.31.52:474][850]LogCascade: Quitting Cascade. FXSystem=0x0000021B85A4D120
+[2017.12.23-13.31.52:506][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2017.12.23-13.32.12:932][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/Equipment/Paladin_Sword" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Equipment/Paladin_Sword.uasset" SILENT=true
+[2017.12.23-13.32.12:951][858]LogSavePackage: Save=8.58ms
+[2017.12.23-13.32.12:951][858]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Paladin_SwordFBEB82BC4E617D618397E383CCA25513.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Equipment/Paladin_Sword.uasset'
+[2017.12.23-13.32.12:962][858]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Equipment/Paladin_Sword.uasset
+[2017.12.23-13.32.12:979][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/PaladinBP" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/PaladinBP.uasset" SILENT=true
+[2017.12.23-13.32.13:245][858]LogSavePackage: Save=242.66ms
+[2017.12.23-13.32.13:245][858]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/PaladinBPCED5BB0B4AF4E9C8656CFF9FE60AAB4C.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/PaladinBP.uasset'
+[2017.12.23-13.32.13:249][858]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/PaladinBP.uasset
+[2017.12.23-13.32.13:265][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Paladin/Paladin_AnimBP" FILE="E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Paladin_AnimBP.uasset" SILENT=true
+[2017.12.23-13.32.13:342][858]LogSavePackage: Save=59.23ms
+[2017.12.23-13.32.13:342][858]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Paladin_AnimBPB9D055A1401E6A226551BC927CEEC40C.tmp' to 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Paladin_AnimBP.uasset'
+[2017.12.23-13.32.13:345][858]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Characters/Paladin/Paladin_AnimBP.uasset
+[2017.12.23-13.32.15:718][976]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.12.23-13.32.15:787][976]LogPackageName:Error: Illegal call to DoesPackageExist: 'E:/Buisness/Unreal/WalkonG2/WalkonG2/WalkonG2.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.12.23-13.32.16:042][976]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.254 s
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: === Handled ensure: ===
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: 
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'E:/Buisness/Unreal/WalkonG2/WalkonG2/WalkonG2.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: Stack: 
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D18795E6
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D1629B82
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D163B666
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D1E0A6E8
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8433D22
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8433EB9
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C5251D2E
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C520B4B5
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C520AA8D
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C521F274
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B5CEB851
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B5CFD1ED
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C8439C5C
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CB077517
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CB882196
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor.exe!0x00000000C909DEE3
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor.exe!0x00000000C908EB40
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor.exe!0x00000000C908EBBA
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor.exe!0x00000000C90A0A29
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: UE4Editor.exe!0x00000000C90A22B6
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: KERNEL32.DLL!0x0000000014B11FE4
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: ntdll.dll!0x0000000014C4EF91
+[2017.12.23-13.32.16:043][976]LogOutputDevice:Error: 
+[2017.12.23-13.32.16:047][976]LogStats:                SubmitErrorReport -  0.000 s
+[2017.12.23-13.32.16:390][976]LogStats:                    SendNewReport -  0.344 s
+[2017.12.23-13.32.16:390][976]LogStats:             FDebug::EnsureFailed -  0.604 s
+[2017.12.23-13.32.41:446][976]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.12.23-13.32.41:615][976]SourceControl: Info [Paladin f9bcb82] Particle system, sword trail
+[2017.12.23-13.32.41:615][976]SourceControl: Info  9 files changed, 0 insertions(+), 0 deletions(-)
+[2017.12.23-13.32.41:615][976]SourceControl: Info  rewrite WalkonG2/Content/Characters/Paladin/Animations/AnimationMontages/Attack_02_Montage.uasset (92%)
+[2017.12.23-13.32.41:615][976]SourceControl: Info  create mode 100644 WalkonG2/Content/Characters/Paladin/BlueSwordTrail_PartSys2.uasset
+[2017.12.23-13.32.41:615][976]SourceControl: Info  rewrite WalkonG2/Content/Characters/Paladin/PaladinBP.uasset (77%)
+[2017.12.23-13.32.41:615][976]SourceControl: Info  create mode 100644 WalkonG2/Content/Characters/Paladin/RedSwordTrail_PartSys.uasset
+[2017.12.23-13.32.41:615][976]SourceControl: Info  create mode 100644 WalkonG2/Content/Characters/Paladin/WhiteSwordTrail_PartSys.uasset
+[2017.12.23-13.32.41:629][976]SourceControl: Info Commited [Paladin f9bcb82] Particle system, sword trail.
+[2017.12.23-13.33.35:156][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.23-13.33.35:321][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.23-13.33.35:404][270]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.23-13.33.35:625][271]Cmd: QUIT_EDITOR
+[2017.12.23-13.33.36:501][271]LogExit: Preparing to exit.
+[2017.12.23-13.33.37:899][271]LogExit: Editor shut down
+[2017.12.23-13.33.37:902][271]LogExit: Transaction tracking system shut down
+[2017.12.23-13.33.38:207][271]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.23-13.33.38:209][271]LogExit: Object subsystem successfully closed.
+[2017.12.23-13.33.38:250][271]LogD3D11RHI: Shutdown
+[2017.12.23-13.33.38:250][271]LogD3D11RHI: CleanupD3DDevice
+[2017.12.23-13.33.38:459][271]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module AnimationEditor (526)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module MaterialEditor (524)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (520)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module Voice (518)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module DistCurveEditor (516)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module Cascade (514)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module SkeletonEditor (512)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (510)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module SequencerWidgets (508)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2017.12.23-13.33.38:473][271]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2017.12.23-13.33.38:473][271]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2017.12.23-13.33.38:478][271]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Collections/' was aborted.
+[2017.12.23-13.33.38:478][271]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/Developers/Aron/Collections/' was aborted.
+[2017.12.23-13.33.38:478][271]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Saved/Collections/' was aborted.
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (466)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (464)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module PlacementMode (463)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (460)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (458)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module MfMediaFactory (456)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module MfMediaEditor (454)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (452)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (450)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (448)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module Media (447)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (444)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module CharacterAI (442)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module AudioCapture (440)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module SequenceRecorder (439)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module SmartSnapping (436)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module SessionServices (434)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module ViewportSnapping (432)
+[2017.12.23-13.33.38:478][271]LogModuleManager: Shutting down and abandoning module ViewportInteraction (430)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module LogVisualizer (428)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module IntroTutorials (426)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (425)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (422)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (420)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (418)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (416)
+[2017.12.23-13.33.38:479][271]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (415)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (412)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (410)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module InputBindingEditor (408)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module NiagaraEditor (406)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module MergeActors (404)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module SizeMap (402)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module TreeMap (400)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module ReferenceViewer (398)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (396)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module LocalizationService (395)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module HardwareTargeting (392)
+[2017.12.23-13.33.38:678][271]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (390)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module UndoHistory (388)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module UserFeedback (386)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module XmlParser (384)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module Blutility (382)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (380)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (379)
+[2017.12.23-13.33.38:679][271]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (376)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module SettingsEditor (374)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module ProjectLauncher (372)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module SessionFrontend (370)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module ProfilerClient (368)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module DeviceManager (366)
+[2017.12.23-13.33.38:680][271]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (365)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module AutomationController (362)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module AutomationWindow (360)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module Layers (358)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (356)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module DetailCustomizations (354)
+[2017.12.23-13.33.38:745][271]LogModuleManager: Shutting down and abandoning module PackagesDialog (352)
+[2017.12.23-13.33.38:746][271]LogModuleManager: Shutting down and abandoning module Persona (350)
+[2017.12.23-13.33.38:746][271]LogModuleManager: Shutting down and abandoning module AnimGraph (349)
+[2017.12.23-13.33.38:746][271]LogModuleManager: Shutting down and abandoning module Kismet (346)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module GraphEditor (344)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module ClassViewer (342)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module Toolbox (340)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module ModuleUI (338)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module MovieSceneTools (336)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module OutputLog (334)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module GammaUI (332)
+[2017.12.23-13.33.38:793][271]LogModuleManager: Shutting down and abandoning module Documentation (330)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module Niagara (328)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (326)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module AnalyticsET (324)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module PortalServices (322)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module PortalRpc (320)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module MessagingRpc (318)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module AIModule (316)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module GameplayDebugger (315)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module AITestSuite (313)
+[2017.12.23-13.33.38:794][271]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module SteamVRController (306)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module SteamVR (304)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module SteamController (302)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.12.23-13.33.38:964][271]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (284)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module HTML5Networking (282)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module AlembicImporter (280)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module AlembicLibrary (279)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module GeometryCache (278)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (277)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (272)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module SuperSearch (271)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (264)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module EpicSurvey (262)
+[2017.12.23-13.33.38:965][271]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module UObjectPlugin (256)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (254)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (252)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module GitSourceControl (250)
+[2017.12.23-13.33.38:966][271]LogModuleManager: Shutting down and abandoning module SourceControl (249)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (246)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (244)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (242)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module Paper2DEditor (240)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module MeshPaint (239)
+[2017.12.23-13.33.38:967][271]LogModuleManager: Shutting down and abandoning module LevelEditor (237)
+[2017.12.23-13.33.38:970][271]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (236)
+[2017.12.23-13.33.38:970][271]LogModuleManager: Shutting down and abandoning module MainFrame (234)
+[2017.12.23-13.33.38:971][271]LogModuleManager: Shutting down and abandoning module HotReload (233)
+[2017.12.23-13.33.38:971][271]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Binaries/Win64' was aborted.
+[2017.12.23-13.33.38:973][271]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2017.12.23-13.33.38:978][271]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2017.12.23-13.33.38:978][271]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2017.12.23-13.33.38:978][271]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2017.12.23-13.33.38:978][271]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2017.12.23-13.33.39:079][271]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2017.12.23-13.33.39:179][271]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2017.12.23-13.33.39:183][271]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2017.12.23-13.33.39:184][271]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2017.12.23-13.33.39:184][271]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2017.12.23-13.33.39:184][271]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2017.12.23-13.33.39:184][271]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2017.12.23-13.33.39:184][271]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module Core (160)
+[2017.12.23-13.33.39:190][271]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2017.12.23-13.33.39:429][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.23-13.33.39:429][271]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2/WalkonG2/Content/' was aborted.
+[2017.12.23-13.33.39:429][271]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.23-13.33.39:429][271]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2017.12.23-13.33.39:435][271]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2017.12.23-13.33.39:451][271]LogDerivedDataCache: Shutdown
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2017.12.23-13.33.39:451][271]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.23-13.33.39:452][271]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.23-13.33.39:452][271]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.12.23-13.33.39:453][271]LogOnline:Display: Unloading online subsystem: STEAM
+[2017.12.23-13.33.39:453][271]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.23-13.33.39:453][271]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.12.23-13.33.39:453][271]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.12.23-13.33.39:453][271]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.23-13.33.39:453][271]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08B78BD8-4528-A579-58F1-11B8C6AAAA52%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=efd468cc496f8ba46066589324f4e55b%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C1285343e-c08c-4c4b-be56-1f4e5ed03b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.23-13.33.39:458][271]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.12.23-13.33.39:460][271]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.23-13.33.39:460][271]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.23-13.33.39:460][271]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.23-13.33.39:460][271]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.23-13.33.39:460][271]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.23-13.33.39:485][271]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.23-13.33.39:486][271]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.23-13.33.39:486][271]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.23-13.33.39:486][271]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.23-13.33.39:490][271]LogExit: Exiting.
+[2017.12.23-13.33.39:531][271]Log file closed, 12/23/17 14:33:39
