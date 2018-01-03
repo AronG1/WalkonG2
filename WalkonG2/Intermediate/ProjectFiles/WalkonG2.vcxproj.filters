@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\WalkonG2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A36776ED-2AF0-4294-970F-7FD15E7D5F20}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\WalkonG2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\WalkonG2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{59D7980D-3088-460F-8A9F-81BDDA741D3D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\WalkonG2">
+			<UniqueIdentifier>{29C69B12-A52D-4BAA-98A4-DE2E232FB940}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\WalkonG2\MyCharacter.cpp">
+			<Filter>Source\WalkonG2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\WalkonG2\MyCharacter.h">
+			<Filter>Source\WalkonG2</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\WalkonG2\WalkonG2.Build.cs">
+			<Filter>Source\WalkonG2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\WalkonG2\WalkonG2.cpp">
+			<Filter>Source\WalkonG2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\WalkonG2\WalkonG2.h">
+			<Filter>Source\WalkonG2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
