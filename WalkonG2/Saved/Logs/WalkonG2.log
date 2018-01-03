@@ -484,3 +484,47 @@ Total build time: 31,95 seconds (Local executor: 27,81 seconds)
 [2018.01.03-16.00.37:152][538]SourceControl: Info [Paladin 30c0578] Buhu
 [2018.01.03-16.00.37:152][538]SourceControl: Info  1 file changed, 10 insertions(+)
 [2018.01.03-16.00.37:167][538]SourceControl: Info Commited [Paladin 30c0578] Buhu.
+[2018.01.03-16.01.34:521][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.03-16.01.34:581][596]LogSavePackage: Save=45.57ms
+[2018.01.03-16.01.34:581][596]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenuE7C2787547A293E3C2B855A60A740F8B.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap'
+[2018.01.03-16.01.34:583][596]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap
+[2018.01.03-16.01.34:663][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2018.01.03-16.01.34:685][596]LogSavePackage: Save=15.32ms
+[2018.01.03-16.01.34:685][596]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenu_BuiltData91853F5B4E8F2B7ED48D639C880C18F2.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset'
+[2018.01.03-16.01.34:686][596]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset
+[2018.01.03-16.16.33:698][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.03-16.16.33:748][ 92]LogSavePackage: Save=42.93ms
+[2018.01.03-16.16.33:748][ 92]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu33F7EF3E436F8BC4BC3F9C9A5DD02650.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.03-16.16.33:750][ 92]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.03-16.16.33:836][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2018.01.03-16.16.33:843][ 92]LogSavePackage: Save=1.17ms
+[2018.01.03-16.16.33:843][ 92]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenu_BuiltData7967D8F44959DEF3CDCD1FAFB6EA149D.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset'
+[2018.01.03-16.16.33:845][ 92]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset
+[2018.01.03-16.16.33:847][ 92]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.03-16.18.49:421][731]LogVSAccessor:Warning: Couldn't save all documents
+[2018.01.03-16.18.49:436][731]Recompiling WalkonG2...
+[2018.01.03-16.18.49:436][731]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe WalkonG2 -ModuleWithSuffix WalkonG2 8071 Win64 Development -editorrecompile -canskiplink "E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject" ]
+[2018.01.03-16.18.49:447][731]Warning: Starting HotReload took  0.0s.
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: New page: Compilation - Jan 3, 2018, 6:18:55 PM
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Compiling game modules for hot reload
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Parsing headers for WalkonG2Editor
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info   Running UnrealHeaderTool "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\WalkonG2.uproject" "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\WalkonG2Editor\Development\WalkonG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Reflection code generated for WalkonG2Editor in 2,5192016 seconds
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info MyCharacter.cpp
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info [2/3] Link UE4Editor-WalkonG2-8071.dll
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info [3/3] Link UE4Editor-WalkonG2-8071.lib
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.exp
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.suppressed.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.suppressed.exp
+[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Total build time: 6,24 seconds (Local executor: 1,89 seconds)
+[2018.01.03-16.18.55:917][233]LogMainFrame: MainFrame: Module compiling took 6.495 seconds
+[2018.01.03-16.18.55:963][233]LogContentBrowser: Native class hierarchy updated for 'WalkonG2' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.03-16.18.55:964][233]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.01.03-16.18.56:020][233]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2250 classes and 462 folders.
+[2018.01.03-16.18.56:020][233]Display: HotReload took  6.6s.
+[2018.01.03-16.18.56:020][233]LogHotReload: New module detected: UE4Editor-WalkonG2-8071.dll
+[2018.01.03-16.18.56:038][234]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.03-16.18.56:098][234]LogContentBrowser: Native class hierarchy updated for 'WalkonG2' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.03-16.18.56:099][234]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.01.03-16.18.56:107][234]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2250 classes and 462 folders.
+[2018.01.03-16.18.56:120][234]Display: HotReload took  0.1s.
