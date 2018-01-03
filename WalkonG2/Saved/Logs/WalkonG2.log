@@ -1,9 +1,9 @@
-﻿Log file open, 01/03/18 16:57:21
+﻿Log file open, 01/03/18 17:23:03
 LogInit:Display: Running engine for game: WalkonG2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1990343541) SRandInit(-1990343541).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.067676
+LogInit:Display: RandInit(-1400813946) SRandInit(-1400813946).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097151
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -52,479 +52,452 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.03-15.57.21:939][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.03-15.57.21:939][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.03-15.57.21:945][  0]LogInit: Computer: DEVPC
-[2018.01.03-15.57.21:945][  0]LogInit: User: Aron
-[2018.01.03-15.57.21:945][  0]LogInit: CPU Page size=65536, Cores=4
-[2018.01.03-15.57.21:945][  0]LogInit: High frequency timer resolution =3.903994 MHz
-[2018.01.03-15.57.21:945][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.03-15.57.21:945][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.03-15.57.21:945][  0]LogMemory: Process Physical Memory: 265.08 MB used, 265.08 MB peak
-[2018.01.03-15.57.21:945][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
-[2018.01.03-15.57.21:945][  0]LogMemory: Physical Memory: 5693.36 MB used,  10632.46 MB free, 16325.82 MB total
-[2018.01.03-15.57.21:945][  0]LogMemory: Virtual Memory: 681.62 MB used,  10632.46 MB free, 134217728.00 MB total
-[2018.01.03-15.57.22:011][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
-[2018.01.03-15.57.22:509][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.03-15.57.22:525][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2018.01.03-15.57.22:525][  0]LogD3D11RHI:       8168/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
-[2018.01.03-15.57.22:527][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.03-15.57.22:527][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.03-15.57.22:527][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.03-15.57.22:531][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.03-15.57.22:531][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.03-15.57.22:531][  0]LogWindows: EnumDisplayDevices:
-[2018.01.03-15.57.22:531][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2018.01.03-15.57.22:531][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2018.01.03-15.57.22:531][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2018.01.03-15.57.22:531][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.03-15.57.22:531][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.03-15.57.22:531][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.03-15.57.22:531][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.03-15.57.22:531][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2018.01.03-15.57.22:531][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.03-15.57.22:531][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.03-15.57.22:531][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.03-15.57.22:552][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.03-15.57.22:565][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.01.03-15.57.22:566][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Intermediate/Shaders/WorkingDirectory/2136/).
-[2018.01.03-15.57.22:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aron/AppData/Local/Temp/UnrealShaderWorkingDir/3C761C3947FB09A0033C0CB08915288C/'.
-[2018.01.03-15.57.22:566][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.03-15.57.23:463][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.03-15.57.23:507][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.01.03-15.57.23:551][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.03-15.57.23:596][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.01.03-15.57.23:640][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.01.03-15.57.23:686][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.03-15.57.23:731][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.03-15.57.23:776][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.03-15.57.23:814][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.03-15.57.23:857][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.01.03-15.57.23:900][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.03-15.57.23:945][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.03-15.57.23:990][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.03-15.57.24:037][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.03-15.57.24:083][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.03-15.57.24:175][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.03-15.57.24:175][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.03-15.57.24:207][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.01.03-15.57.24:292][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.01.03-15.57.24:321][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.01.03-15.57.24:366][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.03-15.57.24:412][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.03-15.57.24:457][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.03-15.57.24:502][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.01.03-15.57.24:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.03-15.57.24:860][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.03-15.57.24:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.03-15.57.24:907][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.03-15.57.24:919][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.03-15.57.24:927][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.03-15.57.24:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.03-15.57.24:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.03-15.57.25:133][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.03-15.57.25:135][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.03-15.57.25:311][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.03-15.57.25:349][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.03-15.57.25:390][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.03-15.57.25:390][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.03-15.57.25:390][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.03-15.57.25:819][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2522600614
-[2018.01.03-15.57.25:859][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
-[2018.01.03-15.57.25:887][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.010650 seconds
-[2018.01.03-15.57.25:890][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
-[2018.01.03-15.57.25:890][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
-[2018.01.03-15.57.25:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.03-15.57.27:168][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.03-15.57.27:203][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.03-15.57.27:645][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.03-15.57.27:958][  0]SourceControl: Info Source control is disabled
-[2018.01.03-15.57.29:438][  0]LogEngine: Initializing Engine...
-[2018.01.03-15.57.29:439][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.03-15.57.29:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.03-15.57.29:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.03-15.57.29:627][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.03-15.57.29:635][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.03-15.57.29:647][  0]LogInit: FAudioDevice initialized.
-[2018.01.03-15.57.29:671][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.01.03-15.57.29:673][  0]LogInit: Texture streaming: Enabled
-[2018.01.03-15.57.29:748][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.03-15.57.29:820][  0]LogInit: Transaction tracking system initialized
-[2018.01.03-15.57.30:097][  0]BlueprintLog: New page: Editor Load
-[2018.01.03-15.57.30:814][  0]LocalizationService: Info Localization service is disabled
-[2018.01.03-15.57.31:364][  0]LogConsoleResponse:Display: 
-[2018.01.03-15.57.31:466][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.03-15.57.31:466][  0]LogCook:Display: Mobile HDR setting 1
-[2018.01.03-15.57.31:507][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/' took 0.01s
-[2018.01.03-15.57.32:397][  0]Cmd: MAP LOAD FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.03-15.57.32:398][  0]LightingResults: New page: Lighting Build
-[2018.01.03-15.57.32:431][  0]MapCheck: New page: Map Check
-[2018.01.03-15.57.32:431][  0]LightingResults: New page: Lighting Build
-[2018.01.03-15.57.32:488][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
-[2018.01.03-15.57.32:488][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
-[2018.01.03-15.57.32:796][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.01.03-15.57.32:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.03-15.57.32:810][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.03-15.57.32:838][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.872ms to complete.
-[2018.01.03-15.57.32:838][  0]LogFileHelpers: Loading map 'MainMenu' took 0.441
-[2018.01.03-15.57.32:913][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.03-15.57.33:017][  0]LogCollectionManager: Loaded 0 collections in 0.001136 seconds
-[2018.01.03-15.57.33:110][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Collections/' took 0.01s
-[2018.01.03-15.57.33:110][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Developers/Aron/Collections/' took 0.01s
-[2018.01.03-15.57.33:110][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Collections/' took 0.01s
-[2018.01.03-15.57.33:110][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.03-15.57.33:117][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2247 classes and 456 folders.
-[2018.01.03-15.57.33:169][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.01.03-15.57.33:194][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.01.03-15.57.33:231][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.01.03-15.57.33:308][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.01.03-15.57.33:313][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.01.03-15.57.33:370][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.01.03-15.57.33:370][  0]LogLoad: (Engine Initialization) Total time: 13.09 seconds
-[2018.01.03-15.57.33:370][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
-[2018.01.03-15.57.33:370][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.03-15.57.33:370][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.03-15.57.33:476][  0]LogSteamController: SteamController is not available
-[2018.01.03-15.57.33:477][  0]LogOcInput: OculusInput pre-init called
-[2018.01.03-15.57.33:496][  0]SourceControl: Info On branch Paladin
-[2018.01.03-15.57.33:496][  0]SourceControl: Info Your branch is up to date with 'origin/Paladin'.
-[2018.01.03-15.57.33:496][  0]SourceControl: Info Changes to be committed:
-[2018.01.03-15.57.33:496][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2/Source/WalkonG2/MyCharacter.cpp
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2/Source/WalkonG2/MyCharacter.h
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2/Source/WalkonG2/MyClassasdf.cpp
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2/Source/WalkonG2/MyClassasdf.h
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2.Target.cs
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2/MyClassicoElclasso.cpp
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2/MyClassicoElclasso.h
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2/WalkonG2.Build.cs
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2/WalkonG2.cpp
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2/WalkonG2.h
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	new file:   WalkonG2a/Source/WalkonG2Editor.Target.cs
-[2018.01.03-15.57.33:496][  0]SourceControl: Info Changes not staged for commit:
-[2018.01.03-15.57.33:496][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.01.03-15.57.33:496][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Binaries/Win64/UE4Editor-Multiplayer.pdb
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Binaries/Win64/UE4Editor.modules
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Content/Maps/MainMenu.umap
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Intermediate/CachedAssetRegistry.bin
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Saved/AutoScreenshot.png
-[2018.01.03-15.57.33:496][  0]SourceControl: Info 	modified:   WalkonG2/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	modified:   WalkonG2/Saved/Config/Windows/Engine.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-2634F6224A061692E2F9EBB13B1B99B4/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4AD618CE4FA75631E25FBD8D0930875D/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4B9E65F547A5B187358245BC784B103E/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4B9E65F547A5B187358245BC784B103E_0000/CrashContext.runtime-xml
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4B9E65F547A5B187358245BC784B103E_0000/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4B9E65F547A5B187358245BC784B103E_0000/UE4Minidump.dmp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-4B9E65F547A5B187358245BC784B103E_0000/WalkonG2.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-B7028FC1464D090CB3FD2BAD910B5455/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-B7028FC1464D090CB3FD2BAD910B5455_0000/CrashContext.runtime-xml
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-B7028FC1464D090CB3FD2BAD910B5455_0000/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-B7028FC1464D090CB3FD2BAD910B5455_0000/UE4Minidump.dmp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-D3DA809E4F7D02E5C8E3E898BCF6F186/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-D3DA809E4F7D02E5C8E3E898BCF6F186_0000/CrashContext.runtime-xml
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-D3DA809E4F7D02E5C8E3E898BCF6F186_0000/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-D3DA809E4F7D02E5C8E3E898BCF6F186_0000/UE4Minidump.dmp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-FFB65BB04FFC84A4AB180BBB5E287B65/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-FFB65BB04FFC84A4AB180BBB5E287B65_0000/CrashContext.runtime-xml
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-FFB65BB04FFC84A4AB180BBB5E287B65_0000/CrashReportClient.ini
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-FFB65BB04FFC84A4AB180BBB5E287B65_0000/UE4Minidump.dmp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/UE4CC-Windows-FFB65BB04FFC84A4AB180BBB5E287B65_0000/WalkonG2.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/WalkonG2-backup-2017.12.18-20.49.20.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/WalkonG2-backup-2017.12.18-23.24.02.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Saved/Logs/WalkonG2-backup-2017.12.19-11.11.08.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	modified:   WalkonG2/Saved/Logs/WalkonG2.log
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	modified:   WalkonG2/Saved/SaveGames/PlayerSettingsSave.sav
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer.Target.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer/Multiplayer.Build.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer/Multiplayer.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer/Multiplayer.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer/MyClass001.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/Multiplayer/MyClass001.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/MultiplayerEditor.Target.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/WalkonG2/MyCharacter.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/WalkonG2/MyCharacter.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/WalkonG2/MyClassasdf.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2/Source/WalkonG2/MyClassasdf.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	modified:   WalkonG2/WalkonG2.uproject
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2.Target.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2/MyClassicoElclasso.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2/MyClassicoElclasso.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2/WalkonG2.Build.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2/WalkonG2.cpp
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2/WalkonG2.h
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	deleted:    WalkonG2a/Source/WalkonG2Editor.Target.cs
-[2018.01.03-15.57.33:497][  0]SourceControl: Info Untracked files:
-[2018.01.03-15.57.33:497][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Binaries/Win64/MultiplayerEditor.target
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Binaries/Win64/UE4Editor-WalkonG2-3959.pdb
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Binaries/Win64/UE4Editor-WalkonG2-5259.pdb
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Binaries/Win64/UE4Editor-WalkonG2.pdb
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Binaries/Win64/WalkonG2Editor.target
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Intermediate/Build/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Intermediate/ProjectFiles/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Backup/MainMenu_2018-01-03-16-56-04.umap
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Backup/MainMenu_BuiltData_2018-01-03-16-56-04.uasset
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-0694CC87494A54316B7B0993889E22E0/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-1476BE60445F0CCDFB5D8484A7E12A98/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-150EEF7348C9D78BF98F13B20A9F99E7/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-18E02F1A49FD346CF3AC9DA6167D11DA/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-35BE6D4F47901364FB16B69A373F713B/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-39611DEB46BD02AC4533649FF3D27CDB/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-468BAF3B44E0FC45A9AAD0A990402A9A/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-46C622FE455E9877DF9B9988D379C50F/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-4CF9337944EC2984B00542838895C2A1/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-5EC462004E817C727B3F6AAE33ACD032/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-6AED68D64A93F3FD3E86569F6CFCF9F6/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-6BA4C8C440D2923C378401BE3411B06B/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-7967158348B1358C7709159293A135A0/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-A9C3A5D24B395A32E71615803570721D/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-BFA0F4A3473E0C16315BE6A248347811/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-CBEE11A549FB2120058A62B6C18E7D70/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-E164C63A46A7907FAF6D30A782BB86A0/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-E39668BF4CBB52466A73CF86A6515C50/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-EAD3A86546BA0A4C8E26B9BCDCD0F469/
-[2018.01.03-15.57.33:497][  0]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-EDF8B9574FD5E97919CA25BB8EE36BB4/
-[2018.01.03-15.57.33:498][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.03-15.57.33:498][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.03-15.57.33:501][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.03-15.57.33:505][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.03-15.57.33:603][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.03-15.57.33:634][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2018.01.03-15.57.33:724][  1]LogAssetRegistry: Asset discovery search completed in 7.8865 seconds
-[2018.01.03-15.57.33:724][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2018.01.03-15.57.33:724][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2018.01.03-15.57.37:812][176]Warning: RebindPackages not possible for specified packages (or application was compiled in monolithic mode.)
-[2018.01.03-15.57.41:804][648]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.03-15.57.41:837][648]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.03-15.57.49:887][584]Running C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject" -game -rocket -progress
-[2018.01.03-15.57.50:099][584]Discovering modules, targets and source code for project...
-[2018.01.03-15.57.52:808][584]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.03-15.57.53:526][584]LogHotReload: Recompiling module WalkonG2...
-[2018.01.03-15.57.53:527][584]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2018.01.03-15.57.53:538][584]Recompiling WalkonG2...
-[2018.01.03-15.57.53:539][584]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe WalkonG2 -ModuleWithSuffix WalkonG2 1823 Win64 Development -editorrecompile -canskiplink "E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject" ]
-[2018.01.03-15.58.25:717][584]Compiling game modules for hot reload
-Parsing headers for WalkonG2Editor
-  Running UnrealHeaderTool "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\WalkonG2.uproject" "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\WalkonG2Editor\Development\WalkonG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for WalkonG2Editor in 2,4721636 seconds
-Performing 6 actions (4 in parallel)
-PCH.WalkonG2.cpp
-WalkonG2.cpp
-WalkonG2.generated.cpp
-MyCharacter.cpp
-[5/6] Link UE4Editor-WalkonG2-1823.dll
-[6/6] Link UE4Editor-WalkonG2-1823.lib
-   Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.exp
-   Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.suppressed.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.suppressed.exp
-Total build time: 31,95 seconds (Local executor: 27,81 seconds)
-
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: New page: Compilation - Jan 3, 2018, 5:58:25 PM
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info Compiling game modules for hot reload
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info Parsing headers for WalkonG2Editor
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info   Running UnrealHeaderTool "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\WalkonG2.uproject" "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\WalkonG2Editor\Development\WalkonG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info Reflection code generated for WalkonG2Editor in 2,4721636 seconds
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info Performing 6 actions (4 in parallel)
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info PCH.WalkonG2.cpp
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info WalkonG2.cpp
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info WalkonG2.generated.cpp
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info MyCharacter.cpp
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info [5/6] Link UE4Editor-WalkonG2-1823.dll
-[2018.01.03-15.58.25:718][584]CompilerResultsLog: Info [6/6] Link UE4Editor-WalkonG2-1823.lib
-[2018.01.03-15.58.25:719][584]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.exp
-[2018.01.03-15.58.25:719][584]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.suppressed.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-1823.suppressed.exp
-[2018.01.03-15.58.25:719][584]CompilerResultsLog: Info Total build time: 31,95 seconds (Local executor: 27,81 seconds)
-[2018.01.03-15.58.25:719][584]LogMainFrame: MainFrame: Module compiling took 32.192 seconds
-[2018.01.03-15.58.25:719][584]Unloading module before compile.
-[2018.01.03-15.58.25:719][584]Module being reloaded does not support dynamic unloading -- abandoning existing loaded module so that we can load the recompiled version!
-[2018.01.03-15.58.25:719][584]Reloading module WalkonG2 after successful compile.
-[2018.01.03-15.58.25:787][584]LogContentBrowser: Native class hierarchy updated for 'WalkonG2' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.01.03-15.58.25:797][584]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2250 classes and 462 folders.
-[2018.01.03-15.58.28:357][679]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Source/WalkonG2/MyCharacter.h'
-[2018.01.03-15.58.28:410][679]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Source/WalkonG2/MyCharacter.cpp'
-[2018.01.03-15.59.52:011][930]LogVSAccessor:Warning: Couldn't save all documents
-[2018.01.03-15.59.52:023][930]Recompiling WalkonG2...
-[2018.01.03-15.59.52:024][930]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe WalkonG2 -ModuleWithSuffix WalkonG2 1324 Win64 Development -editorrecompile -canskiplink "E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject" ]
-[2018.01.03-15.59.52:036][930]Warning: Starting HotReload took  0.0s.
-[2018.01.03-15.59.54:077][175]CompilerResultsLog: New page: Compilation - Jan 3, 2018, 5:59:54 PM
-[2018.01.03-15.59.54:077][175]CompilerResultsLog: Info Compiling game modules for hot reload
-[2018.01.03-15.59.54:077][175]CompilerResultsLog: Info Target is up to date
-[2018.01.03-15.59.54:077][175]CompilerResultsLog: Info Total build time: 1,81 seconds (NoActionsToExecute executor: 0,00 seconds)
-[2018.01.03-15.59.54:077][175]LogMainFrame: MainFrame: Module compiling took 2.066 seconds
-[2018.01.03-15.59.54:101][175]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2250 classes and 462 folders.
-[2018.01.03-15.59.54:101][175]Display: HotReload took  2.1s.
-[2018.01.03-16.00.10:465][138]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.01.03-16.00.10:474][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.01.03-16.00.10:474][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.03-16.00.10:475][138]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.03-16.00.10:475][138]LogOnline:Warning: STEAM: Steam API disabled!
-[2018.01.03-16.00.10:475][138]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.01.03-16.00.10:497][138]PIE: New page: PIE session: MainMenu (Jan 3, 2018, 6:00:10 PM)
-[2018.01.03-16.00.10:498][138]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenu
-[2018.01.03-16.00.10:499][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000814s)
-[2018.01.03-16.00.10:499][138]LogAIModule: Creating AISystem for world MainMenu
-[2018.01.03-16.00.10:500][138]LogPlayLevel: PIE: World Init took: (0.000552s)
-[2018.01.03-16.00.10:500][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_1_MainMenu.MainMenu (0.001849s)
-[2018.01.03-16.00.10:511][138]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.03-16.00.10:521][138]LogInit: FAudioDevice initialized.
-[2018.01.03-16.00.10:558][138]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_2bf8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_333c_0///####STATCAT_Advanced####
-[2018.01.03-16.00.10:608][138]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
-[2018.01.03-16.00.10:608][138]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
-[2018.01.03-16.00.10:609][138]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
-[2018.01.03-16.00.10:609][138]LogLoad: Game class is 'GameModeBase'
-[2018.01.03-16.00.10:610][138]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2018.01.03-17.00.10
-[2018.01.03-16.00.10:610][138]LogWorld: Bringing up level for play took: 0.000497
-[2018.01.03-16.00.10:680][138]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2018.01.03-16.00.10:681][138]LogInit: WinSock: Socket queue 131072 / 131072
-[2018.01.03-16.00.10:681][138]LogInit: WinSock: I am DevPC (192.168.1.14:0)
-[2018.01.03-16.00.10:681][138]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.01.03-16.00.10:681][138]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2018.01.03-16.00.10:686][138]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MainMenu -0.413
-[2018.01.03-16.00.10:695][138]PIE: New page: PIE session: MainMenu (Jan 3, 2018, 6:00:10 PM)
-[2018.01.03-16.00.10:762][138]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
-[2018.01.03-16.00.10:762][138]LogInit: WinSock: Socket queue 32768 / 32768
-[2018.01.03-16.00.10:763][138]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.01.03-16.00.10:763][138]LogNet: Game client on port 7777, rate 10000
-[2018.01.03-16.00.10:763][138]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 453732618
-[2018.01.03-16.00.10:763][138]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
-[2018.01.03-16.00.10:766][138]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.333
-[2018.01.03-16.00.10:783][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.01.03-16.00.10:783][138]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62405
-[2018.01.03-16.00.10:783][138]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 128123151186016060139172022008043063190031148176237002008042
-[2018.01.03-16.00.10:806][138]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 128123151186016060139172022008043063190031148176237002008042
-[2018.01.03-16.00.10:828][138]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:3580).
-[2018.01.03-16.00.10:890][139]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62405
-[2018.01.03-16.00.10:890][139]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62405
-[2018.01.03-16.00.10:890][139]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
-[2018.01.03-16.00.10:890][139]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 01/03/18 17:00:10, [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.01.03-16.00.10:890][139]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
-[2018.01.03-16.00.10:890][139]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
-[2018.01.03-16.00.10:890][139]LogNet: Remote platform little endian=1
-[2018.01.03-16.00.10:890][139]LogNet: This platform little endian=1
-[2018.01.03-16.00.10:916][140]LogNet: Login request: /Game/Maps/MainMenu?Name=DevPC-49AA756D4F93969E33CC4B91477B4F1B userId: DevPC-49AA756D4F93969E33CC4B91477B4F1B
-[2018.01.03-16.00.10:917][140]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MainMenu, Game: /Script/Engine.GameModeBase)
-[2018.01.03-16.00.10:917][140]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MainMenu?game=/Script/Engine.GameModeBase
-[2018.01.03-16.00.10:929][140]Cmd: MEM
-[2018.01.03-16.00.10:938][140]LogMemory: Platform Memory Stats for Windows
-[2018.01.03-16.00.10:938][140]LogMemory: Process Physical Memory: 1006.25 MB used, 1006.25 MB peak
-[2018.01.03-16.00.10:938][140]LogMemory: Process Virtual Memory: 1621.21 MB used, 1621.21 MB peak
-[2018.01.03-16.00.10:938][140]LogMemory: Physical Memory: 7651.00 MB used,  8674.82 MB free, 16325.82 MB total
-[2018.01.03-16.00.10:938][140]LogMemory: Virtual Memory: 2472.19 MB used,  8674.82 MB free, 134217728.00 MB total
-[2018.01.03-16.00.10:938][140]LogMemory: 
-[2018.01.03-16.00.10:938][140]Allocator Stats for TBB: (not implemented)
-[2018.01.03-16.00.10:939][140]LogAIModule: Creating AISystem for world MainMenu
-[2018.01.03-16.00.10:941][140]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2018.01.03-17.00.10
-[2018.01.03-16.00.10:941][140]LogWorld: Bringing up level for play took: 0.000695
-[2018.01.03-16.00.10:941][140]LogLoad: Took 0.024549 seconds to LoadMap(/Game/Maps/UEDPIE_1_MainMenu)
-[2018.01.03-16.00.10:953][141]LogNet: Client netspeed is 10000
-[2018.01.03-16.00.10:953][141]LogNet: Join request: /Game/Maps/MainMenu?Name=DevPC-49AA756D4F93969E33CC4B91477B4F1B?SplitscreenCount=1
-[2018.01.03-16.00.10:953][141]LogOnline:Warning: OSS: No game present to join for session (Game)
-[2018.01.03-16.00.10:954][141]LogNet: Join succeeded: DevPC-49AA756D4F9396
-[2018.01.03-16.00.11:021][148]LogOnline:Warning: OSS: No game present to join for session (Game)
-[2018.01.03-16.00.11:046][151]LogOnline:Warning: OSS: No game present to join for session (Game)
-[2018.01.03-16.00.16:892][847]LogOnline:Warning: OSS: No game present to leave for session (Game)
-[2018.01.03-16.00.16:894][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.01.03-16.00.16:932][847]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.03-16.00.16:969][847]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.03-16.00.16:970][847]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2018.01.03-16.00.16:970][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2018.01.03-16.00.16:978][847]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
-[2018.01.03-16.00.16:978][847]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2018.01.03-16.00.16
-[2018.01.03-16.00.16:978][847]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62405, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
-[2018.01.03-16.00.16:978][847]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
-[2018.01.03-16.00.16:978][847]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2018.01.03-16.00.16
-[2018.01.03-16.00.16:978][847]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
-[2018.01.03-16.00.16:980][847]LogExit: GameNetDriver None shut down
-[2018.01.03-16.00.16:980][847]LogExit: GameNetDriver None shut down
-[2018.01.03-16.00.16:996][848]LogPlayLevel:Display: Destroying online subsystem :Context_2
-[2018.01.03-16.00.16:996][848]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.03-16.00.16:996][848]LogPlayLevel:Display: Destroying online subsystem :Context_1
-[2018.01.03-16.00.16:996][848]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.03-16.00.26:042][538]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2018.01.03-16.00.26:109][538]LogPackageName:Error: Illegal call to DoesPackageExist: 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2018.01.03-16.00.26:377][538]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.268 s
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: === Handled ensure: ===
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: 
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: Illegal call to DoesPackageExist: 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: Stack: 
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000006BB95E6
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000006969B82
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000697B666
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000000714A6E8
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000000093D22
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000000093EB9
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000EA581D2E
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000EA53B4B5
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000EA53AA8D
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000EA54F274
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000E0E8B851
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000E0E9D1ED
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x0000000000099C5C
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F0227517
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F0A32196
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF63DEE3
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF62EB40
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF62EBBA
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF640A29
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: UE4Editor.exe!0x00000000BF6422B6
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: KERNEL32.DLL!0x0000000036311FE4
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: ntdll.dll!0x0000000036C3EF91
-[2018.01.03-16.00.26:378][538]LogOutputDevice:Error: 
-[2018.01.03-16.00.26:387][538]LogStats:                SubmitErrorReport -  0.000 s
-[2018.01.03-16.00.26:720][538]LogStats:                    SendNewReport -  0.334 s
-[2018.01.03-16.00.26:720][538]LogStats:             FDebug::EnsureFailed -  0.611 s
-[2018.01.03-16.00.37:109][538]LogSourceControl: FGitCheckInWorker: commit successful
-[2018.01.03-16.00.37:152][538]SourceControl: Info [Paladin 30c0578] Buhu
-[2018.01.03-16.00.37:152][538]SourceControl: Info  1 file changed, 10 insertions(+)
-[2018.01.03-16.00.37:167][538]SourceControl: Info Commited [Paladin 30c0578] Buhu.
-[2018.01.03-16.01.34:521][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.03-16.01.34:581][596]LogSavePackage: Save=45.57ms
-[2018.01.03-16.01.34:581][596]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenuE7C2787547A293E3C2B855A60A740F8B.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap'
-[2018.01.03-16.01.34:583][596]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap
-[2018.01.03-16.01.34:663][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
-[2018.01.03-16.01.34:685][596]LogSavePackage: Save=15.32ms
-[2018.01.03-16.01.34:685][596]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenu_BuiltData91853F5B4E8F2B7ED48D639C880C18F2.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset'
-[2018.01.03-16.01.34:686][596]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset
-[2018.01.03-16.16.33:698][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2018.01.03-16.16.33:748][ 92]LogSavePackage: Save=42.93ms
-[2018.01.03-16.16.33:748][ 92]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu33F7EF3E436F8BC4BC3F9C9A5DD02650.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2018.01.03-16.16.33:750][ 92]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2018.01.03-16.16.33:836][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
-[2018.01.03-16.16.33:843][ 92]LogSavePackage: Save=1.17ms
-[2018.01.03-16.16.33:843][ 92]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenu_BuiltData7967D8F44959DEF3CDCD1FAFB6EA149D.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset'
-[2018.01.03-16.16.33:845][ 92]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu_BuiltData.uasset
-[2018.01.03-16.16.33:847][ 92]LogEditorTransaction: Undo Spawn Play From Here Start
-[2018.01.03-16.18.49:421][731]LogVSAccessor:Warning: Couldn't save all documents
-[2018.01.03-16.18.49:436][731]Recompiling WalkonG2...
-[2018.01.03-16.18.49:436][731]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe WalkonG2 -ModuleWithSuffix WalkonG2 8071 Win64 Development -editorrecompile -canskiplink "E:/Buisness/Unreal/WalkonG2aa/WalkonG2/WalkonG2.uproject" ]
-[2018.01.03-16.18.49:447][731]Warning: Starting HotReload took  0.0s.
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: New page: Compilation - Jan 3, 2018, 6:18:55 PM
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Compiling game modules for hot reload
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Parsing headers for WalkonG2Editor
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info   Running UnrealHeaderTool "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\WalkonG2.uproject" "E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\WalkonG2Editor\Development\WalkonG2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Reflection code generated for WalkonG2Editor in 2,5192016 seconds
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info MyCharacter.cpp
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info [2/3] Link UE4Editor-WalkonG2-8071.dll
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info [3/3] Link UE4Editor-WalkonG2-8071.lib
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.exp
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info    Creating library E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.suppressed.lib and object E:\Buisness\Unreal\WalkonG2aa\WalkonG2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WalkonG2-8071.suppressed.exp
-[2018.01.03-16.18.55:917][233]CompilerResultsLog: Info Total build time: 6,24 seconds (Local executor: 1,89 seconds)
-[2018.01.03-16.18.55:917][233]LogMainFrame: MainFrame: Module compiling took 6.495 seconds
-[2018.01.03-16.18.55:963][233]LogContentBrowser: Native class hierarchy updated for 'WalkonG2' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.01.03-16.18.55:964][233]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.01.03-16.18.56:020][233]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2250 classes and 462 folders.
-[2018.01.03-16.18.56:020][233]Display: HotReload took  6.6s.
-[2018.01.03-16.18.56:020][233]LogHotReload: New module detected: UE4Editor-WalkonG2-8071.dll
-[2018.01.03-16.18.56:038][234]LogHotReload: Starting Hot-Reload from IDE
-[2018.01.03-16.18.56:098][234]LogContentBrowser: Native class hierarchy updated for 'WalkonG2' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.01.03-16.18.56:099][234]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.01.03-16.18.56:107][234]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2250 classes and 462 folders.
-[2018.01.03-16.18.56:120][234]Display: HotReload took  0.1s.
+[2018.01.03-16.23.05:848][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.03-16.23.05:848][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.03-16.23.05:873][  0]LogInit: Computer: DESKTOP-BGBE0CL
+[2018.01.03-16.23.05:873][  0]LogInit: User: LaptopDEV
+[2018.01.03-16.23.05:873][  0]LogInit: CPU Page size=65536, Cores=2
+[2018.01.03-16.23.05:873][  0]LogInit: High frequency timer resolution =2.208396 MHz
+[2018.01.03-16.23.05:873][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.01.03-16.23.05:873][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.03-16.23.05:873][  0]LogMemory: Process Physical Memory: 267.53 MB used, 267.53 MB peak
+[2018.01.03-16.23.05:873][  0]LogMemory: Process Virtual Memory: 262.30 MB used, 262.30 MB peak
+[2018.01.03-16.23.05:873][  0]LogMemory: Physical Memory: 2132.93 MB used,  1825.85 MB free, 3958.77 MB total
+[2018.01.03-16.23.05:873][  0]LogMemory: Virtual Memory: 680.31 MB used,  1825.85 MB free, 134217728.00 MB total
+[2018.01.03-16.23.06:076][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
+[2018.01.03-16.23.07:212][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.03-16.23.07:229][  0]LogD3D11RHI:    0. 'AMD Mobility Radeon HD 5000 Series' (Feature Level 11_0)
+[2018.01.03-16.23.07:229][  0]LogD3D11RHI:       502/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.01.03-16.23.07:233][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.03-16.23.07:233][  0]LogD3D11RHI:       0/0/1979 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.03-16.23.07:233][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.03-16.23.07:241][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.03-16.23.07:241][  0]LogD3D11RHI:     GPU DeviceId: 0x68e0 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.03-16.23.07:241][  0]LogWindows: EnumDisplayDevices:
+[2018.01.03-16.23.07:241][  0]LogWindows:    0. 'AMD Mobility Radeon HD 5000 Series' (P:1 D:1)
+[2018.01.03-16.23.07:242][  0]LogWindows:    1. 'AMD Mobility Radeon HD 5000 Series' (P:0 D:0)
+[2018.01.03-16.23.07:242][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.03-16.23.07:242][  0]LogD3D11RHI:     Adapter Name: AMD Mobility Radeon HD 5000 Series
+[2018.01.03-16.23.07:242][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.03-16.23.07:242][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.03-16.23.07:242][  0]LogRHI: Texture pool is 351 MB (70% of 502 MB)
+[2018.01.03-16.23.07:262][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2018.01.03-16.23.07:274][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.03-16.23.07:290][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.01.03-16.23.07:291][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Intermediate/Shaders/WorkingDirectory/8356/).
+[2018.01.03-16.23.07:292][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Laptop-DEV/AppData/Local/Temp/UnrealShaderWorkingDir/670B08F2405B1D70C6597ABCB0EFAF20/'.
+[2018.01.03-16.23.07:292][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.03-16.23.10:103][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.03-16.23.10:258][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.03-16.23.10:392][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.03-16.23.10:534][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.03-16.23.10:676][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.03-16.23.10:823][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.03-16.23.10:959][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.03-16.23.11:105][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.03-16.23.11:228][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.03-16.23.11:365][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.03-16.23.11:512][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.03-16.23.11:638][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.03-16.23.11:770][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.03-16.23.11:901][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.03-16.23.12:043][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.03-16.23.12:320][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.03-16.23.12:320][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.03-16.23.12:424][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.03-16.23.12:639][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.03-16.23.12:732][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.03-16.23.12:866][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.03-16.23.13:018][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.03-16.23.13:155][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.03-16.23.13:302][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.03-16.23.13:302][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.03-16.23.14:458][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache: Loaded boot cache 0.10s 50MB C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.03-16.23.14:558][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.03-16.23.14:589][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.03-16.23.14:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.03-16.23.14:622][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.03-16.23.14:623][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.03-16.23.14:623][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.03-16.23.15:338][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.03-16.23.15:347][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.03-16.23.15:898][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.03-16.23.16:000][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.03-16.23.16:114][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.03-16.23.16:114][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.03-16.23.16:114][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.03-16.23.17:351][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2522600614
+[2018.01.03-16.23.17:439][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2018.01.03-16.23.17:594][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.069153 seconds
+[2018.01.03-16.23.17:609][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2018.01.03-16.23.17:609][  0]LogUObjectAllocator: 7290880 out of 0 bytes used by permanent object pool.
+[2018.01.03-16.23.17:609][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.03-16.23.22:372][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.03-16.23.22:457][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.03-16.23.23:699][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.03-16.23.24:696][  0]SourceControl: Info Source control is disabled
+[2018.01.03-16.23.28:245][  0]LogEngine: Initializing Engine...
+[2018.01.03-16.23.28:248][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.03-16.23.28:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.03-16.23.28:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.03-16.23.28:789][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.03-16.23.28:802][  0]LogInit: XAudio2 using 'AMD HDMI Output (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.03-16.23.28:841][  0]LogInit: FAudioDevice initialized.
+[2018.01.03-16.23.28:895][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Laptop-DEV/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.03-16.23.28:907][  0]LogInit: Texture streaming: Enabled
+[2018.01.03-16.23.29:143][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.03-16.23.29:388][  0]LogInit: Transaction tracking system initialized
+[2018.01.03-16.23.30:319][  0]BlueprintLog: New page: Editor Load
+[2018.01.03-16.23.32:655][  0]LocalizationService: Info Localization service is disabled
+[2018.01.03-16.23.34:451][  0]LogConsoleResponse:Display: 
+[2018.01.03-16.23.34:766][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.03-16.23.34:766][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.03-16.23.35:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/' took 0.02s
+[2018.01.03-16.23.37:565][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.03-16.23.37:567][  0]LightingResults: New page: Lighting Build
+[2018.01.03-16.23.37:684][  0]MapCheck: New page: Map Check
+[2018.01.03-16.23.37:684][  0]LightingResults: New page: Lighting Build
+[2018.01.03-16.23.37:876][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2018.01.03-16.23.37:876][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2018.01.03-16.23.38:457][  0]LogLinker:Warning: Can't find file '/Game/Maps/MainMenu_BuiltData'
+[2018.01.03-16.23.38:457][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/MainMenu_BuiltData' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Maps/MainMenu.umap.
+[2018.01.03-16.23.38:457][  0]LoadErrors:Error: Error /Game/Maps/MainMenu : Can't find file for asset. /Game/Maps/MainMenu_BuiltData
+[2018.01.03-16.23.38:458][  0]LogLinker:Warning: Can't find file '/Game/Maps/MainMenu_BuiltData'
+[2018.01.03-16.23.38:458][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/MainMenu_BuiltData' while loading ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Maps/MainMenu.umap.
+[2018.01.03-16.23.38:458][  0]LoadErrors:Error: Error /Game/Maps/MainMenu : Can't find file for asset. /Game/Maps/MainMenu_BuiltData
+[2018.01.03-16.23.38:459][  0]LogLinker:Warning: Can't find file '/Game/Maps/MainMenu_BuiltData'
+[2018.01.03-16.23.38:459][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/MainMenu_BuiltData' while loading NULL.
+[2018.01.03-16.23.38:459][  0]LogLinker:Warning: Can't find file '/Game/Maps/MainMenu_BuiltData'
+[2018.01.03-16.23.38:459][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/MainMenu_BuiltData' while loading NULL.
+[2018.01.03-16.23.38:478][  0]LogLinker:Warning: Can't find file '/Game/Maps/MainMenu_BuiltData'
+[2018.01.03-16.23.38:478][  0]LoadErrors: Info Failed to load /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.01.03-16.23.38:478][  0]LogLinker:Warning: Can't find file for asset '/Game/Maps/MainMenu_BuiltData' while loading NULL.
+[2018.01.03-16.23.38:478][  0]LoadErrors: Info Failed to load /Game/Maps/MainMenu_BuiltData.MainMenu_BuiltData Referenced by PersistentLevel
+[2018.01.03-16.23.38:829][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.03-16.23.38:864][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.03-16.23.38:864][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.03-16.23.38:954][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.55ms to complete.
+[2018.01.03-16.23.38:954][  0]LogFileHelpers: Loading map 'MainMenu' took 1.389
+[2018.01.03-16.23.39:267][  0]LogCollectionManager: Loaded 0 collections in 0.004982 seconds
+[2018.01.03-16.23.39:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Saved/Collections/' took 0.01s
+[2018.01.03-16.23.39:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Developers/LaptopDEV/Collections/' took 0.01s
+[2018.01.03-16.23.39:427][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Collections/' took 0.01s
+[2018.01.03-16.23.39:427][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.01.03-16.23.39:448][  0]LogContentBrowser: Native class hierarchy populated in 0.0206 seconds. Added 2248 classes and 458 folders.
+[2018.01.03-16.23.39:622][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0044 seconds. Added 0 classes and 0 folders.
+[2018.01.03-16.23.39:710][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0040 seconds. Added 0 classes and 0 folders.
+[2018.01.03-16.23.39:821][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2018.01.03-16.23.39:927][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.03-16.23.39:937][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.03-16.23.40:083][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2018.01.03-16.23.40:083][  0]LogLoad: (Engine Initialization) Total time: 39.33 seconds
+[2018.01.03-16.23.40:083][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.57 seconds
+[2018.01.03-16.23.40:083][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.03-16.23.40:083][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.03-16.23.40:537][  0]LogSteamController: SteamController is not available
+[2018.01.03-16.23.40:537][  0]LogOcInput: OculusInput pre-init called
+[2018.01.03-16.23.40:558][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.03-16.23.40:580][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.03-16.23.40:588][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.03-16.23.40:600][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.03-16.23.40:812][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.03-16.23.40:920][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:2).
+[2018.01.03-16.23.42:089][  3]LogAssetRegistry: Asset discovery search completed in 24.6726 seconds
+[2018.01.03-16.23.42:089][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2018.01.03-16.23.42:089][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2018.01.03-16.25.19:192][637]SourceControl: Info On branch Paladin
+[2018.01.03-16.25.19:192][637]SourceControl: Info Your branch is up to date with 'origin/Paladin'.
+[2018.01.03-16.25.19:192][637]SourceControl: Info Changes not staged for commit:
+[2018.01.03-16.25.19:192][637]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.01.03-16.25.19:192][637]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.03-16.25.19:192][637]SourceControl: Info 	modified:   WalkonG2/Intermediate/CachedAssetRegistry.bin
+[2018.01.03-16.25.19:192][637]SourceControl: Info 	modified:   WalkonG2/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.03-16.25.19:192][637]SourceControl: Info 	modified:   WalkonG2/Saved/Logs/WalkonG2.log
+[2018.01.03-16.25.19:192][637]SourceControl: Info Untracked files:
+[2018.01.03-16.25.19:192][637]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.03-16.25.19:192][637]SourceControl: Info 	WalkonG2/Saved/Logs/UE4CC-Windows-8C8B22DC49A162841E174BA9D49E4D81/
+[2018.01.03-16.25.19:192][637]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.03-16.25.36:784][ 53]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.03-16.25.37:400][ 53]LogSavePackage: Save=373.70ms
+[2018.01.03-16.25.37:401][ 53]LogSavePackage: Moving '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Saved/MainMenuF77273B647A284C6149F5F89C644F019.tmp' to '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Maps/MainMenu.umap'
+[2018.01.03-16.25.37:408][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Maps/MainMenu.umap
+[2018.01.03-16.25.47:200][266]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.03-16.25.47:478][267]Cmd: QUIT_EDITOR
+[2018.01.03-16.25.47:594][267]LogExit: Preparing to exit.
+[2018.01.03-16.25.48:682][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/' was aborted.
+[2018.01.03-16.25.48:815][267]LogExit: Editor shut down
+[2018.01.03-16.25.48:817][267]LogExit: Transaction tracking system shut down
+[2018.01.03-16.25.49:193][267]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.03-16.25.49:193][267]LogExit: Object subsystem successfully closed.
+[2018.01.03-16.25.49:214][267]LogD3D11RHI: Shutdown
+[2018.01.03-16.25.49:214][267]LogD3D11RHI: CleanupD3DDevice
+[2018.01.03-16.25.49:286][267]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.03-16.25.49:326][267]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2018.01.03-16.25.49:326][267]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2018.01.03-16.25.49:326][267]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2018.01.03-16.25.49:326][267]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2018.01.03-16.25.49:326][267]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.01.03-16.25.49:328][267]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2018.01.03-16.25.49:328][267]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2018.01.03-16.25.49:328][267]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2018.01.03-16.25.49:329][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Collections/' was aborted.
+[2018.01.03-16.25.49:329][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/Developers/LaptopDEV/Collections/' was aborted.
+[2018.01.03-16.25.49:329][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Saved/Collections/' was aborted.
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module BspMode (476)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2018.01.03-16.25.49:329][267]LogModuleManager: Shutting down and abandoning module Media (449)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2018.01.03-16.25.49:330][267]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2018.01.03-16.25.49:693][267]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2018.01.03-16.25.49:694][267]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2018.01.03-16.25.49:750][267]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2018.01.03-16.25.49:751][267]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2018.01.03-16.25.49:751][267]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2018.01.03-16.25.49:751][267]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2018.01.03-16.25.49:752][267]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module SteamVRController (308)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module SteamVR (306)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module SteamController (304)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (302)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (300)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module OculusLibrary (298)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module OculusInput (296)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (286)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module HTML5Networking (284)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module AlembicImporter (282)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module AlembicLibrary (281)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
+[2018.01.03-16.25.49:908][267]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (274)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module SuperSearch (273)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (270)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module PluginBrowser (268)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (266)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module EpicSurvey (264)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (262)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module DesktopPlatform (261)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module UObjectPlugin (258)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (256)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (254)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module GitSourceControl (252)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module SourceControl (251)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (248)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (246)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (244)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module Paper2DEditor (242)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module MeshPaint (241)
+[2018.01.03-16.25.49:909][267]LogModuleManager: Shutting down and abandoning module LevelEditor (239)
+[2018.01.03-16.25.49:911][267]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (238)
+[2018.01.03-16.25.49:911][267]LogModuleManager: Shutting down and abandoning module MainFrame (236)
+[2018.01.03-16.25.49:911][267]LogModuleManager: Shutting down and abandoning module HotReload (235)
+[2018.01.03-16.25.49:911][267]LogDirectoryWatcher: A directory notification for 'C:/Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Binaries/Win64' was aborted.
+[2018.01.03-16.25.49:913][267]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
+[2018.01.03-16.25.49:915][267]LogModuleManager: Shutting down and abandoning module WalkonG2 (228)
+[2018.01.03-16.25.49:915][267]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.01.03-16.25.49:915][267]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.01.03-16.25.49:915][267]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.01.03-16.25.49:915][267]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2018.01.03-16.25.50:016][267]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2018.01.03-16.25.50:117][267]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2018.01.03-16.25.50:119][267]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2018.01.03-16.25.50:120][267]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2018.01.03-16.25.50:120][267]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2018.01.03-16.25.50:120][267]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2018.01.03-16.25.50:120][267]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2018.01.03-16.25.50:120][267]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module Core (160)
+[2018.01.03-16.25.50:124][267]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2018.01.03-16.25.50:335][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.03-16.25.50:335][267]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Laptop-DEV/Documents/Unreal Projects/WalkonG2/WalkonG2/Content/' was aborted.
+[2018.01.03-16.25.50:336][267]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.03-16.25.50:336][267]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2018.01.03-16.25.50:337][267]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2018.01.03-16.25.50:362][267]LogDerivedDataCache: Shutdown
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2018.01.03-16.25.50:362][267]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.03-16.25.50:363][267]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.03-16.25.50:363][267]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.03-16.25.50:364][267]LogOnline:Display: Unloading online subsystem: STEAM
+[2018.01.03-16.25.50:364][267]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.03-16.25.50:364][267]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.01.03-16.25.50:364][267]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.01.03-16.25.50:364][267]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.03-16.25.50:364][267]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E613185-4CB4-28F5-5789-04B8A47D33B0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=f10b5e814ab86eff992295aff25f3f74%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C7a061f36-f19b-465f-b031-b745434426ef&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.03-16.25.50:388][267]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.01.03-16.25.50:391][267]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.03-16.25.50:391][267]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.03-16.25.50:392][267]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.03-16.25.50:392][267]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.03-16.25.50:392][267]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.03-16.25.50:394][267]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.03-16.25.50:397][267]LogExit: Exiting.
+[2018.01.03-16.25.50:430][267]Log file closed, 01/03/18 17:25:50
