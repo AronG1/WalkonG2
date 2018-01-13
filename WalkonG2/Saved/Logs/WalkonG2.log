@@ -1,9 +1,9 @@
-﻿Log file open, 01/13/18 13:27:07
+﻿Log file open, 01/13/18 14:06:54
 LogInit:Display: Running engine for game: WalkonG2
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(127079351) SRandInit(127079351).
+LogInit:Display: RandInit(856711037) SRandInit(856711037).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.473326
+LogStats: Stats thread started at 0.067716
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -52,433 +52,701 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.13-12.27.08:699][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.13-12.27.08:699][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.13-12.27.08:715][  0]LogInit: Computer: DEVPC
-[2018.01.13-12.27.08:715][  0]LogInit: User: Aron
-[2018.01.13-12.27.08:715][  0]LogInit: CPU Page size=65536, Cores=4
-[2018.01.13-12.27.08:715][  0]LogInit: High frequency timer resolution =3.903989 MHz
-[2018.01.13-12.27.08:715][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.01.13-12.27.08:715][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.13-12.27.08:715][  0]LogMemory: Process Physical Memory: 265.00 MB used, 265.00 MB peak
-[2018.01.13-12.27.08:715][  0]LogMemory: Process Virtual Memory: 262.65 MB used, 262.65 MB peak
-[2018.01.13-12.27.08:715][  0]LogMemory: Physical Memory: 3465.97 MB used,  12859.85 MB free, 16325.82 MB total
-[2018.01.13-12.27.08:715][  0]LogMemory: Virtual Memory: 681.62 MB used,  12859.85 MB free, 134217728.00 MB total
-[2018.01.13-12.27.08:902][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
-[2018.01.13-12.27.09:567][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.13-12.27.09:583][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
-[2018.01.13-12.27.09:583][  0]LogD3D11RHI:       8168/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
-[2018.01.13-12.27.09:585][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.13-12.27.09:585][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.13-12.27.09:585][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.13-12.27.09:589][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.13-12.27.09:589][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.13-12.27.09:589][  0]LogWindows: EnumDisplayDevices:
-[2018.01.13-12.27.09:589][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
-[2018.01.13-12.27.09:589][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2018.01.13-12.27.09:589][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
-[2018.01.13-12.27.09:589][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.13-12.27.09:589][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.13-12.27.09:589][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
-[2018.01.13-12.27.09:589][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.13-12.27.09:589][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
-[2018.01.13-12.27.09:590][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.13-12.27.09:590][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.13-12.27.09:590][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.13-12.27.09:613][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.13-12.27.09:641][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.01.13-12.27.09:646][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Intermediate/Shaders/WorkingDirectory/13372/).
-[2018.01.13-12.27.09:646][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aron/AppData/Local/Temp/UnrealShaderWorkingDir/2F89B9CC430CF6B2B62D40A897833A91/'.
-[2018.01.13-12.27.09:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.13-12.27.11:126][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.13-12.27.11:170][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.01.13-12.27.11:214][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.13-12.27.11:259][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.01.13-12.27.11:304][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.01.13-12.27.11:349][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.13-12.27.11:394][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.13-12.27.11:438][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.13-12.27.11:476][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.13-12.27.11:520][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.01.13-12.27.11:572][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.13-12.27.11:616][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.13-12.27.11:660][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.13-12.27.11:705][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.13-12.27.11:749][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.13-12.27.11:844][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.13-12.27.11:844][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.13-12.27.11:876][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.01.13-12.27.11:966][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.01.13-12.27.11:993][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.01.13-12.27.12:043][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.13-12.27.12:100][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.13-12.27.12:176][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.13-12.27.12:264][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.01.13-12.27.12:264][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.13-12.27.12:893][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache: Loaded boot cache 0.28s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.13-12.27.13:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.13-12.27.13:206][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.13-12.27.13:220][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.13-12.27.13:235][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.13-12.27.13:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.13-12.27.13:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.13-12.27.14:136][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.13-12.27.14:142][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.13-12.27.14:416][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.13-12.27.14:455][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.13-12.27.14:496][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.13-12.27.14:496][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.13-12.27.14:496][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.13-12.27.15:580][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2522600614
-[2018.01.13-12.27.15:628][  0]LogAssetRegistry: FAssetRegistry took 0.0233 seconds to start up
-[2018.01.13-12.27.15:675][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.020944 seconds
-[2018.01.13-12.27.15:688][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
-[2018.01.13-12.27.15:688][  0]LogUObjectAllocator: 7290888 out of 0 bytes used by permanent object pool.
-[2018.01.13-12.27.15:688][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.13-12.27.18:214][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.13-12.27.18:248][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.13-12.27.18:831][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.13-12.27.19:223][  0]SourceControl: Info Source control is disabled
-[2018.01.13-12.27.20:421][  0]LogEngine: Initializing Engine...
-[2018.01.13-12.27.20:422][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.13-12.27.20:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.13-12.27.20:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.13-12.27.20:644][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.13-12.27.20:659][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.01.13-12.27.23:088][  0]LogInit: FAudioDevice initialized.
-[2018.01.13-12.27.23:113][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2018.01.13-12.27.23:117][  0]LogInit: Texture streaming: Enabled
-[2018.01.13-12.27.23:216][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.13-12.27.23:322][  0]LogInit: Transaction tracking system initialized
-[2018.01.13-12.27.23:684][  0]BlueprintLog: New page: Editor Load
-[2018.01.13-12.27.24:649][  0]LocalizationService: Info Localization service is disabled
-[2018.01.13-12.27.25:396][  0]LogConsoleResponse:Display: 
-[2018.01.13-12.27.25:516][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.13-12.27.25:516][  0]LogCook:Display: Mobile HDR setting 1
-[2018.01.13-12.27.25:632][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/' took 0.01s
-[2018.01.13-12.27.26:462][  0]Cmd: MAP LOAD FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.13-12.27.26:463][  0]LightingResults: New page: Lighting Build
-[2018.01.13-12.27.26:503][  0]MapCheck: New page: Map Check
-[2018.01.13-12.27.26:503][  0]LightingResults: New page: Lighting Build
-[2018.01.13-12.27.26:828][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
-[2018.01.13-12.27.26:828][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
-[2018.01.13-12.27.27:194][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.01.13-12.27.27:211][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.13-12.27.27:213][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.13-12.27.27:240][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.529ms to complete.
-[2018.01.13-12.27.27:240][  0]LogFileHelpers: Loading map 'MainMenu' took 0.779
-[2018.01.13-12.27.27:425][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.13-12.27.27:590][  0]LogCollectionManager: Loaded 0 collections in 0.001191 seconds
-[2018.01.13-12.27.27:709][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Collections/' took 0.01s
-[2018.01.13-12.27.27:709][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Developers/Aron/Collections/' took 0.01s
-[2018.01.13-12.27.27:709][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Collections/' took 0.01s
-[2018.01.13-12.27.27:709][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.13-12.27.27:720][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2248 classes and 458 folders.
-[2018.01.13-12.27.27:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.01.13-12.27.27:869][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2018.01.13-12.27.27:961][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2018.01.13-12.27.28:161][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.01.13-12.27.28:171][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.01.13-12.27.28:247][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.01.13-12.27.28:247][  0]LogLoad: (Engine Initialization) Total time: 22.26 seconds
-[2018.01.13-12.27.28:247][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.38 seconds
-[2018.01.13-12.27.28:247][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.13-12.27.28:247][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.13-12.27.28:263][  0]LogSteamController: SteamController is not available
-[2018.01.13-12.27.28:264][  0]LogOcInput: OculusInput pre-init called
-[2018.01.13-12.27.28:285][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.13-12.27.28:289][  0]LogSlate: Took 0.001055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.13-12.27.28:292][  0]LogSlate: Took 0.000827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.13-12.27.28:298][  0]LogSlate: Took 0.001015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.13-12.27.28:413][  0]LogSlate: Took 0.001264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.13-12.27.28:450][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2018.01.13-12.27.28:512][  1]LogAssetRegistry: Asset discovery search completed in 12.9066 seconds
-[2018.01.13-12.27.28:512][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
-[2018.01.13-12.27.28:512][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2018.01.13-12.27.32:894][519]LogTemp: Repeting last play command: Standalone Game
-[2018.01.13-12.27.32:966][519]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.13-12.27.32:975][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2018.01.13-12.27.33:182][519]LogSavePackage: Save=61.63ms
-[2018.01.13-12.27.33:182][519]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu3B32483D4FC1BF55465C6C8AB3B575B8.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
-[2018.01.13-12.27.33:184][519]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
-[2018.01.13-12.27.33:191][519]LogEditorTransaction: Undo Spawn Play From Here Start
-[2018.01.13-12.31.13:518][947]SourceControl: Info Source control is disabled
-[2018.01.13-12.31.20:070][723]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.13-12.31.20:232][724]Cmd: QUIT_EDITOR
-[2018.01.13-12.31.20:283][724]LogExit: Preparing to exit.
-[2018.01.13-12.31.21:501][724]LogExit: Editor shut down
-[2018.01.13-12.31.21:501][724]LogExit: Transaction tracking system shut down
-[2018.01.13-12.31.21:548][724]LogObj: Freed 0b from 0 cluster array pools.
-[2018.01.13-12.31.21:548][724]LogExit: Object subsystem successfully closed.
-[2018.01.13-12.31.21:561][724]LogD3D11RHI: Shutdown
-[2018.01.13-12.31.21:561][724]LogD3D11RHI: CleanupD3DDevice
-[2018.01.13-12.31.21:604][724]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.01.13-12.31.21:619][724]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
-[2018.01.13-12.31.21:619][724]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
-[2018.01.13-12.31.21:619][724]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
-[2018.01.13-12.31.21:619][724]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
-[2018.01.13-12.31.21:619][724]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2018.01.13-12.31.21:620][724]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
-[2018.01.13-12.31.21:620][724]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
-[2018.01.13-12.31.21:620][724]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
-[2018.01.13-12.31.21:620][724]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Collections/' was aborted.
-[2018.01.13-12.31.21:620][724]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Developers/Aron/Collections/' was aborted.
-[2018.01.13-12.31.21:620][724]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Collections/' was aborted.
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module BspMode (476)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module Media (449)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module SessionServices (436)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
-[2018.01.13-12.31.21:621][724]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
-[2018.01.13-12.31.21:622][724]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
-[2018.01.13-12.31.21:622][724]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
-[2018.01.13-12.31.21:623][724]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
-[2018.01.13-12.31.21:623][724]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
-[2018.01.13-12.31.21:623][724]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
-[2018.01.13-12.31.21:623][724]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
-[2018.01.13-12.31.21:623][724]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
-[2018.01.13-12.31.22:060][724]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
-[2018.01.13-12.31.22:060][724]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
-[2018.01.13-12.31.22:060][724]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
-[2018.01.13-12.31.22:060][724]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
-[2018.01.13-12.31.22:063][724]LogModuleManager: Shutting down and abandoning module MergeActors (406)
-[2018.01.13-12.31.22:064][724]LogModuleManager: Shutting down and abandoning module SizeMap (404)
-[2018.01.13-12.31.22:064][724]LogModuleManager: Shutting down and abandoning module TreeMap (402)
-[2018.01.13-12.31.22:064][724]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
-[2018.01.13-12.31.22:064][724]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
-[2018.01.13-12.31.22:065][724]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
-[2018.01.13-12.31.22:065][724]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
-[2018.01.13-12.31.22:065][724]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module XmlParser (386)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module Blutility (384)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
-[2018.01.13-12.31.22:066][724]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
-[2018.01.13-12.31.22:067][724]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
-[2018.01.13-12.31.22:067][724]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
-[2018.01.13-12.31.22:067][724]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
-[2018.01.13-12.31.22:068][724]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
-[2018.01.13-12.31.22:069][724]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
-[2018.01.13-12.31.22:069][724]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
-[2018.01.13-12.31.22:070][724]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
-[2018.01.13-12.31.22:136][724]LogModuleManager: Shutting down and abandoning module AutomationController (364)
-[2018.01.13-12.31.22:136][724]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
-[2018.01.13-12.31.22:138][724]LogModuleManager: Shutting down and abandoning module Layers (360)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module Persona (352)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
-[2018.01.13-12.31.22:139][724]LogModuleManager: Shutting down and abandoning module Kismet (348)
-[2018.01.13-12.31.22:141][724]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
-[2018.01.13-12.31.22:142][724]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
-[2018.01.13-12.31.22:142][724]LogModuleManager: Shutting down and abandoning module Toolbox (342)
-[2018.01.13-12.31.22:142][724]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module OutputLog (336)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module GammaUI (334)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module Documentation (332)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module Niagara (330)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module PortalServices (324)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module AIModule (318)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
-[2018.01.13-12.31.22:143][724]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module SteamVRController (308)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module SteamVR (306)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module SteamController (304)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (302)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (300)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module OculusLibrary (298)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module OculusInput (296)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module CableComponent (290)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
-[2018.01.13-12.31.22:187][724]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (286)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module HTML5Networking (284)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module AlembicImporter (282)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module AlembicLibrary (281)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (274)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module SuperSearch (273)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (270)
-[2018.01.13-12.31.22:188][724]LogModuleManager: Shutting down and abandoning module PluginBrowser (268)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (266)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module EpicSurvey (264)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (262)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module DesktopPlatform (261)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module UObjectPlugin (258)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (256)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (254)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module GitSourceControl (252)
-[2018.01.13-12.31.22:189][724]LogModuleManager: Shutting down and abandoning module SourceControl (251)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (248)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (246)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (244)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module Paper2DEditor (242)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module MeshPaint (241)
-[2018.01.13-12.31.22:190][724]LogModuleManager: Shutting down and abandoning module LevelEditor (239)
-[2018.01.13-12.31.22:192][724]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (238)
-[2018.01.13-12.31.22:192][724]LogModuleManager: Shutting down and abandoning module MainFrame (236)
-[2018.01.13-12.31.22:192][724]LogModuleManager: Shutting down and abandoning module HotReload (235)
-[2018.01.13-12.31.22:192][724]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Binaries/Win64' was aborted.
-[2018.01.13-12.31.22:194][724]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
-[2018.01.13-12.31.22:196][724]LogModuleManager: Shutting down and abandoning module WalkonG2 (228)
-[2018.01.13-12.31.22:196][724]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
-[2018.01.13-12.31.22:196][724]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
-[2018.01.13-12.31.22:196][724]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
-[2018.01.13-12.31.22:196][724]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
-[2018.01.13-12.31.22:297][724]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module Paper2D (208)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
-[2018.01.13-12.31.22:398][724]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
-[2018.01.13-12.31.22:402][724]LogModuleManager: Shutting down and abandoning module MfMedia (202)
-[2018.01.13-12.31.22:402][724]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
-[2018.01.13-12.31.22:402][724]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module VREditor (196)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module UMG (186)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
-[2018.01.13-12.31.22:403][724]LogModuleManager: Shutting down and abandoning module Sequencer (184)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module AssetTools (182)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module MessageLog (181)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module Slate (172)
-[2018.01.13-12.31.22:404][724]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module Networking (162)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module Core (160)
-[2018.01.13-12.31.22:413][724]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
-[2018.01.13-12.31.22:658][724]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.01.13-12.31.22:659][724]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/' was aborted.
-[2018.01.13-12.31.22:659][724]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.01.13-12.31.22:659][724]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
-[2018.01.13-12.31.22:660][724]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
-[2018.01.13-12.31.22:761][724]LogDerivedDataCache: Shutdown
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
-[2018.01.13-12.31.22:761][724]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Messaging (99)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
-[2018.01.13-12.31.22:762][724]LogModuleManager: Shutting down and abandoning module InputCore (58)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module Settings (56)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module OculusRift (54)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.01.13-12.31.22:763][724]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.01.13-12.31.22:763][724]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
-[2018.01.13-12.31.22:764][724]LogOnline:Display: Unloading online subsystem: STEAM
-[2018.01.13-12.31.22:764][724]LogOnline:Display: Unloading online subsystem: NULL
-[2018.01.13-12.31.22:764][724]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2018.01.13-12.31.22:764][724]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2018.01.13-12.31.22:764][724]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.01.13-12.31.22:764][724]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6B20CCD-4AD1-EBC9-0996-6F927EA3821E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=efd468cc496f8ba46066589324f4e55b%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C1285343e-c08c-4c4b-be56-1f4e5ed03b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.01.13-12.31.22:794][724]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2018.01.13-12.31.22:798][724]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.01.13-12.31.22:798][724]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.01.13-12.31.22:798][724]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.01.13-12.31.22:798][724]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.01.13-12.31.22:798][724]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.01.13-12.31.22:801][724]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.01.13-12.31.22:806][724]LogExit: Exiting.
-[2018.01.13-12.31.22:810][724]Log file closed, 01/13/18 13:31:22
+[2018.01.13-13.06.55:411][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-13.06.55:411][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.13-13.06.55:418][  0]LogInit: Computer: DEVPC
+[2018.01.13-13.06.55:418][  0]LogInit: User: Aron
+[2018.01.13-13.06.55:418][  0]LogInit: CPU Page size=65536, Cores=4
+[2018.01.13-13.06.55:418][  0]LogInit: High frequency timer resolution =3.903989 MHz
+[2018.01.13-13.06.55:418][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.13-13.06.55:418][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.13-13.06.55:418][  0]LogMemory: Process Physical Memory: 265.93 MB used, 265.93 MB peak
+[2018.01.13-13.06.55:418][  0]LogMemory: Process Virtual Memory: 262.70 MB used, 262.70 MB peak
+[2018.01.13-13.06.55:418][  0]LogMemory: Physical Memory: 3840.57 MB used,  12485.25 MB free, 16325.82 MB total
+[2018.01.13-13.06.55:418][  0]LogMemory: Virtual Memory: 681.62 MB used,  12485.25 MB free, 134217728.00 MB total
+[2018.01.13-13.06.55:489][  0]LogTextLocalizationManager: No translations for ('hr-HR') exist, falling back to 'en' for localization and internationalization data.
+[2018.01.13-13.06.56:005][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.13-13.06.56:021][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2018.01.13-13.06.56:021][  0]LogD3D11RHI:       8168/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x1002
+[2018.01.13-13.06.56:022][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.13-13.06.56:022][  0]LogD3D11RHI:       0/0/8162 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.13-13.06.56:022][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.13-13.06.56:026][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.13-13.06.56:026][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.13-13.06.56:026][  0]LogWindows: EnumDisplayDevices:
+[2018.01.13-13.06.56:026][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2018.01.13-13.06.56:026][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2018.01.13-13.06.56:026][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2018.01.13-13.06.56:026][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.01.13-13.06.56:026][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.01.13-13.06.56:026][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.01.13-13.06.56:026][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.13-13.06.56:026][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2018.01.13-13.06.56:026][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.13-13.06.56:026][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.13-13.06.56:026][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.13-13.06.56:047][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.13-13.06.56:061][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.01.13-13.06.56:061][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Intermediate/Shaders/WorkingDirectory/14524/).
+[2018.01.13-13.06.56:061][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aron/AppData/Local/Temp/UnrealShaderWorkingDir/548DC6A94F8B493A90B84B98A8402072/'.
+[2018.01.13-13.06.56:061][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.13-13.06.56:930][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.13-13.06.56:974][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.13-13.06.57:018][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.13-13.06.57:062][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.13-13.06.57:107][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.13-13.06.57:151][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.13-13.06.57:197][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.13-13.06.57:244][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.13-13.06.57:282][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.13-13.06.57:327][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.13-13.06.57:370][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.13-13.06.57:413][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.13-13.06.57:456][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.13-13.06.57:499][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.13-13.06.57:543][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.13-13.06.57:632][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.13-13.06.57:632][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.13-13.06.57:664][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.13-13.06.57:756][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.13-13.06.57:804][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.13-13.06.57:849][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.13-13.06.57:893][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.13-13.06.57:937][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.13-13.06.57:980][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.13-13.06.57:980][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.13-13.06.58:338][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Buisness/Unreal/WalkonG2aa/WalkonG2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.13-13.06.58:369][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.13-13.06.58:383][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.13-13.06.58:395][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.13-13.06.58:402][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.13-13.06.58:402][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-13.06.58:402][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-13.06.58:638][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-13.06.58:640][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.13-13.06.58:837][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.13-13.06.58:872][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.13-13.06.58:910][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.13-13.06.58:910][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.13-13.06.58:910][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.13-13.06.59:350][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: walkong2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2522600614
+[2018.01.13-13.06.59:391][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2018.01.13-13.06.59:420][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011842 seconds
+[2018.01.13-13.06.59:424][  0]LogUObjectArray: 32500 objects as part of root set at end of initial load.
+[2018.01.13-13.06.59:424][  0]LogUObjectAllocator: 7290888 out of 0 bytes used by permanent object pool.
+[2018.01.13-13.06.59:424][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.13-13.07.00:704][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.13-13.07.00:737][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.13-13.07.01:200][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.13-13.07.01:512][  0]SourceControl: Info Source control is disabled
+[2018.01.13-13.07.01:512][  0]SourceControl: Info Source control is disabled
+[2018.01.13-13.07.01:551][  0]SourceControl: Info Source control is disabled
+[2018.01.13-13.07.01:589][  0]SourceControl: Info Source control is disabled
+[2018.01.13-13.07.02:578][  0]LogEngine: Initializing Engine...
+[2018.01.13-13.07.02:579][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.13-13.07.02:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.13-13.07.02:689][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.13-13.07.02:793][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.13-13.07.02:800][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-13.07.02:826][  0]LogInit: FAudioDevice initialized.
+[2018.01.13-13.07.02:849][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Aron/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2018.01.13-13.07.02:851][  0]LogInit: Texture streaming: Enabled
+[2018.01.13-13.07.02:926][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.13-13.07.03:000][  0]LogInit: Transaction tracking system initialized
+[2018.01.13-13.07.03:291][  0]BlueprintLog: New page: Editor Load
+[2018.01.13-13.07.04:025][  0]LocalizationService: Info Localization service is disabled
+[2018.01.13-13.07.04:578][  0]LogConsoleResponse:Display: 
+[2018.01.13-13.07.04:671][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.13-13.07.04:671][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.13-13.07.04:712][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/' took 0.01s
+[2018.01.13-13.07.05:509][  0]SourceControl: Info Source control is disabled
+[2018.01.13-13.07.05:509][  0]Cmd: MAP LOAD FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.13-13.07.05:509][  0]LightingResults: New page: Lighting Build
+[2018.01.13-13.07.05:543][  0]MapCheck: New page: Map Check
+[2018.01.13-13.07.05:543][  0]LightingResults: New page: Lighting Build
+[2018.01.13-13.07.05:602][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2018.01.13-13.07.05:602][  0]LogLinker: Can't find file '/Game/Mannequin/Character/Textures/UE4_LOGO_CARD'
+[2018.01.13-13.07.05:885][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.01.13-13.07.05:897][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.13-13.07.05:898][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.13-13.07.05:925][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.378ms to complete.
+[2018.01.13-13.07.05:925][  0]LogFileHelpers: Loading map 'MainMenu' took 0.417
+[2018.01.13-13.07.06:075][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.13-13.07.06:219][  0]LogCollectionManager: Loaded 0 collections in 0.001113 seconds
+[2018.01.13-13.07.06:300][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Collections/' took 0.01s
+[2018.01.13-13.07.06:300][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Developers/Aron/Collections/' took 0.01s
+[2018.01.13-13.07.06:300][  0]LogFileCache: Scanning file cache for directory 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Collections/' took 0.01s
+[2018.01.13-13.07.06:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.13-13.07.06:308][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2248 classes and 458 folders.
+[2018.01.13-13.07.06:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.13-13.07.06:387][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.13-13.07.06:425][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.13-13.07.06:498][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.13-13.07.06:503][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.13-13.07.06:562][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.13-13.07.06:562][  0]LogLoad: (Engine Initialization) Total time: 12.98 seconds
+[2018.01.13-13.07.06:562][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2018.01.13-13.07.06:562][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.13-13.07.06:562][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.13-13.07.06:650][  0]LogSteamController: SteamController is not available
+[2018.01.13-13.07.06:650][  0]LogOcInput: OculusInput pre-init called
+[2018.01.13-13.07.06:670][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.13-13.07.06:670][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.13-13.07.06:673][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.13-13.07.06:676][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.13-13.07.06:794][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-13.07.06:826][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2018.01.13-13.07.06:882][  1]LogAssetRegistry: Asset discovery search completed in 7.5131 seconds
+[2018.01.13-13.07.06:882][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2018.01.13-13.07.06:882][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1f418873fe8 [can pipeline])
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.3.83.62) port 443 (#3))
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 3 (upload completely sent off: 336 out of 336 bytes)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 6 (Closing connection 3)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B05C7C4-488F-7B8A-6269-F5AC48E5E1A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=efd468cc496f8ba46066589324f4e55b%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C1285343e-c08c-4c4b-be56-1f4e5ed03b66&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.18.31:288][612]LogHttp:Warning: 000001F419450E80: libcurl info message cache 9 (Closing connection 4)
+[2018.01.13-13.19.12:288][735]LogHttp:Warning: 000001F419451180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.19.12:288][735]LogHttp:Warning: 000001F419451180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.19.12:288][735]LogHttp:Warning: 000001F419451180: libcurl info message cache 1 (Closing connection 5)
+[2018.01.13-13.21.12:288][ 95]LogHttp:Warning: 000001F419450E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.21.12:288][ 95]LogHttp:Warning: 000001F419450E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.21.12:288][ 95]LogHttp:Warning: 000001F419450E80: libcurl info message cache 1 (Closing connection 6)
+[2018.01.13-13.23.11:671][ 17]LogHttp:Warning: 000001F419450E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.23.11:671][ 17]LogHttp:Warning: 000001F419450E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.23.11:671][ 17]LogHttp:Warning: 000001F419450E80: libcurl info message cache 1 (Closing connection 7)
+[2018.01.13-13.23.54:782][576]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-13.23.55:165][576]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2018.01.13-13.23.55:826][576]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-13.23.55:828][576]LogSlate: Took 0.001543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.13-13.23.58:288][859]LogSlate: Took 0.016650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.13-13.24.39:080][256]BlueprintLog: New page: Compile CharacterSelect
+[2018.01.13-13.24.51:996][ 91]LogHttp:Warning: 000001F42F6B0E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.24.51:996][ 91]LogHttp:Warning: 000001F42F6B0E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.24.51:996][ 91]LogHttp:Warning: 000001F42F6B0E80: libcurl info message cache 1 (Closing connection 8)
+[2018.01.13-13.26.11:683][440]LogHttp:Warning: 000001F42C7D0700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.26.11:683][440]LogHttp:Warning: 000001F42C7D0700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.26.11:683][440]LogHttp:Warning: 000001F42C7D0700: libcurl info message cache 1 (Closing connection 9)
+[2018.01.13-13.26.28:713][554]BlueprintLog: New page: Compile CharacterSelect
+[2018.01.13-13.26.29:287][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/CharacterSelect" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset" SILENT=true
+[2018.01.13-13.26.29:354][577]LogSavePackage: Save=57.19ms
+[2018.01.13-13.26.29:354][577]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/CharacterSelect2018334540D79DBA677802AA1259EDAB.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset'
+[2018.01.13-13.26.29:362][577]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset
+[2018.01.13-13.26.41:118][229]LogSlate: Took 0.000890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.13-13.27.11:705][743]LogHttp:Warning: 000001F4094EB700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.27.11:705][743]LogHttp:Warning: 000001F4094EB700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.27.11:705][743]LogHttp:Warning: 000001F4094EB700: libcurl info message cache 1 (Closing connection 10)
+[2018.01.13-13.27.23:918][396]LogTexture:Display: Building textures: Arena (AutoDXT, 1600X900) - 159 MB total VRAM
+[2018.01.13-13.27.36:962][ 66]BlueprintLog: New page: Compile GameSettings
+[2018.01.13-13.27.37:566][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/GameSettings" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/GameSettings.uasset" SILENT=true
+[2018.01.13-13.27.37:627][ 84]LogSavePackage: Save=51.64ms
+[2018.01.13-13.27.37:627][ 84]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/GameSettingsC15586864D436848A5F03491A66C4B73.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/GameSettings.uasset'
+[2018.01.13-13.27.37:630][ 84]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/GameSettings.uasset
+[2018.01.13-13.28.08:511][338]BlueprintLog: New page: Compile TeamSelect
+[2018.01.13-13.28.09:248][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/TeamSelect" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset" SILENT=true
+[2018.01.13-13.28.09:294][354]LogSavePackage: Save=37.06ms
+[2018.01.13-13.28.09:294][354]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/TeamSelect333301BA45DE141E87F632A69EF2599D.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset'
+[2018.01.13-13.28.09:300][354]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset
+[2018.01.13-13.28.36:991][845]LogHttp:Warning: 000001F4A5A65F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.28.36:991][845]LogHttp:Warning: 000001F4A5A65F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.28.36:991][845]LogHttp:Warning: 000001F4A5A65F00: libcurl info message cache 1 (Closing connection 11)
+[2018.01.13-13.28.53:589][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/TeamSelect" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset" SILENT=true
+[2018.01.13-13.28.53:616][651]LogSavePackage: Save=17.93ms
+[2018.01.13-13.28.53:616][651]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/TeamSelect08F755CC435B4FC39F34249893010675.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset'
+[2018.01.13-13.28.53:617][651]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/TeamSelect.uasset
+[2018.01.13-13.28.57:155][841]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.28.57:271][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.28.57:376][841]LogSavePackage: Save=94.06ms
+[2018.01.13-13.28.57:376][841]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenuF2A6256847A0E31924D66CB25F9218A8.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.28.57:377][841]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.28.57:380][841]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.29.36:022][737]BlueprintLog: New page: Compile ConnectedPlayer
+[2018.01.13-13.29.48:079][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2018.01.13-13.29.48:102][527]LogSavePackage: Save=13.69ms
+[2018.01.13-13.29.48:102][527]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ConnectedPlayer24CB403B46F7DC0A31D531B428F1C986.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2018.01.13-13.29.48:104][527]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset
+[2018.01.13-13.29.49:115][595]BlueprintLog: New page: Compile ConnectedPlayer
+[2018.01.13-13.29.49:678][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/ConnectedPlayer" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset" SILENT=true
+[2018.01.13-13.29.49:717][619]LogSavePackage: Save=13.67ms
+[2018.01.13-13.29.49:717][619]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ConnectedPlayerB4BF088D400341B1E99B1BA82C111564.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset'
+[2018.01.13-13.29.49:719][619]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/ConnectedPlayer.uasset
+[2018.01.13-13.29.52:141][782]LogHttp:Warning: 000001F4A7BD7100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.29.52:141][782]LogHttp:Warning: 000001F4A7BD7100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.29.52:141][782]LogHttp:Warning: 000001F4A7BD7100: libcurl info message cache 1 (Closing connection 12)
+[2018.01.13-13.30.38:598][  6]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.30.38:713][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.30.38:811][  6]LogSavePackage: Save=90.06ms
+[2018.01.13-13.30.38:811][  6]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu65328A5C4FA3A130F4BC7A859C9CD9D5.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.30.38:813][  6]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.30.38:816][  6]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.31.12:193][251]LogHttp:Warning: 000001F4B1E05780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.31.12:193][251]LogHttp:Warning: 000001F4B1E05780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.31.12:193][251]LogHttp:Warning: 000001F4B1E05780: libcurl info message cache 1 (Closing connection 13)
+[2018.01.13-13.33.11:540][742]LogHttp:Warning: 000001F4B3144100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.33.11:540][742]LogHttp:Warning: 000001F4B3144100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.33.11:540][742]LogHttp:Warning: 000001F4B3144100: libcurl info message cache 1 (Closing connection 14)
+[2018.01.13-13.34.11:709][505]LogHttp:Warning: 000001F4D12BF400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.34.11:709][505]LogHttp:Warning: 000001F4D12BF400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.34.11:709][505]LogHttp:Warning: 000001F4D12BF400: libcurl info message cache 1 (Closing connection 15)
+[2018.01.13-13.34.57:539][107]BlueprintLog: New page: Compile LobbyGM
+[2018.01.13-13.34.58:288][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2018.01.13-13.34.58:352][123]LogSavePackage: Save=55.14ms
+[2018.01.13-13.34.58:352][123]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/LobbyGM890D75944022F1F246963D9C4C1430C4.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.01.13-13.34.58:360][123]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset
+[2018.01.13-13.35.51:214][346]BlueprintLog: New page: Compile CharacterSelect
+[2018.01.13-13.35.51:956][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/CharacterSelect" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset" SILENT=true
+[2018.01.13-13.35.51:995][369]LogSavePackage: Save=30.17ms
+[2018.01.13-13.35.51:995][369]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/CharacterSelect7228DC8D422BFFC456CFED98CD45AB28.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset'
+[2018.01.13-13.35.51:999][369]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/CharacterSelect.uasset
+[2018.01.13-13.35.54:797][545]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.35.56:275][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Lobby/LobbyMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/LobbyMenu.uasset" SILENT=true
+[2018.01.13-13.35.56:359][545]LogSavePackage: Save=74.43ms
+[2018.01.13-13.35.56:359][545]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/LobbyMenu0C816AA2421AC23D00AA99822F66925A.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/LobbyMenu.uasset'
+[2018.01.13-13.35.56:362][545]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/Lobby/LobbyMenu.uasset
+[2018.01.13-13.35.56:399][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.35.56:515][545]LogSavePackage: Save=106.77ms
+[2018.01.13-13.35.56:516][545]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu58E33AA547173533BA371C8D14346DEC.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.35.56:517][545]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.35.56:521][545]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.35.57:586][611]LogHttp:Warning: 000001F4B2B58E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.35.57:586][611]LogHttp:Warning: 000001F4B2B58E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.35.57:586][611]LogHttp:Warning: 000001F4B2B58E80: libcurl info message cache 1 (Closing connection 16)
+[2018.01.13-13.37.11:611][ 12]LogHttp:Warning: 000001F4C68EDD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.37.11:611][ 12]LogHttp:Warning: 000001F4C68EDD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.37.11:611][ 12]LogHttp:Warning: 000001F4C68EDD80: libcurl info message cache 1 (Closing connection 17)
+[2018.01.13-13.38.11:700][858]LogHttp:Warning: 000001F4DFCC6B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.38.11:700][858]LogHttp:Warning: 000001F4DFCC6B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.38.11:700][858]LogHttp:Warning: 000001F4DFCC6B00: libcurl info message cache 1 (Closing connection 18)
+[2018.01.13-13.39.03:494][613]BlueprintLog: New page: Compile ArcherBP
+[2018.01.13-13.39.03:888][613]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote
+[2018.01.13-13.39.03:888][613]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2018.01.13-13.39.04:367][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Erika/ArcherBP" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ArcherBP.uasset" SILENT=true
+[2018.01.13-13.39.04:551][638]LogSavePackage: Save=158.22ms
+[2018.01.13-13.39.04:551][638]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ArcherBP3A49611D445D38BA9E7A25BCA40BDD69.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ArcherBP.uasset'
+[2018.01.13-13.39.04:561][638]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ArcherBP.uasset
+[2018.01.13-13.40.03:540][ 14]LogHttp:Warning: 000001F50C910880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.40.03:540][ 14]LogHttp:Warning: 000001F50C910880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.40.03:540][ 14]LogHttp:Warning: 000001F50C910880: libcurl info message cache 1 (Closing connection 19)
+[2018.01.13-13.40.09:385][335]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.40.09:513][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.40.09:633][335]LogSavePackage: Save=102.15ms
+[2018.01.13-13.40.09:633][335]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu436E3F3B4C20FB1BEF33388D5A876696.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.40.09:634][335]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.40.09:638][335]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.41.09:436][773]LogHttp:Warning: 000001F44265B880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.41.09:436][773]LogHttp:Warning: 000001F44265B880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.41.09:436][773]LogHttp:Warning: 000001F44265B880: libcurl info message cache 1 (Closing connection 20)
+[2018.01.13-13.42.00:144][621]BlueprintLog: New page: Compile GameplayGM
+[2018.01.13-13.42.00:294][621]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2018.01.13-13.42.00:294][621]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False
+[2018.01.13-13.42.06:390][  3]BlueprintLog: New page: Compile GameplayGM
+[2018.01.13-13.42.06:541][  3]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2018.01.13-13.42.06:972][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayGM" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayGM.uasset" SILENT=true
+[2018.01.13-13.42.07:011][ 28]LogSavePackage: Save=29.43ms
+[2018.01.13-13.42.07:011][ 28]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/GameplayGM1C17F5AB4D2B99DC6CC7C388C74A3B3A.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayGM.uasset'
+[2018.01.13-13.42.07:015][ 28]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayGM.uasset
+[2018.01.13-13.42.11:702][268]LogHttp:Warning: 000001F51B0E0880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.42.11:702][268]LogHttp:Warning: 000001F51B0E0880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.42.11:702][268]LogHttp:Warning: 000001F51B0E0880: libcurl info message cache 1 (Closing connection 21)
+[2018.01.13-13.42.25:516][ 65]BlueprintLog: New page: Compile GameplayPC
+[2018.01.13-13.42.26:309][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayPC" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset" SILENT=true
+[2018.01.13-13.42.26:399][ 65]LogSavePackage: Save=59.72ms
+[2018.01.13-13.42.26:399][ 65]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/GameplayPCCD66EEEE4E620C108C03B38B09E2945A.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset'
+[2018.01.13-13.42.26:402][ 65]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset
+[2018.01.13-13.42.27:493][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gameplay/GameplayPC" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset" SILENT=true
+[2018.01.13-13.42.27:577][109]LogSavePackage: Save=59.66ms
+[2018.01.13-13.42.27:577][109]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/GameplayPC5E854D3B4260CE38928DD18C15361622.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset'
+[2018.01.13-13.42.27:579][109]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Gameplay/GameplayPC.uasset
+[2018.01.13-13.42.31:536][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-13.42.35:419][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-13.42.38:220][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-13.43.11:702][528]LogHttp:Warning: 000001F42E3CFA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.43.11:702][528]LogHttp:Warning: 000001F42E3CFA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.43.11:702][528]LogHttp:Warning: 000001F42E3CFA00: libcurl info message cache 1 (Closing connection 22)
+[2018.01.13-13.44.11:682][ 22]LogHttp:Warning: 000001F4FE661000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.44.11:682][ 22]LogHttp:Warning: 000001F4FE661000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.44.11:682][ 22]LogHttp:Warning: 000001F4FE661000: libcurl info message cache 1 (Closing connection 23)
+[2018.01.13-13.46.12:397][311]LogHttp:Warning: 000001F4DDAB2200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.46.12:397][311]LogHttp:Warning: 000001F4DDAB2200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.46.12:397][311]LogHttp:Warning: 000001F4DDAB2200: libcurl info message cache 1 (Closing connection 24)
+[2018.01.13-13.46.33:186][304]BlueprintLog: New page: Compile ErikaBP
+[2018.01.13-13.46.36:028][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Erika/ErikaBP" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ErikaBP.uasset" SILENT=true
+[2018.01.13-13.46.36:303][344]LogSavePackage: Save=264.21ms
+[2018.01.13-13.46.36:303][344]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ErikaBP12556E2D4C12E6FF2D9873BE96136934.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ErikaBP.uasset'
+[2018.01.13-13.46.36:311][344]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Characters/Erika/ErikaBP.uasset
+[2018.01.13-13.47.33:212][779]LogHttp:Warning: 000001F5132F0880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.47.33:212][779]LogHttp:Warning: 000001F5132F0880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.47.33:212][779]LogHttp:Warning: 000001F5132F0880: libcurl info message cache 1 (Closing connection 25)
+[2018.01.13-13.47.59:284][341]BlueprintLog: New page: Compile LobbyGM
+[2018.01.13-13.48.00:001][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Lobby/LobbyGM" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset" SILENT=true
+[2018.01.13-13.48.00:063][366]LogSavePackage: Save=52.08ms
+[2018.01.13-13.48.00:063][366]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/LobbyGMDA4E87984EE5F7EEB38B8E873DEFD3C7.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset'
+[2018.01.13-13.48.00:066][366]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Blueprints/Lobby/LobbyGM.uasset
+[2018.01.13-13.48.00:961][420]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.48.01:093][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.48.01:268][420]LogSavePackage: Save=161.30ms
+[2018.01.13-13.48.01:268][420]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu0519C8F8478FF7E3421E9882FB856944.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.48.01:270][420]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.48.01:274][420]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.48.59:872][126]LogHttp:Warning: 000001F4280D5480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.48.59:872][126]LogHttp:Warning: 000001F4280D5480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.48.59:872][126]LogHttp:Warning: 000001F4280D5480: libcurl info message cache 1 (Closing connection 26)
+[2018.01.13-13.50.11:549][187]LogHttp:Warning: 000001F4C9132680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.50.11:549][187]LogHttp:Warning: 000001F4C9132680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.50.11:549][187]LogHttp:Warning: 000001F4C9132680: libcurl info message cache 1 (Closing connection 27)
+[2018.01.13-13.51.11:711][794]LogHttp:Warning: 000001F53EB3D300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.51.11:711][794]LogHttp:Warning: 000001F53EB3D300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.51.11:711][794]LogHttp:Warning: 000001F53EB3D300: libcurl info message cache 1 (Closing connection 28)
+[2018.01.13-13.51.37:109][416]BlueprintLog: New page: Compile ArcherUMG
+[2018.01.13-13.51.37:252][416]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2018.01.13-13.51.37:252][416]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2018.01.13-13.51.50:186][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TestLevel/ErikaUMG" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ErikaUMG.uasset" SILENT=true
+[2018.01.13-13.51.50:226][179]LogSavePackage: Save=29.59ms
+[2018.01.13-13.51.50:226][179]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ErikaUMGD3D537A64F28A0460E7076ABDBD97250.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ErikaUMG.uasset'
+[2018.01.13-13.51.50:256][179]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ErikaUMG.uasset
+[2018.01.13-13.51.51:845][283]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.51.53:706][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TestLevel/ArcherUMG" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ArcherUMG.uasset" SILENT=true
+[2018.01.13-13.51.53:749][283]LogSavePackage: Save=33.48ms
+[2018.01.13-13.51.53:749][283]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ArcherUMG246F3FB842B873FADACFA9B16DEDF695.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ArcherUMG.uasset'
+[2018.01.13-13.51.53:752][283]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ArcherUMG.uasset
+[2018.01.13-13.51.53:796][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.51.53:914][283]LogSavePackage: Save=107.52ms
+[2018.01.13-13.51.53:914][283]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu9A16334849CDBB85D312359EEFA5BD49.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.51.53:916][283]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.51.53:919][283]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.52.12:296][484]LogHttp:Warning: 000001F512B4D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.52.12:296][484]LogHttp:Warning: 000001F512B4D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.52.12:296][484]LogHttp:Warning: 000001F512B4D000: libcurl info message cache 1 (Closing connection 29)
+[2018.01.13-13.54.11:701][830]LogHttp:Warning: 000001F553E0F700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.54.11:701][830]LogHttp:Warning: 000001F553E0F700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.54.11:701][830]LogHttp:Warning: 000001F553E0F700: libcurl info message cache 1 (Closing connection 30)
+[2018.01.13-13.54.21:467][222]BlueprintLog: New page: Compile ChooseCharacter
+[2018.01.13-13.54.22:164][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TestLevel/ChooseCharacter" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ChooseCharacter.uasset" SILENT=true
+[2018.01.13-13.54.22:209][238]LogSavePackage: Save=35.44ms
+[2018.01.13-13.54.22:209][238]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/ChooseCharacterE559541A47996B909302339096FB7AD6.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ChooseCharacter.uasset'
+[2018.01.13-13.54.22:212][238]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/UI/TestLevel/ChooseCharacter.uasset
+[2018.01.13-13.54.30:465][555]LogTemp: Repeting last play command: Standalone Game
+[2018.01.13-13.54.30:590][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.13-13.54.30:711][555]LogSavePackage: Save=111.69ms
+[2018.01.13-13.54.30:711][555]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/UEDPCMainMenu44FBA269400E02DE1AB3D398C009B182.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2018.01.13-13.54.30:713][555]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2018.01.13-13.54.30:716][555]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.13-13.55.12:300][759]LogHttp:Warning: 000001F42998B280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.55.12:300][759]LogHttp:Warning: 000001F42998B280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.55.12:300][759]LogHttp:Warning: 000001F42998B280: libcurl info message cache 1 (Closing connection 31)
+[2018.01.13-13.57.12:302][119]LogHttp:Warning: 000001F4C9141480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.57.12:302][119]LogHttp:Warning: 000001F4C9141480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.57.12:302][119]LogHttp:Warning: 000001F4C9141480: libcurl info message cache 1 (Closing connection 32)
+[2018.01.13-13.59.12:301][479]LogHttp:Warning: 000001F40AEE0100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-13.59.12:301][479]LogHttp:Warning: 000001F40AEE0100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-13.59.12:301][479]LogHttp:Warning: 000001F40AEE0100: libcurl info message cache 1 (Closing connection 33)
+[2018.01.13-14.01.12:297][839]LogHttp:Warning: 000001F552F95A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-14.01.12:297][839]LogHttp:Warning: 000001F552F95A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-14.01.12:297][839]LogHttp:Warning: 000001F552F95A80: libcurl info message cache 1 (Closing connection 34)
+[2018.01.13-14.03.11:967][198]LogHttp:Warning: 000001F42998B400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-14.03.11:967][198]LogHttp:Warning: 000001F42998B400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-14.03.11:967][198]LogHttp:Warning: 000001F42998B400: libcurl info message cache 1 (Closing connection 35)
+[2018.01.13-14.04.11:965][378]LogHttp:Warning: 000001F4C9140B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-14.04.11:965][378]LogHttp:Warning: 000001F4C9140B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-14.04.11:965][378]LogHttp:Warning: 000001F4C9140B80: libcurl info message cache 1 (Closing connection 36)
+[2018.01.13-14.05.00:441][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu" FILE="E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.05.00:613][862]LogSavePackage: Save=129.94ms
+[2018.01.13-14.05.00:613][862]LogSavePackage: Moving 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/MainMenuC97A87AF43E243799BACD6927DB5A3B0.tmp' to 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap'
+[2018.01.13-14.05.00:624][862]LogSavePackage:Display: Finished SavePackage E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Maps/MainMenu.umap
+[2018.01.13-14.05.03:484][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-14.05.03:556][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-14.05.03:660][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-14.05.03:710][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.01.13-14.05.03:845][978]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.13-14.05.04:012][979]Cmd: QUIT_EDITOR
+[2018.01.13-14.05.04:065][979]LogExit: Preparing to exit.
+[2018.01.13-14.05.04:450][979]LogExit: Editor shut down
+[2018.01.13-14.05.04:450][979]LogExit: Transaction tracking system shut down
+[2018.01.13-14.05.04:558][979]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.13-14.05.04:558][979]LogExit: Object subsystem successfully closed.
+[2018.01.13-14.05.04:575][979]LogD3D11RHI: Shutdown
+[2018.01.13-14.05.04:575][979]LogD3D11RHI: CleanupD3DDevice
+[2018.01.13-14.05.04:668][979]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module SequencerWidgets (510)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2018.01.13-14.05.04:683][979]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2018.01.13-14.05.04:683][979]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2018.01.13-14.05.04:684][979]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Collections/' was aborted.
+[2018.01.13-14.05.04:684][979]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/Developers/Aron/Collections/' was aborted.
+[2018.01.13-14.05.04:684][979]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Saved/Collections/' was aborted.
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (484)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module ActorPickerMode (482)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module GeometryMode (480)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module TextureAlignMode (478)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module BspMode (476)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module HardwareSurvey (474)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (472)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AutomationWorker (470)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (468)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (466)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module PlacementMode (465)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (462)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (460)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module MfMediaFactory (458)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module MfMediaEditor (456)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (454)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (452)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (450)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module Media (449)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (446)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module CharacterAI (444)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module AudioCapture (442)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module SequenceRecorder (441)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module SmartSnapping (438)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module SessionServices (436)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module ViewportSnapping (434)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module ViewportInteraction (432)
+[2018.01.13-14.05.04:684][979]LogModuleManager: Shutting down and abandoning module LogVisualizer (430)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module IntroTutorials (428)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (427)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (424)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (422)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (420)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (418)
+[2018.01.13-14.05.04:685][979]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (417)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (414)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (412)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module InputBindingEditor (410)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module NiagaraEditor (408)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module MergeActors (406)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module SizeMap (404)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module ReferenceViewer (400)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (398)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module LocalizationService (397)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module HardwareTargeting (394)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (392)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module UndoHistory (390)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module UserFeedback (388)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module XmlParser (386)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module Blutility (384)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (382)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (381)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (378)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module SettingsEditor (376)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module ProjectLauncher (374)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module SessionFrontend (372)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module ProfilerClient (370)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module DeviceManager (368)
+[2018.01.13-14.05.04:928][979]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (367)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module AutomationController (364)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module AutomationWindow (362)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module Layers (360)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (358)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module DetailCustomizations (356)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module PackagesDialog (354)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module Persona (352)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module AnimGraph (351)
+[2018.01.13-14.05.04:993][979]LogModuleManager: Shutting down and abandoning module Kismet (348)
+[2018.01.13-14.05.05:003][979]LogModuleManager: Shutting down and abandoning module GraphEditor (346)
+[2018.01.13-14.05.05:003][979]LogModuleManager: Shutting down and abandoning module ClassViewer (344)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module Toolbox (342)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module ModuleUI (340)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module MovieSceneTools (338)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module OutputLog (336)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module GammaUI (334)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module Documentation (332)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module Niagara (330)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (328)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module AnalyticsET (326)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module PortalServices (324)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module PortalRpc (322)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module MessagingRpc (320)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module AIModule (318)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module GameplayDebugger (317)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module AITestSuite (315)
+[2018.01.13-14.05.05:004][979]LogModuleManager: Shutting down and abandoning module ProfilerService (312)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module TaskGraph (310)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SteamVRController (308)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SteamVR (306)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SteamController (304)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (302)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (300)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module OculusLibrary (298)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module OculusInput (296)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (294)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (292)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module CableComponent (290)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (288)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (286)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module HTML5Networking (284)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module AlembicImporter (282)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module AlembicLibrary (281)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module GeometryCache (280)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (279)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (274)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SuperSearch (273)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (270)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module PluginBrowser (268)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (266)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module EpicSurvey (264)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (262)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module DesktopPlatform (261)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module UObjectPlugin (258)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (256)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (254)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module GitSourceControl (252)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module SourceControl (251)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (248)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (246)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (244)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module Paper2DEditor (242)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module MeshPaint (241)
+[2018.01.13-14.05.05:209][979]LogModuleManager: Shutting down and abandoning module LevelEditor (239)
+[2018.01.13-14.05.05:210][979]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (238)
+[2018.01.13-14.05.05:210][979]LogModuleManager: Shutting down and abandoning module MainFrame (236)
+[2018.01.13-14.05.05:210][979]LogModuleManager: Shutting down and abandoning module HotReload (235)
+[2018.01.13-14.05.05:210][979]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Binaries/Win64' was aborted.
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module ContentBrowser (231)
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module WalkonG2 (228)
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.01.13-14.05.05:211][979]LogModuleManager: Shutting down and abandoning module UdpMessaging (220)
+[2018.01.13-14.05.05:312][979]LogModuleManager: Shutting down and abandoning module TcpMessaging (218)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (216)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (214)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module FacialAnimation (212)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module Paper2D (208)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (206)
+[2018.01.13-14.05.05:412][979]LogModuleManager: Shutting down and abandoning module WmfMedia (204)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module MfMedia (202)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module MediaAssets (200)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (198)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module VREditor (196)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module UMG (186)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module UMGEditor (185)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module Sequencer (184)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module AssetTools (182)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module MessageLog (181)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (180)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2018.01.13-14.05.05:413][979]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (168)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (166)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module XAudio2 (164)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module Networking (162)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module Core (160)
+[2018.01.13-14.05.05:415][979]LogModuleManager: Shutting down and abandoning module AssetRegistry (158)
+[2018.01.13-14.05.05:568][979]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.13-14.05.05:568][979]LogDirectoryWatcher: A directory notification for 'E:/Buisness/Unreal/WalkonG2aa/WalkonG2/Content/' was aborted.
+[2018.01.13-14.05.05:568][979]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module KismetCompiler (154)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module PhysXFormats (152)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (149)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (147)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (145)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module PropertyEditor (143)
+[2018.01.13-14.05.05:569][979]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2018.01.13-14.05.05:644][979]LogDerivedDataCache: Shutdown
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module OculusRift (54)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.13-14.05.05:644][979]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.13-14.05.05:644][979]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2018.01.13-14.05.05:645][979]LogOnline:Display: Unloading online subsystem: STEAM
+[2018.01.13-14.05.05:645][979]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.13-14.05.05:645][979]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2018.01.13-14.05.05:645][979]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2018.01.13-14.05.05:645][979]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.01.13-14.05.05:645][979]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B05C7C4-488F-7B8A-6269-F5AC48E5E1A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=efd468cc496f8ba46066589324f4e55b%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C1285343e-c08c-4c4b-be56-1f4e5ed03b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.13-14.05.05:645][979]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B05C7C4-488F-7B8A-6269-F5AC48E5E1A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=efd468cc496f8ba46066589324f4e55b%7C3efeb62a0bdb4ef28159471e0cff3f3b%7C1285343e-c08c-4c4b-be56-1f4e5ed03b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487814880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487814880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487814880: libcurl info message cache 1 (Closing connection 37)
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487815600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487815600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.13-14.05.05:645][979]LogHttp:Warning: 000001F487815600: libcurl info message cache 1 (Closing connection 38)
+[2018.01.13-14.05.05:655][979]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2018.01.13-14.05.05:656][979]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.13-14.05.05:656][979]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.13-14.05.05:656][979]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.13-14.05.05:656][979]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.13-14.05.05:656][979]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.13-14.05.05:659][979]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.13-14.05.05:659][979]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.13-14.05.05:659][979]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.13-14.05.05:659][979]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.13-14.05.05:660][979]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.13-14.05.05:661][979]LogExit: Exiting.
+[2018.01.13-14.05.05:670][979]Log file closed, 01/13/18 15:05:05
